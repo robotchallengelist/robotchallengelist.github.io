@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCL - Home</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: rgb(210, 210, 210);
+            background-color: #0f0f0f;
+        }
+
+        li {
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 10px 0;
+        }
+
+        #header h2 {
+            margin: 10px;
+            font-size: 3vh;
+            color: #bababa;
+        }
+
+        ::-webkit-scrollbar {
+            width: 7px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #32323d;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #16202a;
+        }
+
+        #header {
+            color: white;
+            text-align: left;
+            vertical-align: middle;
+            height: 6.5vh;
+            background-color: #1c1c1c;
+            display: flex;
+        }
+
+        .headerButtons {
+            background-color: #38383c;
+            color: rgb(172, 178, 183);
+            font-weight: bold;
+            font-size: large;
+            border: none;
+            padding: 5px 12px;
+            margin: 5px;
+            cursor: pointer;
+            height: 4.7vh;
+            border-radius: 7px;
+            box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.4);
+        }
+
+        #list,
+        #sidebar {
+            width: 22%;
+            background-color: #202027;
+            height: 93.5vh;
+            overflow-y: scroll;
+            font-weight: bold;
+            display: inline-flex;
+            flex-direction: column;
+            font-size: large;
+        }
+
+        .tierLabels {
+            margin: 5px;
+        }
+
+        .descriptions {
+            padding: 5px 10px 10px 10px;
+            font-weight: normal;
+            font-size: medium;
+            color: #bababa;
+        }
+
+        #list {
+            float: left;
+        }
+
+        #area {
+            text-align: center;
+            display: inline-flex;
+            flex-direction: column;
+            width: 56%;
+            height: 93.5vh;
+            background-color: #0f0f0f;
+            overflow-y: scroll;
+        }
+
+        #area::-webkit-scrollbar {
+            display: none;
+        }
+
+        #sidebar {
+            float: right;
+            direction: rtl;
+
+        }
+
+        #sidebarBox {
+            text-align: left;
+            direction: ltr;
+        }
+
+        .sidebarHeaders {
+            padding: 10px;
+            color: #bababa;
+            padding-bottom: 0px;
+        }
+
+        .sidebarHrs {
+            border: 0;
+            height: 5px;
+            background-color: #32323d;
+        }
+
+        table,
+        th,
+        tr {
+            border: 2px solid black;
+            padding: 10px;
+            border-collapse: collapse;
+            width: 100%;
+            background-color: rgb(88, 106, 123);
+            color: black;
+        }
+
+        td {
+            border: 2px solid black;
+            padding: 20px;
+        }
+
+        th {
+            width: 25%;
+        }
+
+        #summary {
+            background-color: #434343;
+            color: white;
+            font-weight: bold;
+            font-size: large;
+            border: none;
+            padding: 5px 12px;
+            cursor: pointer;
+        }
+
+        #ytEmbed {
+            border: none;
+        }
+
+        .bronze {
+            color: #b26e27;
+            text-shadow: #b26e27 0px 0px 5px;
+        }
+
+        .silver {
+            color: #b7b7b7;
+            text-shadow: #b7b7b7 0px 0px 5px;
+        }
+
+        .gold {
+            color: #f1c232;
+            text-shadow: #f1c232 0px 0px 5px;
+        }
+
+        .platinum {
+            color: #d9d9d9;
+            text-shadow: #d9d9d9 0px 0px 5px;
+        }
+
+        .amethyst {
+            color: #9900ff;
+            text-shadow: #9900ff 0px 0px 5px;
+        }
+
+        .sapphire {
+            color: #1155cc;
+            text-shadow: #1155cc 0px 0px 5px;
+        }
+
+        .ruby {
+            color: #ea4335;
+            text-shadow: #ea4335 0px 0px 5px;
+        }
+
+        .emerald {
+            color: #34a853;
+            text-shadow: #34a853 0px 0px 5px;
+        }
+
+        .diamond {
+            color: #63cafd;
+            text-shadow: #63cafd 0px 0px 5px;
+        }
+
+        .lonsdaleite {
+            color: #ebe0ff;
+            text-shadow: #ebe0ff 0px 0px 5px;
+        }
+
+        .obsidian {
+            color: #010101;
+            text-shadow: #010101 0px 0px 5px;
+        }
+
+        .bronzeDX {
+            color: #ffffff;
+            text-shadow: #b26e27 0px 0px 10px;
+        }
+
+        .silverDX {
+            color: #ffffff;
+            text-shadow: #b7b7b7 0px 0px 10px;
+        }
+
+        .goldDX {
+            color: #ffffff;
+            text-shadow: #f1c232 0px 0px 10px;
+        }
+
+        .platinumDX {
+            color: #ffffff;
+            text-shadow: #d9d9d9 0px 0px 10px;
+        }
+
+        .amethystDX {
+            color: #ffffff;
+            text-shadow: #9900ff 0px 0px 10px;
+        }
+
+        .sapphireDX {
+            color: #ffffff;
+            text-shadow: #1155cc 0px 0px 10px;
+        }
+
+        .rubyDX {
+            color: #ffffff;
+            text-shadow: #ea4335 0px 0px 10px;
+        }
+
+        .emeraldDX {
+            color: #ffffff;
+            text-shadow: #34a853 0px 0px 10px;
+        }
+
+        .diamondDX {
+            color: #ffffff;
+            text-shadow: #63cafd 0px 0px 10px;
+        }
+
+        .lonsdaleiteDX {
+            color: #ffffff;
+            text-shadow: #ebe0ff 0px 0px 10px;
+        }
+
+        .obsidianDX {
+            color: #ffffff;
+            text-shadow: #010101 0px 0px 10px;
+        }
+
+        .hell {
+            color: #980000;
+            text-shadow: #980000 0px 0px 5px;
+        }
+
+        .purgatory {
+            color: #434343;
+            text-shadow: #434343 0px 0px 5px;
+        }
+
+        .limbo {
+            color: #073763;
+            text-shadow: #073763 0px 0px 5px;
+        }
+
+        .serverOwner {
+            color: #ff00ff;
+            font-weight: bold;
+        }
+        .coOwner {
+            color: #c500c5;
+            font-weight: bold;
+        }
+
+        .administrator {
+            color: #e69138;
+            font-weight: bold;
+        }
+
+        .seniorMod {
+            color: #f6b26b;
+            font-weight: bold;
+        }
+
+        .listMod {
+            color: #ffd966;
+            font-weight: bold;
+        }
+
+        .serverMod {
+            color: #ffe599;
+            font-weight: bold;
+        }
+
+        .helper {
+            color: #fff2cc;
+            font-weight: bold;
+        }
+        .hellMod {
+            color: #980000;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<script src="data.js"></script>
+<script>window.onload = function () { listDisplay(); lbDisplay(); };</script>
+
+<body>
+    <div id="header">
+        <h2>The Robot Challenges List</h2>
+        <button class="headerButtons" onclick="window.location.href = 'index.html'">Home</button>
+        <!-- <button class="headerButtons" onclick="window.location.href = 'lb.html'">blank</button> -->
+    </div>
+    <div>
+        <div id="list">
+            <div id="listBox">
+                <h2 class="sidebarHeaders">Robot Challenges List</h2>
+                <ol id="actualList">
+
+                </ol>
+
+                <hr class="sidebarHrs">
+                <h2 class="sidebarHeaders">The Displacement Zone</h2>
+                <ol id="displacementZone">
+
+                </ol>
+            </div>
+        </div>
+        <div id="area">
+            <div id="container">
+                <h1 id="levelName"></h1>
+                <h3 id="levelVerified"></h3>
+                <iframe id="ytEmbed" width="560" height="315" title="YouTube video player"></iframe>
+                <div id="info">
+                    <p>List Points: <span id="points"></span></p>
+                    <p>Tier: <span id="tier"></span></p>
+                    <p>Level ID: <span id="levelId"></span></p>
+                    <p>Accepted Routes: <span id="routes"></span></p>
+                </div>
+                <details>
+                    <summary id="summary">Records</summary>
+                    <table id="records">
+
+                    </table>
+                </details>
+            </div>
+        </div>
+        <div id="sidebar">
+            <div id="sidebarBox">
+                <h2 class="sidebarHeaders">Leaderboard</h2>
+
+                <ol id="leaderboard">
+
+                </ol>
+
+                <hr class="sidebarHrs">
+                <h2 class="sidebarHeaders">Tier Descriptions:</h2>
+                <p class="descriptions">Obtaining a normal rank for a tier requires half of a tier (rounded down) to be completed, while DX ranks require the entire tier to be completed. All ranks require the previous rank of its type to be achieved first (i.e. Silver requires Bronze, and Silver DX requires Bronze DX)</p>
+                <p class="tierLabels"><span class="bronze">Bronze</span>: 1-24.99 points</p>
+                <p class="descriptions">Incredibly easy challenges for new players.</p>
+                <p class="tierLabels"><span class="silver">Silver</span>: 25-49.99 points</p>
+                <p class="descriptions">Relatively normal challenges, common and rather quick to beat</p>
+                <p class="tierLabels"><span class="gold">Gold</span>: 50-74.99 points</p>
+                <p class="descriptions">These challenges are quite hard. This is where most players rest.</p>
+                <p class="tierLabels"><span class="platinum">Platinum</span>: 75-99.99 points</p>
+                <p class="descriptions">Getting harder, these levels are very difficult.</p>
+                <p class="tierLabels"><span class="amethyst">Amethyst</span>: 100-124.99 points</p>
+                <p class="descriptions">Insane.. but it only gets harder from here.</p>
+                <p class="tierLabels"><span class="sapphire">Sapphire</span>: 125-149.99 points</p>
+                <p class="descriptions">Wow, you're a demon.. but this barely scratches the surface of hell</p>
+                <p class="tierLabels"><span class="ruby">Ruby</span>: 150-174.99 points</p>
+                <p class="descriptions">Not quite challenge list difficulty, but getting close to that range</p>
+                <p class="tierLabels"><span class="emerald">Emerald</span>: 175-199.99 points</p>
+                <p class="descriptions">Low-tier challenge list difficulty. Very few players make it this far</p>
+                <p class="tierLabels"><span class="diamond">Diamond</span>: 200-224.99 points</p>
+                <p class="descriptions">Mid-tier challenge list levels. How did we get here?</p>
+                <p class="tierLabels"><span class="lonsdaleite">Lonsdaleite</span>: 225-250 points</p>
+                <p class="descriptions">High-tier challenge list levels. Are you a top player?</p>
+                <p class="tierLabels"><span class="obsidian">Obsidian</span>: Over 250 points</p>
+                <p class="descriptions">Borderline impossible levels.</p>
+                <p class="tierLabels"><span class="hell">Hell</span>: No points</p>
+                <p class="descriptions">Levels that were removed from the list for various reasons</p>
+                <p class="tierLabels"><span class="purgatory">Purgatory</span>: No points</p>
+                <p class="descriptions">Levels that were rejected for list placement</p>
+                <p class="tierLabels"><span class="limbo">Limbo</span>: No points</p>
+                <p class="descriptions">Levels that have been approved to be on the list, but are not yet verified</p>
+                </ul>
+
+                <hr class="sidebarHrs">
+                <h2 class="sidebarHeaders">List Team</h2>
+                <ul>
+                    <li class="serverOwner">EndGamer7896</li>
+                    <li class="coOwner">sourceerrortxt</li>
+                    <li class="coOwner">RustyGD25</li>
+                    <li class="administrator">XanderGMDD</li>
+                    <li class="seniorMod">snowwgmdd</li>
+                    <li class="seniorMod">4096Tristan</li>
+                    <li class="seniorMod">zis08</li>
+                    <li class="serverMod">mvngos</li>
+                    <li class="serverMod">Geop98</li>
+                    <li class="serverMod">UltroGmr</li>
+                    <li class="helper">Farlayy</li>
+                    <li class="helper">probro675</li>
+                    <li class="hellMod">pohgii</li>
+                </ul>
+
+                <h2 class="sidebarHeaders">Moderation</h2>
+                <p class="tierLabels"><span class="serverOwner">Server Owner</span></p>
+                <p class="descriptions">Owner of the discord server and list. Manages everything.</p>
+                <p class="tierLabels"><span class="coOwner">Co-Owner</span></p>
+                <p class="descriptions">Other server owners with slightly less say in decisions</p>
+                <p class="tierLabels"><span class="administrator">Administrator</span></p>
+                <p class="descriptions">Has all discord perms; Assists in all fields of the RCL</p>
+                <p class="tierLabels"><span class="seniorMod">Senior Moderator</span></p>
+                <p class="descriptions">Moderates the discord server and assists with list placements / management</p>
+                <p class="tierLabels"><span class="listMod">List Moderator</span></p>
+                <p class="descriptions">Assists with list placements / management</p>
+                <p class="tierLabels"><span class="serverMod">Server Moderator</span></p>
+                <p class="descriptions">Moderates the discord server</p>
+                <p class="tierLabels"><span class="helper">Helper</span></p>
+                <p class="descriptions">Has no actual perms, but can provide valuable insights. Sort of a trainee in a sense</p>
+                <p class="tierLabels"><span class="hellMod">Hell</span></p>
+                <p class="descriptions">Nuked the fucking server.</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
