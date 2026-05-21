@@ -366,9 +366,9 @@ let silverNumber = 0; for (let level of levels) { if (level.tier === "Silver") {
 let goldNumber = 0; for (let level of levels) { if (level.tier === "Gold") { goldNumber++; } }
 let platinumNumber = 0; for (let level of levels) { if (level.tier === "Platinum") { platinumNumber++; } }
 let amethystNumber = 0; for (let level of levels) { if (level.tier === "Amethyst") { amethystNumber++; } }
-let rubyNumber = 0; for (let level of levels) { if (level.tier === "Ruby") { rubyNumber++; } }
 let sapphireNumber = 0; for (let level of levels) { if (level.tier === "Sapphire") { sapphireNumber++; } }
 let emeraldNumber = 0; for (let level of levels) { if (level.tier === "Emerald") { emeraldNumber++; } }
+let rubyNumber = 0; for (let level of levels) { if (level.tier === "Ruby") { rubyNumber++; } }
 let diamondNumber = 0; for (let level of levels) { if (level.tier === "Diamond") { diamondNumber++; } }
 let lonsdaleiteNumber = 0; for (let level of levels) { if (level.tier === "Lonsdaleite") { lonsdaleiteNumber++; } }
 let obsidianNumber = 0; for (let level of levels) { if (level.tier === "Obsidian") { obsidianNumber++; } }
@@ -378,12 +378,24 @@ function silverReq() { (silverNumber > 1) ? silverReturn = Math.floor((silverNum
 function goldReq() { (goldNumber > 1) ? goldReturn = Math.floor((goldNumber / 2)) : goldReturn = 1; return goldReturn; };
 function platinumReq() { (platinumNumber > 1) ? platinumReturn = Math.floor((platinumNumber / 2)) : platinumReturn = 1; return platinumReturn; };
 function amethystReq() { (amethystNumber > 1) ? amethystReturn = Math.floor((amethystNumber / 2)) : amethystReturn = 1; return amethystReturn; };
-function rubyReq() { (rubyNumber > 1) ? rubyReturn = Math.floor((rubyNumber / 2)) : rubyReturn = 1; return rubyReturn; };
 function sapphireReq() { (sapphireNumber > 1) ? sapphireReturn = Math.floor((sapphireNumber / 2)) : sapphireReturn = 1; return sapphireReturn; };
+function rubyReq() { (rubyNumber > 1) ? rubyReturn = Math.floor((rubyNumber / 2)) : rubyReturn = 1; return rubyReturn; };
 function emeraldReq() { (emeraldNumber > 1) ? emeraldReturn = Math.floor((emeraldNumber / 2)) : emeraldReturn = 1; return emeraldReturn; };
 function diamondReq() { (diamondNumber > 1) ? diamondReturn = Math.floor((diamondNumber / 2)) : diamondReturn = 1; return diamondReturn; };
 function lonsdaleiteReq() { (lonsdaleiteNumber > 1) ? lonsdaleiteReturn = Math.floor((lonsdaleiteNumber / 2)) : lonsdaleiteReturn = 1; return lonsdaleiteReturn; };
 function obsidianReq() { (obsidianNumber > 1) ? obsidianReturn = Math.floor((obsidianNumber / 2)) : obsidianReturn = 1; return obsidianReturn; };
+
+let bronzeReqNumber = bronzeReq();
+let silverReqNumber = silverReq();
+let goldReqNumber = goldReq();
+let platinumReqNumber = platinumReq();
+let amethystReqNumber = amethystReq();
+let sapphireReqNumber = sapphireReq();
+let rubyReqNumber = rubyReq();
+let emeraldReqNumber = emeraldReq();
+let diamondReqNumber = diamondReq();
+let lonsdaleiteReqNumber = lonsdaleiteReq();
+let obsidianReqNumber = obsidianReq();
 
 
 function getRank(player) {
@@ -392,12 +404,14 @@ function getRank(player) {
     let goldCompleted = 0;
     let platinumCompleted = 0;
     let amethystCompleted = 0;
-    let rubyCompleted = 0;
     let sapphireCompleted = 0;
+    let rubyCompleted = 0;
     let emeraldCompleted = 0;
     let diamondCompleted = 0;
     let lonsdaleiteCompleted = 0;
     let obsidianCompleted = 0;
+
+
 
     for (let level of levels) {
         for (let record of level.records) {
@@ -418,11 +432,11 @@ function getRank(player) {
                     case "Amethyst":
                         amethystCompleted++;
                         break;
-                    case "Ruby":
-                        rubyCompleted++;
-                        break;
                     case "Sapphire":
                         sapphireCompleted++;
+                        break;
+                    case "Ruby":
+                        rubyCompleted++;
                         break;
                     case "Emerald":
                         emeraldCompleted++;
@@ -441,82 +455,139 @@ function getRank(player) {
         }
     };
 
+
     let returnValue = "";
-    if (bronzeCompleted >= bronzeReq()) {
-        if (bronzeCompleted == bronzeNumber) {
-            returnValue = "bronzeDX";
+
+    if (bronzeCompleted > 0) {
+        if (bronzeCompleted >= bronzeReqNumber) {
+            if (bronzeCompleted === bronzeNumber) {
+                returnValue = "bronzeElite";
+            } else {
+                returnValue = "bronzeDX";
+            }
         } else {
             returnValue = "bronze";
         }
-        if (silverCompleted >= silverReq()) {
-            if (silverCompleted == silverNumber && returnValue == "bronzeDX") {
-                returnValue = "silverDX";
+    }
+
+    if (silverCompleted > 0 && bronzeCompleted > 0) {
+        if (silverCompleted >= silverReqNumber && (returnValue === "bronzeDX" || returnValue === "bronzeElite")) {
+            if (silverCompleted === silverNumber && returnValue === "bronzeElite") {
+                returnValue = "silverElite";
             } else {
-                returnValue = "silver";
+                returnValue = "silverDX";
             }
-            if (goldCompleted >= goldReq()) {
-                if (goldCompleted == goldNumber && returnValue == "silverDX") {
-                    returnValue = "goldDX";
-                } else {
-                    returnValue = "gold";
-                }
-                if (platinumCompleted >= platinumReq()) {
-                    if (platinumCompleted == platinumNumber && returnValue == "goldDX") {
-                        returnValue = "platinumDX";
-                    } else {
-                        returnValue = "platinum";
-                    }
-                    if (amethystCompleted >= amethystReq()) {
-                        if (amethystCompleted == amethystNumber && returnValue == "platinumDX") {
-                            returnValue = "amethystDX";
-                        } else {
-                            returnValue = "amethyst";
-                        }
-                        if (rubyCompleted >= rubyReq()) {
-                            if (rubyCompleted === rubyNumber && returnValue == "amethystDX") {
-                                returnValue = "rubyDX";
-                            } else {
-                                returnValue = "ruby";
-                            }
-                            if (sapphireCompleted >= sapphireReq()) {
-                                if (sapphireCompleted == sapphireNumber && returnValue == "rubyDX") {
-                                    returnValue = "sapphireDX";
-                                } else {
-                                    returnValue = "sapphire";
-                                }
-                                if (emeraldCompleted >= emeraldReq()) {
-                                    if (emeraldCompleted == emeraldNumber && returnValue == "sapphireDX") {
-                                        returnValue = "emeraldDX";
-                                    } else {
-                                        returnValue = "emerald";
-                                    }
-                                    if (diamondCompleted >= diamondReq()) {
-                                        if (diamondCompleted == diamondNumber && returnValue == "emeraldDX") {
-                                            returnValue = "diamondDX";
-                                        } else {
-                                            returnValue = "diamond";
-                                        }
-                                        if (lonsdaleiteCompleted >= lonsdaleiteReq()) {
-                                            if (lonsdaleiteCompleted == lonsdaleiteNumber && returnValue == "diamondDX") {
-                                                returnValue = "lonsdaleiteDX";
-                                            } else {
-                                                returnValue = "lonsdaleite";
-                                            }
-                                            if (obsidianCompleted >= obsidianReq()) {
-                                                if (obsidianCompleted == obsidianNumber && returnValue == "lonsdaleiteDX") {
-                                                    returnValue = "obsidianDX";
-                                                } else {
-                                                    returnValue = "obsidian";
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
+        } else {
+            returnValue = "silver";
+        }
+    }
+
+    if (goldCompleted > 0 && silverCompleted > 0 && bronzeCompleted > 0) {
+        if (goldCompleted >= goldReqNumber && (returnValue === "silverDX" || returnValue === "silverElite")) {
+            if (goldCompleted === goldNumber && returnValue === "silverElite") {
+                returnValue = "goldElite";
+            } else {
+                returnValue = "goldDX";
             }
+        } else {
+            returnValue = "gold";
+        }
+    }
+
+    if (platinumCompleted > 0 && goldCompleted > 0 && silverCompleted > 0 && bronzeCompleted > 0) {
+        if (platinumCompleted >= platinumReqNumber && (returnValue === "goldDX" || returnValue === "goldElite")) {
+            if (platinumCompleted === platinumNumber && returnValue === "goldElite") {
+                returnValue = "platinumElite";
+            } else {
+                returnValue = "platinumDX";
+            }
+        } else {
+            returnValue = "platinum";
+        }
+    }
+
+
+    if (amethystCompleted > 0 && platinumCompleted > 0 && goldCompleted > 0 && silverCompleted > 0 && bronzeCompleted > 0) {
+        if (amethystCompleted >= amethystReqNumber && (returnValue === "platinumDX" || returnValue === "platinumElite")) {
+            if (amethystCompleted === amethystNumber && returnValue === "platinumElite") {
+                returnValue = "amethystElite";
+            } else {
+                returnValue = "amethystDX";
+            }
+        } else {
+            returnValue = "amethyst";
+        }
+    }
+
+    if (sapphireCompleted > 0 && amethystCompleted > 0 && platinumCompleted > 0 && goldCompleted > 0 && silverCompleted > 0 && bronzeCompleted > 0) {
+        if (sapphireCompleted >= sapphireReqNumber && (returnValue === "amethystDX" || returnValue === "amethystElite")) {
+            if (sapphireCompleted === sapphireNumber && returnValue === "amethystElite") {
+                returnValue = "sapphireElite";
+            } else {
+                returnValue = "sapphireDX";
+            }
+        } else {
+            returnValue = "sapphire";
+        }
+    }
+
+    if (rubyCompleted > 0 && sapphireCompleted > 0 && amethystCompleted > 0 && platinumCompleted > 0 && goldCompleted > 0 && silverCompleted > 0 && bronzeCompleted > 0) {
+        if (rubyCompleted >= rubyReqNumber && (returnValue === "sapphireDX" || returnValue === "sapphireElite")) {
+            if (rubyCompleted === rubyNumber && returnValue === "sapphireElite") {
+                returnValue = "rubyElite";
+            } else {
+                returnValue = "rubyDX";
+            }
+        } else {
+            returnValue = "ruby";
+        }
+    }
+
+    if (emeraldCompleted > 0 && rubyCompleted > 0 && sapphireCompleted > 0 && amethystCompleted > 0 && platinumCompleted > 0 && goldCompleted > 0 && silverCompleted > 0 && bronzeCompleted > 0) {
+        if (emeraldCompleted >= emeraldReqNumber && (returnValue === "rubyDX" || returnValue === "rubyElite")) {
+            if (emeraldCompleted === emeraldNumber && returnValue === "rubyElite") {
+                returnValue = "emeraldElite";
+            } else {
+                returnValue = "emeraldDX";
+            }
+        } else {
+            returnValue = "emerald";
+        }
+    }
+
+    if (diamondCompleted > 0 && emeraldCompleted > 0 && rubyCompleted > 0 && sapphireCompleted > 0 && amethystCompleted > 0 && platinumCompleted > 0 && goldCompleted > 0 && silverCompleted > 0 && bronzeCompleted > 0) {
+        if (diamondCompleted >= diamondReqNumber && (returnValue === "emeraldDX" || returnValue === "emeraldElite")) {
+            if (diamondCompleted === diamondNumber && returnValue === "emeraldElite") {
+                returnValue = "diamondElite";
+            } else {
+                returnValue = "diamondDX";
+            }
+        } else {
+            returnValue = "diamond";
+        }
+    }
+
+    if (lonsdaleiteCompleted > 0 && diamondCompleted > 0 && emeraldCompleted > 0 && rubyCompleted > 0 && sapphireCompleted > 0 && amethystCompleted > 0 && platinumCompleted > 0 && goldCompleted > 0 && silverCompleted > 0 && bronzeCompleted > 0) {
+        if (lonsdaleiteCompleted >= lonsdaleiteReqNumber && (returnValue === "diamondDX" || returnValue === "diamondElite")) {
+            if (lonsdaleiteCompleted === lonsdaleiteNumber && returnValue === "diamondElite") {
+                returnValue = "lonsdaleiteElite";
+            } else {
+                returnValue = "lonsdaleiteDX";
+            }
+        } else {
+            returnValue = "lonsdaleite";
+        }
+    }
+
+    if (obsidianCompleted > 0 && lonsdaleiteCompleted > 0 && diamondCompleted > 0 && emeraldCompleted > 0 && rubyCompleted > 0 && sapphireCompleted > 0 && amethystCompleted > 0 && platinumCompleted > 0 && goldCompleted > 0 && silverCompleted > 0 && bronzeCompleted > 0) {
+        if (obsidianCompleted >= obsidianReqNumber && (returnValue === "lonsdaleiteDX" || returnValue === "lonsdaleiteElite")) {
+            if (obsidianCompleted === obsidianNumber && returnValue === "lonsdaleiteElite") {
+                returnValue = "obsidianElite";
+            } else {
+                returnValue = "obsidianDX";
+            }
+        } else {
+            returnValue = "obsidian";
         }
     }
 
@@ -531,7 +602,8 @@ function displayLevel(newLevel) {
     let id = document.getElementById("levelId");
     let routes = document.getElementById("routes");
     let ytEmbed = document.getElementById("ytEmbed");
-    let records = document.getElementById("records");
+
+    let recordsSection = document.getElementById("recordsSection");
 
     let allLevels = levels.concat(displacement);
 
@@ -545,23 +617,35 @@ function displayLevel(newLevel) {
             routes.textContent = level.routes;
             ytEmbed.src = level.videolink;
 
-            records.innerHTML = `
-                        <tr>
+            if (displacement.some(lvl => lvl.name === newLevel)) {
+                recordsSection.innerHTML = "<strong><p>Records for levels in the Displacement Zone are not tracked, as they are not officially part of the list.</p></strong>";
+            } else {
+                recordsSection.innerHTML = `<details>
+                        <summary id="summary">Records</summary>
+                        <table id="records">
+    
+                        </table>
+                    </details>`
+                let records = document.getElementById("records");
+                records.innerHTML = `
+            <tr>
                         <th>Player</th>
                         <th>Attempts</th>
                         <th>Enjoyment</th>
                         <th>Placement/Points Opinion</th>
-                    `;
+            </tr>
+        `;
 
-            for (let completion of level.records) {
-                records.innerHTML += `
+                for (let completion of level.records) {
+                    records.innerHTML += `
                 <tr>
                     <td><a style="color: black; text-decoration: underlined;" href=${completion.proof} ${completion.proof == "" ? "" : "target='_blank'"}>${completion.name}</a></td>
                     <td>${completion.attempts}</td>
                     <td>${completion.enjoyment}</td>
                     <td>${completion.opinion}</td>
                 </tr>
-                `;
+            `;
+                }
             }
         }
     }
