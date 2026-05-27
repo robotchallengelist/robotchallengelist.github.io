@@ -79,6 +79,9 @@ let levels = [
         new Record("zeroskills", "N/A", "N/A", "N/A", "https://youtu.be/Loe1H_IsImQ"),
         new Record("EndGamer7896", "2,867", "7/10", "High Gold", "https://medal.tv/games/geometry-dash/clips/mud8uQC9RJAAsVtzq?invite=cr-MSw0N2EsNTk1MDYwNDc2"),
     ]),
+    new Level("komicaly never clear", 71, "Gold", "141205747", "Verification Route", "xpfinker812", "Komically", "https://youtu.be/embed/15xmE_RUPaI", [
+        new Record("Komically", "2,204", "0/10", "Mid-High Gold, top 5-8", "https://www.youtube.com/watch?v=15xmE_RUPaI"),
+    ]),
     new Level("Jade Runner", 70, "Gold", "136732810", "Any Route", "EndGamer7896", "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/moPx7tKLuNQoSzZAB?invite=cr-MSwycVQsMzM2NzY3Njgx", [
         new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/moPx7tKLuNQoSzZAB?invite=cr-MSwycVQsMzM2NzY3Njgx"),
         new Record("Farlayy", "N/A", "N/A", "N/A", ""),
@@ -333,7 +336,6 @@ let displacement = [
     new Level("Robowamba", 0, "Limbo", "137515738", "Showcased Route", "XanderGMDD", "-", "https://www.youtube.com/embed/pSCu9R6Sq4", []),
     new Level("The Third Robot", 0, "Limbo", "136718958", "Any Route", "Zannoz", "-", "https://youtube.com/embed/dQw4w9WgXcQ", []),
     new Level("Robotic Exertion", "0", "Limbo", "140939483", "Any Route", "XanderGMDD", "-", "https://www.youtube.com/embed/dQw4w9WgXcQ", []),
-    new Level("komicaly never clear", 0, "Limbo", "141205747", "Showcased Route", "xpfinker812", "-", "https://medal.tv/games/geometry-dash/clip/mMIio105UvfJrBJXi?invite=cr-MSx5NzEsNTMwODEwMjU3", []),
     new Level("robot but uwu ig idk", 0, "Limbo", "141258952", "Showcased Route", "xpfinker812", "-", "https://medal.tv/games/geometry-dash/clip/mN0ZnUG1OgkbPXwuZ?invite=cr-MSxwRkosNTMwODEwMjU3&v=13", []),
 ];
 
