@@ -174,7 +174,7 @@ let levels = [
     .##.....##.##....##..##.....##.##...###..##......##......
     .########..##.....##..#######..##....##.########.########
     */
-    new Level("Robot Carnival", 22, "Bronze", "141050126", "Verification Route", "Vinecke123", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mM5DQxD0WqP97w9pF?invite=cr-MSxtemUsNTk1MDYwNDc2", [
+    new Level("Robot carnival", 22, "Bronze", "141050126", "Verification Route", "Vinecke123", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mM5DQxD0WqP97w9pF?invite=cr-MSxtemUsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "576", "6/10", "High Bronze, 22-23 points", "https://medal.tv/games/geometry-dash/clips/mM5DQxD0WqP97w9pF?invite=cr-MSxtemUsNTk1MDYwNDc2"),
     ]),
     new Level("Ape Rotation", 20, "Bronze", "136828286", "Any Route", "EndGamer7896", "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/moTOrjARmqBTM0OkI?invite=cr-MSw0ZWcsMzM2NzY3Njgx", [
