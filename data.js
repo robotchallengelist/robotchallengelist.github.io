@@ -127,9 +127,11 @@ let levels = [
     new Level("SMH RCL 55xH", 40, "Silver", "141128210", "Verification Route", "SqueegGD", "SqueegGD", "https://www.youtube.com/embed/Z6yDecBauoM", [
         new Record("SqueegGD", "77", "0/10", "Top 1", "https://www.youtube.com/watch?v=Z6yDecBauoM"),
         new Record("EndGamer7896", "194", "8/10", "High Silver, 39-45 points", "https://medal.tv/games/geometry-dash/clips/mM3vrwfhrTuH20otN?invite=cr-MSxzNm4sNTk1MDYwNDc2"),
+        new Record("XanderGMDD", "88", "5/10", "Mid Bronze", "https://medal.tv/games/geometry-dash/clips/mNcerqYXIy5VHfqXF?invite=cr-MSx3MDUsMzM2NzY3Njgx&v=20"),
     ]),
     new Level("Robopolis V2", 38, "Silver", "138091805", "Any Route", "rumble1978", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/muYoylZMtRMFjDQcF?invite=cr-MSx4amcsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "218", "9/10", "High Silver / Low Gold", "https://medal.tv/games/geometry-dash/clips/muYoylZMtRMFjDQcF?invite=cr-MSx4amcsNTk1MDYwNDc2"),
+        new Record("XanderGMDD", "372", "0/10", "Good as is", "https://medal.tv/games/geometry-dash/clips/mNcubT6LmWeZdTZML?invite=cr-MSxsUVcsMzM2NzY3Njgx&v=15"),
     ]),
     new Level("Unnamed 41", 33, "Silver", "136714964", "Any Route", "XanderGMDD", "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/mopJfH506wMrq0VC-?invite=cr-MSxQdkMsMzM2NzY3Njgx", [
         new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/mopJfH506wMrq0VC-?invite=cr-MSxQdkMsMzM2NzY3Njgx"),
@@ -216,6 +218,7 @@ let levels = [
     ]),
     new Level("WRATH", 15, "Bronze", "141258321", "Any Route", "XanderGMDD & EndGamer7896", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mN0PjxoYRgjJ2K0yq?invite=cr-MSxyODksNTk1MDYwNDc2", [
         new Record("EndGamer7896", "63", "7/10", "Mid Bronze, 15 points", "https://medal.tv/games/geometry-dash/clips/mN0PjxoYRgjJ2K0yq?invite=cr-MSxyODksNTk1MDYwNDc2"),
+        new Record("XanderGMDD", "221", "2/10", "Harder than Code Red", "https://medal.tv/games/geometry-dash/clips/mNbXvba2pC4yN9ufd?invite=cr-MSxHQVQsMzM2NzY3Njgx&v=15"),
     ]),
     new Level("lowk ima milk", 14, "Bronze", "137206383", "Any Route", "XanderGMDD", "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/mqNYtIqiHqWQ7WwEe?invite=cr-MSxDRHosMzM2NzY3Njgx", [
         new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/mqNYtIqiHqWQ7WwEe?invite=cr-MSxDRHosMzM2NzY3Njgx"),
@@ -286,6 +289,7 @@ let levels = [
         new Record("Komically", "27", "9/10", "Good as is", "https://www.youtube.com/watch?v=NY7ZYnOnMIo"),
         new Record("xpfinker812", "59", "8/10", "Bottom Bronze", "https://www.youtube.com/watch?v=fSK9OqN-Iuk"),
         new Record("TheUnoKing9", "20", "10/10", "N/A", "https://www.youtube.com/watch?v=e-lLkfqDBFE"),
+        new Record("XanderGMDD", "4", "10/10", "Good as is", "https://medal.tv/games/geometry-dash/clips/mNbPivYXTrzzxbBR7?invite=cr-MSxPaEwsMzM2NzY3Njgx&v=22"),
     ]),
 ];
 
