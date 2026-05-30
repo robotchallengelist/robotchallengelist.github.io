@@ -52,12 +52,12 @@ let levels = [
     new Level("robopolis       ", 91, "Platinum", "137347848", "Any Route", "placek3", "placek3", "https://www.youtube.com/embed/55zSeUXG3VY", [
         new Record("placek3", "17,246", "N/A", "N/A", "https://www.youtube.com/watch?v=55zSeUXG3VY"),
     ]),
-    new Level("Shardiopolis", 85, "Platinum", "139167165", "Verification Route", "probro675", "probro675", "https://youtube.com/embed/S2B2JVEOxbQ?si=0hlf-vQHAkxh612i", [
-        new Record("probro675", "1,800", "8/10", "N/A", "https://youtu.be/S2B2JVEOxbQ?si=0hlf-vQHAkxh612i"),
-    ]),
-    new Level("Double Double PLUS", 78, "Platinum", "138089168", "Any Route", "zis08", "zis08", "https://medal.tv/games/geometry-dash/clip/muXjHLShWGsp-QFck?invite=cr-MSw1bHUsMTY4ODkwOTU4", [
+    new Level("Double Double PLUS", 83, "Platinum", "138089168", "Any Route", "zis08", "zis08", "https://medal.tv/games/geometry-dash/clip/muXjHLShWGsp-QFck?invite=cr-MSw1bHUsMTY4ODkwOTU4", [
         new Record("zis08", "7,441", "10/10", "Harder than SUGAR TRIP", "https://medal.tv/games/geometry-dash/clips/muXjHLShWGsp-QFck?invite=cr-MSw1bHUsMTY4ODkwOTU4"),
         new Record("XanderGMDD", "3,886", "0/10", "Really fucking hard", "https://medal.tv/games/geometry-dash/clips/mOiQbAFGnTDxF9ArR?invite=cr-MSxobUssMzM2NzY3Njgx&v=23"),
+    ]),
+    new Level("Shardiopolis", 76, "Platinum", "139167165", "Verification Route", "probro675", "probro675", "https://youtube.com/embed/S2B2JVEOxbQ?si=0hlf-vQHAkxh612i", [
+        new Record("probro675", "1,800", "8/10", "N/A", "https://youtu.be/S2B2JVEOxbQ?si=0hlf-vQHAkxh612i"),
     ]),
 
     /*
