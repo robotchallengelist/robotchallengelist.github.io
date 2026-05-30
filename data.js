@@ -57,6 +57,7 @@ let levels = [
     ]),
     new Level("Double Double PLUS", 78, "Platinum", "138089168", "Any Route", "zis08", "zis08", "https://medal.tv/games/geometry-dash/clip/muXjHLShWGsp-QFck?invite=cr-MSw1bHUsMTY4ODkwOTU4", [
         new Record("zis08", "7,441", "10/10", "Harder than SUGAR TRIP", "https://medal.tv/games/geometry-dash/clips/muXjHLShWGsp-QFck?invite=cr-MSw1bHUsMTY4ODkwOTU4"),
+        new Record("XanderGMDD", "3,886", "0/10", "Really fucking hard", "https://medal.tv/games/geometry-dash/clips/mOiQbAFGnTDxF9ArR?invite=cr-MSxobUssMzM2NzY3Njgx&v=23"),
     ]),
 
     /*
@@ -127,14 +128,18 @@ let levels = [
         new Record("Farlayy", "N/A", "N/A", "N/A", "https://youtube.com/watch?v=RAVFhEVV6hE"),
         new Record("placek3", "N/A", "N/A", "N/A", "https://www.youtube.com/watch?v=8CEpN01ZWPc"),
         new Record("zeroskills", "N/A", "N/A", "N/A", ""),
-        new Record("EndGamer7896", "1,783", "3/10", "High Silver", "https://medal.tv/games/geometry-dash/clips/mIxu2N3FC7IYQZa8_?invite=cr-MSx2MGcsNTk1MDYwNDc2")
+        new Record("EndGamer7896", "1,783", "3/10", "High Silver", "https://medal.tv/games/geometry-dash/clips/mIxu2N3FC7IYQZa8_?invite=cr-MSx2MGcsNTk1MDYwNDc2"),
+        new Record("XanderGMDD", "1,046", "4/10", "Low Gold", "https://medal.tv/games/geometry-dash/clips/mOgcaQG4NTLzBKXtK?invite=cr-MSxQNGIsMzM2NzY3Njgx&v=31"),
     ]),
     new Level("Joy and rainbows", 41, "Silver", "141413356", "Verification Route", "Sp4c3m0nk3y", "Komically", "https://youtube.com/embed/338pvY8as70", [
         new Record("Komically", "100", "5/10", "Top of silver", "https://www.youtube.com/watch?v=338pvY8as70"),
+        new Record("XanderGMDD", "184", "6/10", "Low Silver / High Bronze", "https://medal.tv/games/geometry-dash/clips/mOglTKGkrz_fz3OFk?invite=cr-MSxpMkwsMzM2NzY3Njgx&v=23"),
     ]),
     new Level("City thing", 39, "Silver", "141404949", "Any Route", "TheUnoKing9", "TheUnoKing9", "https://youtube.com/embed/KnF_EdaGUjA", [
         new Record("TheUnoKing9", "532", "N/A", "Low Silver/High Bronze", "https://youtu.be/KnF_EdaGUjA"),
         new Record("Komically", "149", "5/10", "Low-Mid Silver", "https://youtu.be/sTdSRIej5Rw"),
+        new Record("probro675", "204", "6.5/10", "N/A", "https://youtu.be/90TVOy8ZGUs?si=7wIPaAsjCiQccCC7"),
+        new Record("XanderGMDD", "193", "4/10", "Mid-High Bronze", "https://medal.tv/games/geometry-dash/clips/mOgA7XYGlQ_hkS_0S?invite=cr-MSxpa1YsMzM2NzY3Njgx&v=19"),
     ]),
     new Level("Robopolis V2", 35, "Silver", "138091805", "Any Route", "rumble1978", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/muYoylZMtRMFjDQcF?invite=cr-MSx4amcsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "218", "9/10", "High Silver / Low Gold", "https://medal.tv/games/geometry-dash/clips/muYoylZMtRMFjDQcF?invite=cr-MSx4amcsNTk1MDYwNDc2"),
@@ -306,6 +311,7 @@ let levels = [
         new Record("IceCubed88", "219", "N/A", "Harder than Waiting for Xander", "https://youtu.be/y2S_J-fK8fU?si=mVLdjKTB6mzObHe-"),
         new Record("Komically", "115", "7/10", "Good as is", "https://www.youtube.com/watch?v=NY7ZYnOnMIo"),
         new Record("TheUnoKing9", "95", "10/10", "N/A", "https://www.youtube.com/watch?v=e-lLkfqDBFE"),
+        new Record("Sp4c3m0nk3y", "273", "0/10", "Low Bronze", "https://youtu.be/zkjJqxyiflU"),
     ]),
     new Level("Robot On Track", 7, "Bronze", "141189643", "Any Route", "EndGamer7896", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mKaizDeV9Sfz6pA3p?invite=cr-MSw1bXEsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "29", "8/10", "Low Bronze, 7 points", "https://medal.tv/games/geometry-dash/clips/mKaizDeV9Sfz6pA3p?invite=cr-MSw1bXEsNTk1MDYwNDc2"),
@@ -317,6 +323,7 @@ let levels = [
         new Record("Komically", "102", "5/10", "Low Bronze", "https://youtu.be/bkUKEgp6wQQ"),
         new Record("EndGamer7896", "102", "6/10", "Low Bronze, 5 points", "https://medal.tv/games/geometry-dash/clips/mNxiMAbm2eDD8fGL-?invite=cr-MSxycW8sNTk1MDYwNDc2"),
         new Record("XanderGMDD", "65", "3/10", "Fine where it is", "https://medal.tv/games/geometry-dash/clips/mNU7wLru5NKx6I89R?invite=cr-MSx1U2osMzM2NzY3Njgx&v=20"),
+        new Record("xpfinker812", "500", "2/10", "5 List Points", "https://youtu.be/hSGkwqignok"),
     ]),
     new Level("LeBronze", 1, "Bronze", "137909718", "Any Route", "EndGamer7896", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mue07kBtQ_fmFBPPo?invite=cr-MSxyb2QsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "5", "10/10", "Entry Bronze, 1 point", "https://medal.tv/games/geometry-dash/clips/mue07kBtQ_fmFBPPo?invite=cr-MSxyb2QsNTk1MDYwNDc2"),
