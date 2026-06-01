@@ -384,15 +384,18 @@ let displacement = [
     .##........##..##.....##.##.....##.##.....##
     .########.####.##.....##.########...#######.
     */
-    new Level("Tristan Never ClearZ", 0, "Limbo", "141414076", "Any Route", "Komically", "-", "https://www.youtube.com/embed/dQw4w9WgXcQ", []),
+    new Level("FINAL ROBOTISY", 0, "Limbo", "141287742", "Small Skips Allowed", "XanderGMDD", "-", "https://medal.tv/games/geometry-dash/clip/mNcXr8HvQTellyDsU?invite=cr-MSxtenIsMzM2NzY3Njgx"),
+    new Level("Poison", 0, "Limbo", "141674535", "Small Skips Allowed", "Monkeyboy21", "-", "https://medal.tv/games/geometry-dash/clip/mP7XWd8Npb6kjyZA0?invite=cr-MSw3eFMsMTk0NjAyNjk3&v=16"),
     new Level("Dopamine Rush", 0, "Limbo", "136993028", "Any Route", "EndGamer7896", "-", "https://www.youtube.com/embed/nOcsSgJBJZI", []),
-    new Level("Heliorobo", 0, "Limbo", "138007569", "Small Skips Allowed", "XanderGMDD", "-", "https://youtube.com/embed/JwXFRP8OQbk", []),
+    new Level("Tristan Never ClearZ", 0, "Limbo", "141414076", "Any Route", "Komically", "-", "https://www.youtube.com/embed/dQw4w9WgXcQ", []),
     new Level("Expiration Date", 0, "Limbo", "137150681", "Any Route", "EndGamer7896", "-", "https://www.youtube.com/embed/vK5TPmBbFeE", []),
+    new Level("Heliorobo", 0, "Limbo", "138007569", "Small Skips Allowed", "XanderGMDD", "-", "https://youtube.com/embed/JwXFRP8OQbk", []),
     new Level("RENOVATION", 0, "Limbo", "138079978", "Any Route", "EndGamer7896", "-", "https://www.youtube.com/embed/BVGFRk3T9js", []),
     new Level("Robowamba", 0, "Limbo", "137515738", "Small Skips Allowed", "XanderGMDD", "-", "https://www.youtube.com/embed/pSCu9R6Sq4", []),
     new Level("The Third Robot", 0, "Limbo", "136718958", "Any Route", "Zannoz", "-", "https://youtube.com/embed/dQw4w9WgXcQ", []),
     new Level("Robotic Exertion", "0", "Limbo", "140939483", "Any Route", "XanderGMDD", "-", "https://www.youtube.com/embed/dQw4w9WgXcQ", []),
     new Level("robot but uwu ig idk", 0, "Limbo", "141419232", "Small Skips Allowed", "xpfinker812", "-", "https://medal.tv/games/geometry-dash/clip/mN0ZnUG1OgkbPXwuZ?invite=cr-MSxwRkosNTMwODEwMjU3&v=13", []),
+    new Level("endgame is a chud", 0, "Limbo", "141575973", "Small Skips Allowed", "xpfinker812", "-", " https://medal.tv/games/geometry-dash/clip/mOG8kBGla6fXvI3I-?invite=cr-MSxIUVgsNTMwODEwMjU3&v=7d", []),
 ];
 
 function listDisplay() {
