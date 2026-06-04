@@ -79,7 +79,7 @@ let levels = [
         new Record("Farlayy", "N/A", "N/A", "N/A", ""),
         new Record("EndGamer7896", "N/A", "N/A", "74 points", "https://youtu.be/lXRG1Xt0irs"),
     ]),
-    new Level("Window", 73, "Gold", "", "Small Skips Allowed", "Sp4c3m0nk3y", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mQtF9s3Ac_Dp5_bqL?invite=cr-MSw5MmUsNTk1MDYwNDc2", [
+    new Level("Window", 73, "Gold", "141886598", "Small Skips Allowed", "Sp4c3m0nk3y", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mQtF9s3Ac_Dp5_bqL?invite=cr-MSw5MmUsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "2,200", "7/10", "73 points", "https://medal.tv/games/geometry-dash/clips/mQtF9s3Ac_Dp5_bqL?invite=cr-MSw5MmUsNTk1MDYwNDc2"),
     ]),
     new Level("Redemption rebirth", 72, "Gold", "137617507", "Any Route", "Komically & sourceerrortxt", "zeroskills", "https://www.youtube.com/embed/Loe1H_IsImQ", [
@@ -354,6 +354,7 @@ let levels = [
         new Record("XanderGMDD", "65", "3/10", "Fine where it is", "https://medal.tv/games/geometry-dash/clips/mNU7wLru5NKx6I89R?invite=cr-MSx1U2osMzM2NzY3Njgx&v=20"),
         new Record("xpfinker812", "500", "2/10", "5 List Points", "https://youtu.be/hSGkwqignok"),
         new Record("Monkeyboy21", "51", "6/10", "Good where its at", "https://medal.tv/games/geometry-dash/clips/mPLPj4IEyt9w9fH6H?invite=cr-MSxqOXIsMTk0NjAyNjk3&v=30"),
+        new Record("TJEmpire", "407", "suicide/10", "Lebronze harder", "https://youtu.be/MRtrewHGmWg?si=kWYw3CSJL9rqgJrQ"),
     ]),
     new Level("LeBronze", 1, "Bronze", "137909718", "Any Route", "EndGamer7896", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mue07kBtQ_fmFBPPo?invite=cr-MSxyb2QsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "5", "10/10", "Entry Bronze, 1 point", "https://medal.tv/games/geometry-dash/clips/mue07kBtQ_fmFBPPo?invite=cr-MSxyb2QsNTk1MDYwNDc2"),
