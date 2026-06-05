@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCL - Averages</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+    <div>
+        <ol id="placementOpinion"></ol>
+        <ol id="qualityRatings"></ol>
+    </div>    
+</body>
+<script>
+    const placementOpinion = document.getElementById('placementOpinion');
+    const qualityRatings = document.getElementById('qualityRatings');
+    
+    function Level(name, opinions, quality) {
+        this.name = name;
+        this.opinions = opinions;
+        this.quality = quality;
+    }
+    
+    let levels = [
+        new Level("LeBronze", {
+            "EndGamer7896": 1
+        }, {
+            "probro675": 4,
+        }),
+        new Level("xandeR is a chud", {
+            "Komically": 7.5,
+            "EndGamer7896": 5,
+            "XanderGMDD": 5,
+            "xpfinker812": 5,
+            "Monkeyboy21": 5,
+            "zis08": 3,
+            "probro675": 3,
+            "TJEmpire": 1,
+        }, {
+            "probro675": 1,
+        }),
+        new Level("Robot Madness", {
+            "EndGamer7896": 6,
+            "Monkeyboy21": 6,
+            "XanderGMDD": 3,
+            "probro675": 4.5,
+        }, {
+            "probro675": 3,
+        }),
+        new Level("Robot On Track", {
+            "EndGamer7896": 7,
+            "Monkeyboy21": 7,
+            "XanderGMDD": 7,
+            "probro675": 4.95,
+        }, {
+            "probro675": 4,
+        }),
+        new Level("out of time", {
+            "ItzThiur": 13,
+            "DexOnGD": 17.5,
+            "IceCubed88": 11.5,
+            "Komically": 8,
+            "Sp4c3m0nk3y": 7.5,
+            "EndGamer7896": 8,
+            "zis08": 7.5,
+            "TheUnoKing9": 7.5,
+            "TJEmpire": 17.5,
+            "zeroskills": 8,
+            "tFluffy": 8,
+            "probro675": 6,
+        }, {
+            "probro675": 2,
+            "EndGamer7896": 6,
+            "XanderGMDD": 6,
+        }),
+        new Level("Robogeist", {
+            "EndGamer7896": 10,
+            "Monkeyboy21": 9,
+            "probro675": 8,
+        }, {
+            "probro675": 4,
+        }),
+        new Level("Waiting for Xander", {
+            "ItzThiur": 13,
+            "IceCubed88": 7.5,
+            "Komically": 11,
+            "TJEmpire": 7.5,
+            "EndGamer7896": 11,
+            "Monkeyboy21": 11,
+            "tFluffy": 11,
+            "zeroskills": 9,
+            "probro675": 7,
+        }, {
+            "probro675": 2,
+        }),
+        new Level("SHM RCL 55xH", {
+            "EndGamer7896": 12,
+            "XanderGMDD": 12.5,
+            "zis08": 37.5,
+            "probro675": 11,
+        }, {
+            "probro675": 2,
+        }),
+        new Level("Copper Alloy", {
+
+        }, {}),
+        new Level("Glass Castle", {}, {}),
+        new Level("lowk ima milk", {}, {}),
+        new Level("WRATH", {}, {}),
+        new Level("Code Red", {}, {}),
+        new Level("frostworks", {}, {}),
+        new Level("Ape Rotation", {}, {}),
+        new Level("WfX2", {}, {}),
+        new Level("Endgamer Takes Dihh", {}, {}),
+        new Level("Monochrome", {}, {}),
+        new Level("Dry Bot", {}, {}),
+        new Level("Bot After Ro", {}, {}),
+        new Level("im crine", {}, {}),
+        new Level("Robot carnival", {}, {}),
+        new Level("Unnamed 41", {}, {}),
+        new Level("Cant Let Gobot", {}, {}),
+        new Level("Robopolis V2", {}, {}),
+        new Level("Leaper", {}, {}),
+        new Level("City thing", {}, {}),
+        new Level("Joy and rainbows", {}, {}),
+        new Level("Shakester", {}, {}),
+        new Level("Gold Temple", {}, {}),
+        new Level("VSR", {}, {}),
+        new Level("robotnics", {}, {}),
+        new Level("SLOWDOWN", {}, {}),
+        new Level("Jade Runner", {}, {}),
+        new Level("komicaly never clear", {}, {}),
+        new Level("Redemption rebirth", {}, {}),
+        new Level("Window", {}, {}),
+        new Level("SUGAR TRIP", {}, {}),
+        new Level("Shardiopolis", {}, {}),
+        new Level("Double Double PLUS", {}, {}),
+        new Level("robopolis", {}, {}),
+        new Level("Mad Prophets", {}, {}),
+    ]
+
+    levelAverages = {};
+
+    levels.forEach(level => {
+        let opinionTotal = 0;
+        let qualityTotal = 0;
+        for (const opinion in level.opinions) {
+            opinionTotal += level.opinions[opinion];
+        }
+
+        for (const quality in level.quality) {
+            qualityTotal += level.quality[quality];
+        }
+        
+        let averageOpinion = Math.round((opinionTotal / Object.keys(level.opinions).length) * 100) / 100;
+        let averageQuality = Math.round(qualityTotal / Object.keys(level.quality).length);
+
+        levelAverages[level.name] = {
+            opinion: averageOpinion,
+            quality: averageQuality
+        };
+    });
+
+    // List level: opinion, sorted by opinion. Put level:quality, sorted by level quality in the second list
+    let sortedByOpinion = Object.entries(levelAverages).sort((a, b) => b[1].opinion - a[1].opinion);
+    let sortedByQuality = Object.entries(levelAverages).sort((a, b) => b[1].quality - a[1].quality);
+    sortedByOpinion.forEach(level => {
+        let li = document.createElement('li');
+        li.textContent = `${level[0]}: ${level[1].opinion}`;
+        placementOpinion.appendChild(li);
+    });
+    sortedByQuality.forEach(level => {
+        let li = document.createElement('li');
+        li.textContent = `${level[0]}: ${level[1].quality}`;
+        qualityRatings.appendChild(li);
+    });
+</script>
+</html>l
