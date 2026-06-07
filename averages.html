@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RCL - Averages</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
+        Congratulations! You found a secret page! Its not all that secretive, but this page's file shows sort of HOW
+        levels are placed on the list. That's why its not super formatted, because I simply don't care. Enjoy!
+        <h1> The Averages List </h1>
         <ol id="placementOpinion"></ol>
+        <h1> Quality Ratings </h1>
         <ol id="qualityRatings"></ol>
-    </div>    
+    </div>
 </body>
 <script>
     const placementOpinion = document.getElementById('placementOpinion');
     const qualityRatings = document.getElementById('qualityRatings');
-    
+
     function Level(name, opinions, quality) {
         this.name = name;
         this.opinions = opinions;
         this.quality = quality;
     }
-    
+
     let levels = [
         new Level("LeBronze", {
             "EndGamer7896": 1
@@ -39,6 +46,7 @@
             "TJEmpire": 1,
         }, {
             "probro675": 1,
+            "EndGamer7896": 2,
         }),
         new Level("Robot Madness", {
             "EndGamer7896": 6,
@@ -90,7 +98,7 @@
             "Monkeyboy21": 11,
             "tFluffy": 11,
             "zeroskills": 9,
-            "probro675": 7,
+            "probro675": 10,
         }, {
             "probro675": 2,
         }),
@@ -101,43 +109,432 @@
             "probro675": 11,
         }, {
             "probro675": 2,
+            "EndGamer7896": 5,
         }),
         new Level("Copper Alloy", {
+            "EndGamer7896": 13,
+            "ItzThiur": 13.75,
+            "IceCubed88": 13,
+            "Komiccally": 13,
+            "zis08": 12.5,
+            "tFluffy": 13,
+            "zeroskills": 11.5,
+            "probro675": 12.5,
+        }, {
+            "probro675": 5,
+            "EndGamer7896": 11,
+            "XanderGMDD": 11,
+        }),
+        new Level("Glass Castle", {
+            "EndGamer7896": 13.5,
+            "zis08": 32.5,
+            "zeroskills": 11.5,
+            "probro675": 18,
+        }, {
+            "probro675": 3,
+            "EndGamer7896": 7,
+        }),
+        new Level("lowk ima milk", {
+            "EndGamer7896": 14,
+            "ItzThiur": 17.5,
+            "Vinecke123": 13,
+            "IceCubed88": 14,
+            "zis08": 12.5,
+            "zeroskills": 11.5,
+            "probro675": 13,
+        }, {
+            "probro675": 2,
+            "EndGamer7896": 8,
+        }),
+        new Level("WRATH", {
+            "EndGamer7896": 15,
+            "XanderGMDD": 18,
+            "zis08": 42.5,
+            "probro675": 15,
+        }, {
+            "probro675": 13,
+        }),
+        new Level("Code Red", {
+            "EndGamer7896": 17,
+            "ItzThiur": 13,
+            "IceCubed88": 17,
+            "Monkeyboy21": 17,
+            "Komically": 10.5,
+            "zis08": 17.5,
+            "zeroskills": 13.25,
+            "probro675": 13,
+        }, {
+            "probro675": 6,
+            "EndGamer7896": 10,
+        }),
+        new Level("frostworks", {
+            "EndGamer7896": 20,
+            "IceCubed88": 20.5,
+            "zis08": 22.5,
+            "zeroskills": 18,
+            "probro675": 18,
+        }, {
+            "probro675": 4,
+            "EndGamer7896": 14,
+        }),
+        new Level("Ape Rotation", {
+            "EndGamer7896": 20,
+            "IceCubed88": 20.5,
+            "zis08": 22.5,
+            "zeroskills": 18,
+            "probro675": 18,
+        }, {
+            "probro675": 3,
+        }),
+        new Level("lord of cinder", {
+            "zeroskills": 21.5,
+            "EndGamer7896": 19,
+            "probro675": 27,
+            "Komically": 25.5,
+        }, {
+            "EndGamer7896": 1,
+        }),
+        new Level("WfX2", {
+            "EndGamer7896": 22,
+            "ItzThiur": 17.5,
+            "IceCubed88": 20.5,
+            "zis08": 42.5,
+            "tFluffy": 17,
+            "zeroskills": 21,
+            "probro675": 20,
+        }, {
+            "probro675": 2,
+        }),
+        new Level("Endgamer Takes Dihh", {
+            "probro675": 17,
+            "EndGamer7896": 35,
+            "Komically": 13,
+        }, {
+            "EndGamer7896": 3,
+        }),
+        new Level("Monochrome", {
+            "EndGamer7896": 25,
+            "XanderGMDD": 31.5,
+            "Monkeyboy21": 25,
+            "probro675": 25,
+        }, {
+            "probro675": 5,
+        }),
+        new Level("Dry Bot", {
+            "EndGamer7896": 26,
+            "Monkeyboy21": 26,
+            "probro675": 28.5,
+        }, {
+            "probro675": 3,
+        }),
+        new Level("Bot After Ro", {
+            "EndGamer7896": 28,
+            "Monkeyboy21": 28,
+            "probro675": 20,
+        }, {
+            "probro675": 3,
+        }),
+        new Level("im crine", {
+            "probro675": 30,
+            "EndGamer7896": 33.5,
+            "Komically": 32,
+        }, {
+            "EndGamer7896": 15,
+        }),
+        new Level("Robot carnival", {
+            "EndGamer7896": 32,
+            "XanderGMDD": 44,
+            "probro675": 31,
+        }, {
+            "probro675": 6,
+            "EndGamer7896": 10,
+        }),
+        new Level("Unnamed 41", {
+            "EndGamer7896": 22.5,
+            "zis08": 12.5,
+            "XanderGMDD": 31.5,
+            "zeroskills": 33,
+            "probro675": 32.5,
+        }, {
+            "probro675": 2,
+            "EndGamer7896": 7,
+        }),
+        new Level("Cant Let Gobot", {
+            "EndGamer7896": 34,
+            "Monkeyboy21": 34,
+            "probro675": 35,
+        }, {
+            "probro675": 4,
+        }),
+        new Level("Robopolis V2", {
+            "EndGamer7896": 22,
+            "XanderGMDD": 35,
+            "Monkeyboy21": 35.5,
+            "probro675": 26,
+        }, {
+            "probro675": 10,
+            "EndGamer7896": 10,
+        }),
+        new Level("Leaper", {
+            "EndGamer7896": 36,
+            "probro675": 37,
+        }, {
+            "probro675": 4,
+        }),
+        new Level("City thing", {
+            "TheUnoKing9": 25,
+            "Komically": 35,
+            "XanderGMDD": 27,
+            "EndGamer7896": 20,
+            "Komically": 39,
+            "probro675": 35.5,
+        }, {
+            "probro675": 6,
+            "EndGamer7896": 9,
+        }),
+        new Level("Joy and rainbows", {
+            "Komically": 46,
+            "XanderGMDD": 37,
+            "EndGamer7896": 31,
+            "probro675": 38.5,
+        }, {
+            "probro675": 3,
+            "EndGamer7896": 4,
+        }),
+        new Level("Shakester", {
+            "EndGamer7896": 45,
+            "XanderGMDD": 54,
+            "Komically": 49.99,
+            "zeroskills": 45,
+            "probro675": 45,
+        }, {
+            "probro675": 2,
+            "EndGamer7896": 6,
+        }),
+        new Level("Gold Temple", {
+            "XanderGMDD": 47,
+            "EndGamer7896": 55,
+            "Komically": 55,
+            "probro675": 50,
+        }, {
+            "probro675": 2,
+            "EndGamer7896": 9,
+        }),
+        new Level("VSR", {
+            "EndGamer7896": 58,
+            "XanderGMDD": 51.5,
+            "Monkeyboy21": 58,
+            "Komically": 57,
+            "zis08": 57.5,
+            "probro675": 54,
+        }, {
+            "EndGamer7896": 16,
+            "XanderGMDD": 16,
+        }),
+        new Level("robotnics", {
+            "EndGamer7896": 61,
+            "XanderGMDD": 58.5,
+            "Komically": 61,
+            "probro675": 55,
+        }, {
+            "probro675": 4,
+            "EndGamer7896": 10,
+        }),
+        new Level("SLOWDOWN", {
+            "EndGamer7896": 65,
+            "XanderGMDD": 56,
+            "Komically": 65,
+            "probro675": 62,
+        }, {
+            "probro675": 6,
+            "EndGamer7896": 20
+        }),
+        new Level("Jade Runner", {
+            "EndGamer7896": 70,
+            "XanderGMDD": 42,
+            "Komically": 68,
+            "porbro675": 64,
+        }, {
+            "probro675": 6,
+        }),
+        new Level("komicaly never clear", {
+            "EndGamer7896": 71,
+            "Komically": 71,
+            "XanderGMDD": 62,
+            "probro675": 60,
+        }, {
+            "probro675": 2,
+            "EndGamer7896": 1,
+            "XanderGMDD": 1,
+        }),
+        new Level("Redemption rebirth", {
+            "EndGamer7896": 72,
+            "XanderGMDD": 72.5,
+            "Komically": 70,
+            "zeroskills": 63,
+            "probro675": 71,
+        }, {
+            "probro675": 14,
+            "EndGamer7896": 15,
+        }),
+        new Level("Window", {
+            "EndGamer7896": 73,
+            "Komically": 73,
+            "probro675": 73,
+        }, {
+            "probro675": 10,
+            "EndGamer7896": 10,
+        }),
+        new Level("SUGAR TRIP", {
+            "EndGamer7896": 74,
+            "XanderGMDD": 69,
+            "Komically": 74,
+            "probro675": 74,
+        }, {
+            "probro675": 7,
+            "EndGamer7896": 15, 
+        }),
+        new Level("Shardiopolis", {
+            "EndGamer7896": 75,
+            "XanderGMDD": 74.5,
+            "zis08": 67.5,
+            "Komically": 82,
+            "probro675": 76.5,
+        }, {
+            "EndGamer7896": 26,
+            "XanderGMDD": 26,
+        }),
+        new Level("Double Double PLUS", {
+            "EndGamer7896": 83,
+            "XanderGMDD": 84,
+            "zis08": 87.5,
+            "Komically": 85,
+            "probro675": 80,
+        }, {
+            "probro675": 3,
+            "EndGamer7896": 3
+        }),
+        new Level("robopolis", {
+            "EndGamer7896": 91,
+            "XanderGMDD": 92,
+            "Eery Tunic": 104,
+            "Komically": 88,
+            "zis08": 102.5,
+            "probro675": 92,
+        }, {
+            "probro675": 9,
+            "EndGamer7896": 14,
+        }),
+        new Level("Mad Prophets", {
+            "EndGamer7896": 102.5,
+            "Beefyikes": 97,
+            "XanderGMDD": 97,
+            "Komically": 103,
+            "probro675": 106,
+        }, {
+            "probro675": 11,
+            "EndGamer7896": 19, 
+        }),
+        new Level("Double Double", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 4,
+        }),
+        new Level("Tiptoe Temple", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 0,
+        }), 
+        new Level("WHY", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 1,
+        }),
+        new Level("Cave A Neer", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 0,
+        }),
+        new Level("Cliff Hanger", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 0,
+        }),
+        new Level("ball fondling challenge", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 0,
+        }),
+        new Level("On The Cliff Edge", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 0,
+        }),
+        new Level("gar", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 0,
+        }),
+        new Level("Poison", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 14,
+        }),
+        new Level("FINAL ROBOTISY", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 14,
+        }),
+        new Level("Dopamine Rush", {
+            "EndGamer7896": 0,
+        }, {
 
-        }, {}),
-        new Level("Glass Castle", {}, {}),
-        new Level("lowk ima milk", {}, {}),
-        new Level("WRATH", {}, {}),
-        new Level("Code Red", {}, {}),
-        new Level("frostworks", {}, {}),
-        new Level("Ape Rotation", {}, {}),
-        new Level("WfX2", {}, {}),
-        new Level("Endgamer Takes Dihh", {}, {}),
-        new Level("Monochrome", {}, {}),
-        new Level("Dry Bot", {}, {}),
-        new Level("Bot After Ro", {}, {}),
-        new Level("im crine", {}, {}),
-        new Level("Robot carnival", {}, {}),
-        new Level("Unnamed 41", {}, {}),
-        new Level("Cant Let Gobot", {}, {}),
-        new Level("Robopolis V2", {}, {}),
-        new Level("Leaper", {}, {}),
-        new Level("City thing", {}, {}),
-        new Level("Joy and rainbows", {}, {}),
-        new Level("Shakester", {}, {}),
-        new Level("Gold Temple", {}, {}),
-        new Level("VSR", {}, {}),
-        new Level("robotnics", {}, {}),
-        new Level("SLOWDOWN", {}, {}),
-        new Level("Jade Runner", {}, {}),
-        new Level("komicaly never clear", {}, {}),
-        new Level("Redemption rebirth", {}, {}),
-        new Level("Window", {}, {}),
-        new Level("SUGAR TRIP", {}, {}),
-        new Level("Shardiopolis", {}, {}),
-        new Level("Double Double PLUS", {}, {}),
-        new Level("robopolis", {}, {}),
-        new Level("Mad Prophets", {}, {}),
+        }),
+        new Level("Expiration Date", {
+            "EndGamer7896": 0,
+        }, {
+
+        }),
+        new Level("Heliorobo", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 23,
+        }),
+        new Level("RENOVATION", {
+            "EndGamer7896": 0,
+        }, {
+
+        }),
+        new Level("ROBOWAMBA", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 21,
+        }),
+        new Level("The Third Robot", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 14,
+        }),
+        new Level("Robotic Exertion", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 7,
+        }),
+        new Level("robot but uwu ig idk", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 4,
+        }),
+        new Level("I AM NOT FLAT", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 3,
+        }),
+        new Level("endgame is a chud", {
+            "EndGamer7896": 0,
+        }, {
+            "EndGamer7896": 3,
+        }),
     ]
 
     levelAverages = {};
@@ -152,7 +549,7 @@
         for (const quality in level.quality) {
             qualityTotal += level.quality[quality];
         }
-        
+
         let averageOpinion = Math.round((opinionTotal / Object.keys(level.opinions).length) * 100) / 100;
         let averageQuality = Math.round(qualityTotal / Object.keys(level.quality).length);
 
@@ -168,6 +565,44 @@
     sortedByOpinion.forEach(level => {
         let li = document.createElement('li');
         li.textContent = `${level[0]}: ${level[1].opinion}`;
+
+        let classFactor = level[1].opinion;
+
+        switch (true) {
+            case classFactor >= 250:
+                li.className = "obsidian";
+                break;
+            case classFactor >= 225:
+                li.className = "lonsdaleite";
+                break;
+            case classFactor >= 200:
+                li.className = "diamond";
+                break;
+            case classFactor >= 175:
+                li.className = "emerald";
+                break;
+            case classFactor >= 150:
+                li.className = "ruby";
+                break;
+            case classFactor >= 125:
+                li.className = "sapphire";
+                break;
+            case classFactor >= 100:
+                li.className = "amethyst";
+                break;
+            case classFactor >= 75:
+                li.className = "platinum";
+                break;
+            case classFactor >= 50:
+                li.className = "gold";
+                break;
+            case classFactor >= 25:
+                li.className = "silver";
+                break;
+            case classFactor >= 1:
+                li.className = "bronze";
+                break;
+        }
         placementOpinion.appendChild(li);
     });
     sortedByQuality.forEach(level => {
@@ -176,4 +611,5 @@
         qualityRatings.appendChild(li);
     });
 </script>
+
 </html>l
