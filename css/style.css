@@ -17,6 +17,10 @@ h3 {
     margin: 10px 0;
 }
 
+a {
+    color: inherit;
+}
+
 #header h2 {
     margin: 10px;
     font-size: 3vh;

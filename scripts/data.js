@@ -765,7 +765,7 @@ function displayLevel(newLevel) {
             nong.href = level.nong;
 
             if (level.nong) {
-                nongBox.style.display = "inline";
+                nongBox.style.display = "block";
             } else {
                 nongBox.style.display = "none";
             }
