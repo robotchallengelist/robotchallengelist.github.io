@@ -339,6 +339,7 @@ let levels = [
         new Record("EndGamer7896", "68", "8/10", "Low/Mid Bronze, 10 points", "https://medal.tv/games/geometry-dash/clips/mKd0hJ7OXL6e-JXeA?invite=cr-MSxobXIsNTk1MDYwNDc2"),
         new Record("Monkeyboy21", "35", "7/10", "Maybe a little lower", "https://medal.tv/games/geometry-dash/clips/mPpMUE86nnDvcfL11?invite=cr-MSxBMmEsMTk0NjAyNjk3&v=36"),
         new Record("Sp4c3m0nk3y", "168", "5/10", "Fine where it is", "https://medal.tv/games/geometry-dash/clips/mSqqqCxB4lBvqbdOt?invite=cr-MSw3NnQsNTU2MTU0Nzcw"),
+        new Record("TheUnoKing9", "144", "7/10", "Easier than out of time", "https://youtu.be/pMTZ0V6BEjw"),
     ]),
     new Level("out of time", 8, "-", "Bronze", "136136798", "Any Route", "sourceerrortxt", "sourceerrortxt", "https://www.youtube.com/embed/HRYVy3vU168", [
         new Record("sourceerrortxt", "N/A", "N/A", "N/A", "https://youtu.be/HRYVy3vU168"),
