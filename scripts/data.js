@@ -22,11 +22,14 @@ function Record(name, attempts, enjoyment, opinion, proof) {
     this.proof = proof;
 }
 
-// Embed formats
+// EMBED FORMATS ↓↓↓
 // YOUTUBE: https://youtube.com/embed/VIDEO_CODE
 // MEDAL: https://medal.tv/games/geometry-dash/clip/VIDEO CODE
 // STREAMABLE: https://www.streamable.com/e/VIDEO_CODE
 // TWITCH: https://clips.twitch.tv/embed?clip=VIDEO_CODE&parent=robotchallengelist.github.io
+// DAILYMOTION: https://geo.dailymotion.com/player.html?video=VIDEO_CODE
+// RUMBLE: https://rumble.com/embed/VIDEO_CODE
+// ODYSEE: https://odysee.com/$/VIDEO_CODE
 
 let levels = [
     /*
