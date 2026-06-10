@@ -37,7 +37,7 @@ let levels = [
     .##.....##.##.....##.##..........##....##.....##....##....##....##....##...
     .##.....##.##.....##.########....##....##.....##....##.....######.....##...
     */
-    // new Level("test", 110, "Amethyst", "140134987", "Any Route", "Farlayy", "EndGamer7896", "https://twitch.tv/embed?clip=RamshackleOddWoodpeckerPrimeMe-AZ9cB_7L3ZPgtDu5", []),
+    new Level("test", 110, "Amethyst", "140134987", "Any Route", "Farlayy", "EndGamer7896", "https://clips.twitch.tv/embed?clip=RenownedAmericanFriseeDxAbomb-SlDXfPFhO1yBDc89&parent=https://robotchallengelist.github.io", []),
     new Level("Mad Prophets", 103, "-", "Amethyst", "140134987", "Any Route", "Farlayy", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mGyEUN2HMTp9yPEph?invite=cr-MSxscmEsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "13,574", "8/10", "Low Amethyst, 100-105 points", "https://medal.tv/games/geometry-dash/clips/mGyEUN2HMTp9yPEph?invite=cr-MSxscmEsNTk1MDYwNDc2"),
         new Record("Beefyikes", "4,500", "6/10", "Probably top 1", "https://youtu.be/LzfdYC6YebQ"),
