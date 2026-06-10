@@ -26,6 +26,7 @@ function Record(name, attempts, enjoyment, opinion, proof) {
 // YOUTUBE: https://youtube.com/embed/VIDEO_CODE
 // MEDAL: https://medal.tv/games/geometry-dash/clip/VIDEO CODE
 // STREAMABLE: https://www.streamable.com/e/VIDEO_CODE
+// TWITCH: https://clips.twitch.tv/embed?clip=VIDEO_CODE&parent=robotchallengelist.github.io
 
 let levels = [
     /*
@@ -37,7 +38,7 @@ let levels = [
     .##.....##.##.....##.##..........##....##.....##....##....##....##....##...
     .##.....##.##.....##.########....##....##.....##....##.....######.....##...
     */
-    new Level("test", 110, "-", "Amethyst", "140134987", "Any Route", "Farlayy", "EndGamer7896", "https://clips.twitch.tv/embed?clip=RenownedAmericanFriseeDxAbomb-SlDXfPFhO1yBDc89&parent=robotchallengelist.github.io", []),
+    // new Level("test", 110, "-", "Amethyst", "140134987", "Any Route", "Farlayy", "EndGamer7896", "https://clips.twitch.tv/embed?clip=RenownedAmericanFriseeDxAbomb-SlDXfPFhO1yBDc89&parent=robotchallengelist.github.io", []),
     new Level("Mad Prophets", 103, "-", "Amethyst", "140134987", "Any Route", "Farlayy", "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mGyEUN2HMTp9yPEph?invite=cr-MSxscmEsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "13,574", "8/10", "Low Amethyst, 100-105 points", "https://medal.tv/games/geometry-dash/clips/mGyEUN2HMTp9yPEph?invite=cr-MSxscmEsNTk1MDYwNDc2"),
         new Record("Beefyikes", "4,500", "6/10", "Probably top 1", "https://youtu.be/LzfdYC6YebQ"),
