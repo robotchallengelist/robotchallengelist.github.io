@@ -11,13 +11,13 @@
 </head>
 
 <script src="scripts/data.js"></script>
-<script>window.onload = function () { listDisplay(); lbDisplay(); };</script>
+<script>window.onload = function () { listDisplay(); };</script>
 
 <body>
     <div id="header">
         <h2>The Robot Challenges List</h2>
         <button class="headerButtons" onclick="window.location.href = 'index.html'">Home</button>
-        <!-- <button class="headerButtons" onclick="window.location.href = 'lb.html'">blank</button> -->
+        <button class="headerButtons" onclick="window.location.href = 'lb.html'">Leaderboards</button>
     </div>
     <div>
         <div id="list">
@@ -35,13 +35,14 @@
             </div>
         </div>
         <div id="area">
-            
+
             <div id="container">
                 <h1 id="levelName"></h1>
                 <h3 id="levelVerified"></h3>
                 <iframe id="ytEmbed" width="560" height="315" title="YouTube video player"></iframe>
                 <div id="info">
                     <p>List Points: <span id="points"></span></p>
+                    <p>Quality Rating: <span id="quality"></span>/30</p>
                     <p>Tier: <span id="tier"></span></p>
                     <p>Level ID: <span id="levelId"></span></p>
                     <p>Accepted Routes: <span id="routes"></span></p>
@@ -51,7 +52,7 @@
                     <details>
                         <summary id="summary">Records</summary>
                         <table id="records">
-    
+
                         </table>
                     </details>
                 </div>
@@ -59,46 +60,49 @@
         </div>
         <div id="sidebar">
             <div id="sidebarBox">
-                <h2 class="sidebarHeaders">Leaderboard</h2>
+                <iframe src="https://discord.com/widget?id=1505344325381390417&theme=dark" width="100%" height="500"
+                    allowtransparency="true" frameborder="0"
+                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
-                <ol id="leaderboard">
 
-                </ol>
 
                 <hr class="sidebarHrs">
                 <h2 class="sidebarHeaders">Tier Descriptions:</h2>
                 <p class="descriptions">
-                    <strong>Normal rank:</strong> Requires 1 level to be beaten. Displayed with associated rank color.<br><br>
-                    <strong>DX rank:</strong> Requires half the tier to be beaten. Displayed with associated rank color and glow<br><br>
-                    <strong>Elite rank:</strong> Requires the entire tier to be beaten. Displayed with white and associated rank colored glow
+                    <strong>Normal rank:</strong> Requires 1 level to be beaten. Displayed on leaderboards with associated rank
+                    color.<br><br>
+                    <strong>DX rank:</strong> Requires half the tier to be beaten. Displayed on leaderboards with associated rank color
+                    and glow<br><br>
+                    <strong>Elite rank:</strong> Requires the entire tier to be beaten. Displayed on leaderboards with white and
+                    associated rank colored glow
                 </p>
-                <p class="tierLabels"><span class="bronzeDX">Bronze</span>: 1-24.99 points</p>
+                <p class="tierLabels"><span class="bronzeDX">Bronze:</span> 1-24.99 points</p>
                 <p class="descriptions">Incredibly easy challenges for new players.</p>
-                <p class="tierLabels"><span class="silverDX">Silver</span>: 25-49.99 points</p>
+                <p class="tierLabels"><span class="silverDX">Silver:</span> 25-49.99 points</p>
                 <p class="descriptions">Relatively normal challenges, common and rather quick to beat</p>
-                <p class="tierLabels"><span class="goldDX">Gold</span>: 50-74.99 points</p>
+                <p class="tierLabels"><span class="goldDX">Gold:</span> 50-74.99 points</p>
                 <p class="descriptions">These challenges are quite hard. This is where most players rest.</p>
-                <p class="tierLabels"><span class="platinumDX">Platinum</span>: 75-99.99 points</p>
+                <p class="tierLabels"><span class="platinumDX">Platinum:</span> 75-99.99 points</p>
                 <p class="descriptions">Getting harder, these levels are very difficult.</p>
-                <p class="tierLabels"><span class="amethystDX">Amethyst</span>: 100-124.99 points</p>
+                <p class="tierLabels"><span class="amethystDX">Amethyst:</span> 100-124.99 points</p>
                 <p class="descriptions">Insane.. but it only gets harder from here.</p>
-                <p class="tierLabels"><span class="sapphireDX">Sapphire</span>: 125-149.99 points</p>
+                <p class="tierLabels"><span class="sapphireDX">Sapphire:</span> 125-149.99 points</p>
                 <p class="descriptions">Wow, you're a demon.. but this barely scratches the surface of hell</p>
-                <p class="tierLabels"><span class="rubyDX">Ruby</span>: 150-174.99 points</p>
+                <p class="tierLabels"><span class="rubyDX">Ruby:</span> 150-174.99 points</p>
                 <p class="descriptions">Not quite challenge list difficulty, but getting close to that range</p>
-                <p class="tierLabels"><span class="emeraldDX">Emerald</span>: 175-199.99 points</p>
+                <p class="tierLabels"><span class="emeraldDX">Emerald:</span> 175-199.99 points</p>
                 <p class="descriptions">Low-tier challenge list difficulty. Very few players make it this far</p>
-                <p class="tierLabels"><span class="diamondDX">Diamond</span>: 200-224.99 points</p>
+                <p class="tierLabels"><span class="diamondDX">Diamond:</span> 200-224.99 points</p>
                 <p class="descriptions">Mid-tier challenge list levels. How did we get here?</p>
-                <p class="tierLabels"><span class="lonsdaleiteDX">Lonsdaleite</span>: 225-250 points</p>
+                <p class="tierLabels"><span class="lonsdaleiteDX">Lonsdaleite:</span> 225-250 points</p>
                 <p class="descriptions">High-tier challenge list levels. Are you a top player?</p>
-                <p class="tierLabels"><span class="obsidianDX">Obsidian</span>: Over 250 points</p>
+                <p class="tierLabels"><span class="obsidianDX">Obsidian:</span> Over 250 points</p>
                 <p class="descriptions">Borderline impossible levels.</p>
-                <p class="tierLabels"><span class="hell">Hell</span>: No points</p>
+                <p class="tierLabels"><span class="hell">Hell:</span> No points</p>
                 <p class="descriptions">Levels that were removed from the list for various reasons</p>
-                <p class="tierLabels"><span class="purgatory">Purgatory</span>: No points</p>
+                <p class="tierLabels"><span class="purgatory">Purgatory:</span> No points</p>
                 <p class="descriptions">Levels that were rejected for list placement</p>
-                <p class="tierLabels"><span class="limbo">Limbo</span>: No points</p>
+                <p class="tierLabels"><span class="limbo">Limbo:</span> No points</p>
                 <p class="descriptions">Levels that have been approved to be on the list, but are not yet verified</p>
                 </ul>
 

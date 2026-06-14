@@ -63,7 +63,8 @@ a {
 }
 
 #list,
-#sidebar {
+#sidebar,
+.lists {
     width: 22%;
     background-color: #202027;
     color: #454351;

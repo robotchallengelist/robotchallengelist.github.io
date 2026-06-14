@@ -4,9 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RCL - Leaderboard</title>
+    <title>RCL - Leaderboards</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .lists {
+            display: inline-flex;
+            box-sizing: border-box;
+            margin: 0px;
+            width: 24.76%
+        }
+    </style>
 </head>
 
 <script src="scripts/data.js"></script>
@@ -16,10 +24,44 @@
     <div id="header">
         <h2>The Robot Challenges List</h2>
         <button class="headerButtons" onclick="window.location.href = 'index.html'">Home</button>
-        <button class="headerButtons" onclick="window.location.href = 'lb.html'">blank</button>
+        <button class="headerButtons" onclick="window.location.href = 'lb.html'">Leaderboards</button>
     </div>
-    <div id="placeholder">
-        This page is a WIP...
+
+    <div class="lists">
+        <div id="listBox">
+            <h2 class="sidebarHeaders">Top Players</h2>
+
+            <ol id="leaderboard">
+            </ol>
+        </div>
+    </div>
+    <div class="lists">
+        <div id="listBox">
+            <h2 class="sidebarHeaders">Most Completions</h2>
+
+            <ol id="completionLeaderboard">
+            </ol>
+        </div>
+    </div>
+    <div class="lists">
+        <div id="listBox">
+            <h2 class="sidebarHeaders">Top Creators</h2>
+
+            <ol id="qualityLeaderboard">
+            </ol>
+        </div>
+    </div>
+    <div class="lists">
+        <div id="listBox">
+            <h2 class="sidebarHeaders">Most Creations</h2>
+
+            <ol id="creatorLeaderboard">
+            </ol>
+        </div>
+    </div>
+
+
+
 </body>
 
 </html>
