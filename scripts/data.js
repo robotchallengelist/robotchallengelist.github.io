@@ -442,7 +442,7 @@ let displacement = [
     .##.....##.##.......##.......##......
     .##.....##.########.########.########
     */
-    new Level("Crayons", 0, 0, "Hell", 0, "Any Route", ["rumble1978"], "rumble1978", "https://medal.tv/games/geometry-dash/clip/mv7xGhRttimy7uuS6?invite=cr-MSxqQlUsNDc0ODUyOTUy&v=300", [], false),
+    new Level("Crayons", 0, 18, "Hell", "-", "Any Route", ["rumble1978"], "rumble1978", "https://medal.tv/games/geometry-dash/clip/mv7xGhRttimy7uuS6?invite=cr-MSxqQlUsNDc0ODUyOTUy&v=300", [], false),
     new Level("Double Double", 0, 3, "Hell", "137564688", "Any Route", ["zis08"], "zis08", "https://medal.tv/games/geometry-dash/clip/msohBZHNKc1I8piec?invite=cr-MSxhZ3MsMTY4ODkwOTU4", [], false),
     new Level("Tiptoe Temple", 0, 0, "Hell", "96953991", "Any Route", ["iMintyGreen"], "Farlayy", "https://www.youtube.com/embed/xN16fwLFoAs", [], false),
     new Level("lord of cinder", 0, 2, "Hell", "141960393", "Verification Route", ["SqueegGD"], "zeroskills", "https://youtube.com/embed/LdSbgVkdokk", [
