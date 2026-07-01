@@ -163,6 +163,10 @@ th {
     border: none;
 }
 
+.rock {
+    color: #51556b;
+}
+
 .bronze {
     color: #b26e27;
 }
