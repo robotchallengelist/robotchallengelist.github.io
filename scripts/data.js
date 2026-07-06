@@ -1141,7 +1141,7 @@ function lbDisplay() {
                         qualityScores[creator] = 0;
                     }
 
-                    qualityScores[creator] += Math.round(level.quality / level.creator.length);
+                    qualityScores[creator] += level.quality;
                 }
             }
         }
@@ -1189,7 +1189,7 @@ function lbDisplay() {
                         averageScores[creator] = { totalQuality: 0, totalLevels: 0 };
                     }
 
-                    averageScores[creator].totalQuality += (level.quality / level.creator.length);
+                    averageScores[creator].totalQuality += level.quality;
                     averageScores[creator].totalLevels++;
                 }
             }
