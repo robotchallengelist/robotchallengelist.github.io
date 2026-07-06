@@ -1,4 +1,4 @@
-function Level(name, points, quality, tier, id, routes, creator, verifier, videolink, records, nong) {
+function Level(name, points, quality, tier, id, routes, creator, verifier, videolink, records, nong, discredited) {
     this.name = name;
     this.points = points;
     this.quality = quality;
@@ -10,6 +10,9 @@ function Level(name, points, quality, tier, id, routes, creator, verifier, video
     this.videolink = videolink;
     this.records = records;
     this.nong = nong;
+    if (discredited) {
+        this.discredited = discredited;
+    };
 }
 
 function Record(name, attempts, enjoyment, opinion, proof) {
@@ -43,7 +46,7 @@ let levels = [
     new Level("The Archive", 116.71, 28, "Amethyst", "144025418", "Any Route", ["Seedskyy73"], "zis08", "https://youtube.com/embed/WMzqMTlys94", [
         new Record("zis08", "14,000", "N/A", "Top 1 (126 points)", "https://medal.tv/games/geometry-dash/clips/n2hFzXOcpzs_9raE2?invite=cr-MSx1a1gsMTY4ODkwOTU4&v=27"),
         new Record("gabimoth", "1,963", "10/10", "110 points", "https://youtu.be/_tn06sN-2MI"),
-    ],false),
+    ], false),
     new Level("ROBOPOLIS       ", 107.93, 10, "Amethyst", "137347848", "Any Route", ["placek3"], "placek3", "https://www.youtube.com/embed/55zSeUXG3VY", [
         new Record("placek3", "17,246", "N/A", "N/A", "https://www.youtube.com/watch?v=55zSeUXG3VY"),
         new Record("EeryTunic", "1,376", "N/A", "Top 1", ""),
@@ -72,7 +75,7 @@ let levels = [
     .##........##.......##.....##....##.....##..##...###.##.....##.##.....##
     .##........########.##.....##....##....####.##....##..#######..##.....##
     */
-   new Level("Cliff Hanger", 94.17, 19, "Platinum", "128936112", "Verification Route", ["zis08"], "zis08", "https://medal.tv/games/geometry-dash/clip/mXrWb3qEK5HXHrUv6?invite=cr-MSxjdFIsMTY4ODkwOTU4&v=17", [
+    new Level("Cliff Hanger", 94.17, 19, "Platinum", "128936112", "Verification Route", ["zis08"], "zis08", "https://medal.tv/games/geometry-dash/clip/mXrWb3qEK5HXHrUv6?invite=cr-MSxjdFIsMTY4ODkwOTU4&v=17", [
         new Record("zis08", "24,337", "8/10", "Low Amethyst Top 1 - 3", "https://medal.tv/games/geometry-dash/clips/mXrWb3qEK5HXHrUv6?invite=cr-MSxjdFIsMTY4ODkwOTU4&v=17"),
         new Record("probro675", "30,584", "3/10", "Top Platinum 97.5", "https://youtu.be/vt_udtW29sc?is=--5NaGLIWd_hMAuz"),
         new Record("RustyGD25", "10,732", "7/10", "high platinum (89 points)", "https://youtu.be/l2hqliZHM-w?si=07aLH7Jk2zRS29QH"),
@@ -412,7 +415,7 @@ let levels = [
         new Record("ariopc", "169", "N/A", "bronze idk", "https://medal.tv/games/geometry-dash/clips/n0fZf3BUoIFjelxPu?invite=cr-MSxrY1gsMjE3MzQ4Mz323&v=33"),
         new Record("Taublix", "75", "6.5/10", "harder than Bot After Ro easier than Black Hole Sun", "https://www.youtube.com/watch?v=el-cli5fLEE"),
         new Record("EndGamer7896", "534", "0/10", "35 list points", "https://medal.tv/games/geometry-dash/clips/n0G3qmifApo0SZAzO?invite=cr-MSxyNHEsNTk1MDYwNDc2"),
-    ], false),
+    ], false, true),
     new Level("Monochrome", 28.47, 7, "Silver", "138015367", "Any Route", ["EndGamer7896"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/muFDSeOPYnZ7XiKEH?invite=cr-MSxwNGEsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "848", "5/10", "Entry Silver, 25 points", "https://medal.tv/games/geometry-dash/clips/muFDSeOPYnZ7XiKEH?invite=cr-MSxwNGEsNTk1MDYwNDc2"),
         new Record("placek3", "N/A", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/mvHzaA57FF0hF7mK5?invite=cr-MSx6RnAsNTk0ODYzMTcx&v=31"),
@@ -1131,13 +1134,15 @@ function lbDisplay() {
 
     let qualityScores = {};
     for (let level of allLevels) {
-        for (let creator of level.creator) {
-            if (level.quality) {
-                if (!qualityScores[creator]) {
-                    qualityScores[creator] = 0;
-                }
+        if (!level.discredited) {
+            for (let creator of level.creator) {
+                if (level.quality) {
+                    if (!qualityScores[creator]) {
+                        qualityScores[creator] = 0;
+                    }
 
-                qualityScores[creator] += Math.round(level.quality / level.creator.length);
+                    qualityScores[creator] += Math.round(level.quality / level.creator.length);
+                }
             }
         }
     };
@@ -1153,12 +1158,14 @@ function lbDisplay() {
 
     let levelsCreated = {};
     for (let level of allLevels) {
-        for (let creator of level.creator) {
-            if (!levelsCreated[creator]) {
-                levelsCreated[creator] = 0;
-            }
+        if (!level.discredited) {
+            for (let creator of level.creator) {
+                if (!levelsCreated[creator]) {
+                    levelsCreated[creator] = 0;
+                }
 
-            levelsCreated[creator]++;
+                levelsCreated[creator]++;
+            }
         }
     };
 
@@ -1175,14 +1182,16 @@ function lbDisplay() {
     let averageScores = {};
 
     for (let level of allLevels) {
-        for (let creator of level.creator) {
-            if (level.quality) {
-                if (!averageScores[creator]) {
-                    averageScores[creator] = { totalQuality: 0, totalLevels: 0 };
-                }
+        if (!level.discredited) {
+            for (let creator of level.creator) {
+                if (level.quality) {
+                    if (!averageScores[creator]) {
+                        averageScores[creator] = { totalQuality: 0, totalLevels: 0 };
+                    }
 
-                averageScores[creator].totalQuality += (level.quality / level.creator.length);
-                averageScores[creator].totalLevels++;
+                    averageScores[creator].totalQuality += (level.quality / level.creator.length);
+                    averageScores[creator].totalLevels++;
+                }
             }
         }
     };
