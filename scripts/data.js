@@ -34,6 +34,19 @@ function Record(name, attempts, enjoyment, opinion, proof) {
 
 let levels = [
     /*
+    ..######.....###....########..########..##.....##.####.########..########
+    .##....##...##.##...##.....##.##.....##.##.....##..##..##.....##.##......
+    .##........##...##..##.....##.##.....##.##.....##..##..##.....##.##......
+    ..######..##.....##.########..########..#########..##..########..######..
+    .......##.#########.##........##........##.....##..##..##...##...##......
+    .##....##.##.....##.##........##........##.....##..##..##....##..##......
+    ..######..##.....##.##........##........##.....##.####.##.....##.########
+    */
+    new Level("Under The Door", 135.3, 29, "Sapphire", "144756481", "Small Skips", ["zis08", "D3adSpac3"], "zis08", "https://youtube.com/embed/jUTj67VonMI?si=va-6ChikFVlQryw0", [
+        new Record("zis08", "34,634", "2/10", "138 Sapphire", "https://www.youtube.com/watch?v=jUTj67VonMI"),
+        new Record("MMB9595", "6,149", "N/A", "High Amethyst-Baseline Sapphire", "https://www.youtube.com/watch?v=VJgeav_IPz4"),
+    ], "/nongs/Under The Door.mp3"),
+    /*
     ....###....##.....##.########.########.##.....##.##....##..######..########
     ...##.##...###...###.##..........##....##.....##..##..##..##....##....##...
     ..##...##..####.####.##..........##....##.....##...####...##..........##...
@@ -42,7 +55,6 @@ let levels = [
     .##.....##.##.....##.##..........##....##.....##....##....##....##....##...
     .##.....##.##.....##.########....##....##.....##....##.....######.....##...
     */
-    // new Level("test", 250, 100, "Obsidian", "N/A", "Any Route", "Test123", "Test123", "https://clips.twitch.tv/embed?clip=RenownedAmericanFriseeDxAbomb-SlDXfPFhO1yBDc89&parent=robotchallengelist.github.io", [], false),
     new Level("Heliorobo", 118.02, 12, "Amethyst", "138007569", "Small Skips", ["XanderGMDD"], "gabimoth", "https://youtube.com/embed/tBylVjJdLeE", [
         new Record("gabimoth", "12,868", "3/10", "115 Points (Top 1)", "https://www.youtube.com/watch?v=tBylVjJdLeE"),
         new Record("ariopc", "24,603", "7.5/10", "At LEAST harder than mad prophets and oxidized", "https://medal.tv/games/geometry-dash/clips/n55LNg0PlNgEdqb9F?invite=cr-MSxrMjYsMjE3MzQ4MzIz&v=51"),
@@ -149,7 +161,7 @@ let levels = [
         new Record("zis08", "2,984", "10/10", "85", "https://medal.tv/games/geometry-dash/clips/n2fPs57MFb5Zjp2Cl?invite=cr-MSxlUk8sMTY4ODkwOTU4&v=19"),
         new Record("ariopc", "1,240", "9.5/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n2lAWUpB1fcB3Sm_z?invite=cr-MSxEQ2ssMjE3MzQ4MzIz&v=24"),
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
-        new Record("Taublix", "1,223", "9/10", "Placed fine aka harder than Shardiopolis easier than rubrub",  "https://www.youtube.com/watch?v=OMSDSr_4ouI"),
+        new Record("Taublix", "1,223", "9/10", "Placed fine aka harder than Shardiopolis easier than rubrub", "https://www.youtube.com/watch?v=OMSDSr_4ouI"),
     ], false),
     new Level("Robotic Exurtion", 77.7, 5, "Platinum", "144036114", "Verification Route", ["XanderGMDD"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n2nMbV60hbspRHfKP?invite=cr-MSwyRUEsMjE3MzQ4MzIz&v=55", [
         new Record("ariopc", "2,918", "0/10", "80 list points, i consider this my current 2nd hardest but i feel like im overrating it", "https://medal.tv/games/geometry-dash/clips/n2nMbV60hbspRHfKP?invite=cr-MSwyRUEsMjE3MzQ4MzIz&v=55"),
@@ -917,7 +929,8 @@ let levels = [
         new Record("ariopc", "47", "9/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n3MTwC4JOClpxa2_2?invite=cr-MSxubTUsMjE3MzQ4MzIz&v=22"),
         new Record("zis08", "133", "10/10", "easy", "https://medal.tv/games/geometry-dash/clips/n4U9swU7EzTuqZug2?invite=cr-MSxuTWssMTY4ODkwOTU4&v=17"),
         new Record("probro675", "67", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
-        new Record("Nuridint3b", "98", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5")
+        new Record("Nuridint3b", "98", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("Clockworkers", "477", "8/10", "first level beaten, deserves its current place", "https://medal.tv/games/geometry-dash/clips/n7hWAhZcCel6qAlFu?invite=cr-MSxwdHAsNDE0ODI1MTMy"),
     ], false),
     new Level("i hate this gamemode", 16.42, 6, "Bronze", "142417158", "Verification Route", ["JaggerC12"], "JaggerC12", "https://youtube.com/embed/vFp0R1lZTwk", [
         new Record("JaggerC12", "111", "8/10", "harder than Robot On Track easier than Robogeist", "https://www.youtube.com/watch?v=vFp0R1lZTwk"),
@@ -1332,7 +1345,8 @@ let levels = [
         new Record("PurpleSpace000", "N/A", "N/A", "idk keep it where it is", "https://youtu.be/G-SeUGekCV4"),
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
         new Record("probro675", "18", "N/A", "Entry Bronze 1.5 points", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
-        new Record("Nuridint3b", "7", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5")
+        new Record("Nuridint3b", "7", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("crazyjordianaya", "19", "7/10", "low bronze", "https://medal.tv/games/geometry-dash/clips/n7alRknIOfIvzkA-V?invite=cr-MSxhSUMsNjI4NTAzOTgy"),
     ], false),
 
     /*
