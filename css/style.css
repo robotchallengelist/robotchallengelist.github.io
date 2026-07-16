@@ -353,13 +353,13 @@ th {
     color: #f6b26b;
 }
 
-.listMod {
+.moderator {
     color: #ffd966;
 }
 
-.serverMod {
+/* .serverMod {
     color: #ffe599;
-}
+} */
 
 .helper {
     color: #fff2cc;
