@@ -34,6 +34,19 @@ function Record(name, attempts, enjoyment, opinion, proof) {
 
 let levels = [
     /*
+    .########..##.....##.########..##....##
+    .##.....##.##.....##.##.....##..##..##.
+    .##.....##.##.....##.##.....##...####..
+    .########..##.....##.########.....##...
+    .##...##...##.....##.##.....##....##...
+    .##....##..##.....##.##.....##....##...
+    .##.....##..#######..########.....##...
+    */
+    new Level("Cave A Neer (zis08)", 152.13, 10, "Ruby", "131713130", "Small Skips", ["zis08"], "MMB9595", "https://youtube.com/embed/wa4zLyBFaho", [
+        new Record("MMB9595", "21,086", "7.1/10", "Top 1 RCL. I Estimated (and others) it to be around low ruby tier", "https://www.youtube.com/watch?v=wa4zLyBFaho"),
+        new Record("zis08", "45,381", "7/10", "156 Low Ruby", "https://youtu.be/7vp7MYNVkGk?is=xIJ1vBqrp0KjT_hn"),
+    ], "/nongs/Cave A Neer.mp3"),
+    /*
     ..######.....###....########..########..##.....##.####.########..########
     .##....##...##.##...##.....##.##.....##.##.....##..##..##.....##.##......
     .##........##...##..##.....##.##.....##.##.....##..##..##.....##.##......
@@ -190,7 +203,8 @@ let levels = [
         new Record("TheUnoKing9", "4,008", "5/10", "Definitely Platinum", "https://youtu.be/PQk0du_fRas"),
         new Record("ariopc", "1,113", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n4JzTyah5Xlvf7TMX?invite=cr-MSxPNUwsMjE3MzQ4MzIz"),
         new Record("EndGamer7896", "3,670", "7/10", "Model Platinum, 75 points", "https://medal.tv/games/geometry-dash/clips/n6vmlVOXwYJKlSR1_?invite=cr-MSx6eWEsNTk1MDYwNDc2"),
-        new Record("Nuridint3b", "1,969", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5")
+        new Record("Nuridint3b", "1,969", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("LightShadow5", "1,516", "8.7/10", "N/A", "https://youtu.be/hPYeHfrNjzw?is=Mte1rinLicsZrIjg"),
     ], false),
 
     /*
@@ -375,6 +389,9 @@ let levels = [
         new Record("ariopc", "1,672", "0/10", "Harder than where it is now", "https://medal.tv/games/geometry-dash/clips/mWzscZKGc6b-0bK20?invite=cr-MSxqTG4sMjE3MzQ4MzIz"),
         new Record("gabimoth", "624", "N/A", "N/A", "https://youtu.be/EdvD0Q-u98o"),
     ], false),
+    new Level("robot but uwu ig idk", 58.25, 3, "Gold", "141419232", "Verification Route", ["xpfinker812"], "zeroskills", "https://www.youtube.com/embed/u6VuhNvsnjA", [
+        new Record("zeroskills", "1,451", "5/10", "low gold (50-55 points)", "https://www.youtube.com/watch?v=u6VuhNvsnjA"),
+    ], false),
     new Level("PHASEphasePHASEphase", 57.93, 26, "Gold", "144256512", "Verification Route", ["zis08", "ariopc", "XanderGMDD"], "zis08", "https://medal.tv/games/geometry-dash/clip/n3BUJePpw6UzuA2E8?invite=cr-MSxNaEMsMTY4ODkwOTU4&v=20", [
         new Record("zis08", "911", "1/10", "idk", "https://medal.tv/games/geometry-dash/clips/n3BUJePpw6UzuA2E8?invite=cr-MSxNaEMsMTY4ODkwOTU4&v=20"),
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/hg-Bo5igsL4"),
@@ -395,6 +412,9 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9gaiNP4aZnw"),
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
         new Record("probro675", "834", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
+    ], false),
+    new Level("denouebot", 55.49, 6, "Gold", "145165142", "Small Skips", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n8V5DNEzTQ7cEJ8-A?invite=cr-MSxKcTUsMjE3MzQ4MzIz", [
+        new Record("ariopc", "2,061", "8/10", "low gold?", "https://medal.tv/games/geometry-dash/clips/n8V5DNEzTQ7cEJ8-A?invite=cr-MSxKcTUsMjE3MzQ4MzIz"),
     ], false),
     new Level("is life worth living", 55.13, 27, "Gold", "142923554", "Verification Route", ["Komically"], "Komically", "https://youtube.com/embed/BcOpJuh1Be8", [
         new Record("Komically", "999", "9.5/10", "Low Gold", "https://www.youtube.com/watch?v=BcOpJuh1Be8"),
@@ -1502,7 +1522,8 @@ let displacement = [
     .##........##.....##.##....##..##....##..##.....##....##....##.....##.##....##.....##...
     .##.........#######..##.....##..######...##.....##....##.....#######..##.....##....##...
     */
-    new Level("PLEASE PLEASE SPEED", 0, 0, "Purgatory", "143122348", "Any Route", ["MMB9595"], "MMB9595", "https://youtube.com/embed/vD0fXSHj56Q&t=5s", [], false),
+    new Level("Shardscapes", 0, 0, "Purgatory", "79997992", "Small Skips", ["ItzKiba"], "yyyoshigd", "https://www.youtube.com/embed/UV_Nh6qDj4I?is=LSKcgUIAde3bM5Ko", [], false),
+    new Level("PLEASE PLEASE SPEED", 0, 0, "Purgatory", "143122348", "Any Route", ["MMB9595"], "MMB9595", "https://youtube.com/embed/vD0fXSHj56Q", [], false),
     new Level("Evil Death 1", 0, 2, "Purgatory", "143122349", "Any Route", ["4096Tristan"], "4096Tristan", "https://youtube.com/embed/5mKMGGpn_LY", [], false),
     new Level("ball fondling challenge", 0, 0, "Purgatory", "108970071", "Any Route", ["bunibus"], "tFluffy", "https://www.youtube.com/embed/shqywNEj1zk", [], false),
     new Level("qplaskmzxncbrvgfhywe", 0, 1, "Purgatory", "143173113", "Any Route", ["FoldedZero"], "FoldedZero", "https://www.youtube.com/embed/brpsQqoDpUk", [], false),
@@ -1637,7 +1658,7 @@ function lbDisplay() {
 
     let levelsCreated = {};
     for (let level of allLevels) {
-        if (!level.discredited) {
+        if (!level.discredited && level.quality) {
             for (let creator of level.creator) {
                 if (!levelsCreated[creator]) {
                     levelsCreated[creator] = 0;
