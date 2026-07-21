@@ -445,6 +445,9 @@ let levels = [
         new Record("Tomatokatsup", "479", "5/10", "somewhere in silver idc", "https://www.youtube.com/watch?v=5BELjbW5xDY"),
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9gaiNP4aZnw"),
     ], "/nongs/robotnics, Meemaws Brisket.mp3"),
+    new Level("ROBATH", 53.06, 9, "Gold", "145152916", "Small Skips", ["Seedskyy73"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n9jUA4xay6mZaVHzh?invite=cr-MSxBZDQsMjE3MzQ4MzIz", [
+        new Record("ariopc", "723", "7/10", "like high silver or entry gold", "https://medal.tv/games/geometry-dash/clips/n9jUA4xay6mZaVHzh?invite=cr-MSxBZDQsMjE3MzQ4MzIz"),
+    ], false),
     new Level("Gold Temple", 51.47, 4, "Gold", "136720720", "Any Route", ["XanderGMDD"], "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/morBvhE7In0RYdbUN?invite=cr-MSx3WGQsNTkwMDQ5Mzc3", [
         new Record("XanderGMDD", "N/A", "N/A", "45-49 points", "https://medal.tv/games/geometry-dash/clips/morBvhE7In0RYdbUN?invite=cr-MSx3WGQsNTkwMDQ5Mzc3"),
         new Record("Farlayy", "N/A", "N/A", "N/A", ""),
