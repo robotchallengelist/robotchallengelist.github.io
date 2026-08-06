@@ -56,7 +56,7 @@ let levels = [
     .##....##.##.....##.##........##........##.....##..##..##....##..##......
     ..######..##.....##.##........##........##.....##.####.##.....##.########
     */
-    new Level("Under The Door", 128.64, 29, "Sapphire", "144756481", "Small Skips", ["zis08", "D3adSpac3"], "zis08", "https://youtube.com/embed/jUTj67VonMI?si=va-6ChikFVlQryw0", [
+    new Level("Under The Door", 128.36, 29, "Sapphire", "144756481", "Small Skips", ["zis08", "D3adSpac3"], "zis08", "https://youtube.com/embed/jUTj67VonMI?si=va-6ChikFVlQryw0", [
         new Record("zis08", "34,634", "2/10", "138 Sapphire", "https://www.youtube.com/watch?v=jUTj67VonMI"),
         new Record("MMB9595", "6,149", "N/A", "High Amethyst-Baseline Sapphire", "https://www.youtube.com/watch?v=VJgeav_IPz4"),
     ], "/nongs/Under The Door, Under The Door world.mp3"),
@@ -69,19 +69,22 @@ let levels = [
     .##.....##.##.....##.##..........##....##.....##....##....##....##....##...
     .##.....##.##.....##.########....##....##.....##....##.....######.....##...
     */
-    new Level("Heliorobo", 120.75, 12, "Amethyst", "138007569", "Small Skips", ["XanderGMDD"], "gabimoth", "https://youtube.com/embed/tBylVjJdLeE", [
+    new Level("Heliorobo", 121.8, 12, "Amethyst", "138007569", "Small Skips", ["XanderGMDD"], "gabimoth", "https://youtube.com/embed/tBylVjJdLeE", [
         new Record("gabimoth", "12,868", "3/10", "115 Points (Top 1)", "https://www.youtube.com/watch?v=tBylVjJdLeE"),
         new Record("ariopc", "24,603", "7.5/10", "At LEAST harder than mad prophets and oxidized", "https://medal.tv/games/geometry-dash/clips/n55LNg0PlNgEdqb9F?invite=cr-MSxrMjYsMjE3MzQ4MzIz&v=51"),
     ], false),
-    new Level("ROBOTTOM", 116.67, 23, "Amethyst", "144720711", "Small Skips", ["Seedskyy73"], "Tomatokatsup", "https://youtube.com/embed/4AbpdyVfTkE", [
+    new Level("ROBOTTOM", 120.25, 23, "Amethyst", "144720711", "Small Skips", ["Seedskyy73"], "Tomatokatsup", "https://youtube.com/embed/4AbpdyVfTkE", [
         new Record("Tomatokatsup", "19,015", "4/10", "top 3 probs since from what little played of the archive it felt harder than that", "https://www.youtube.com/watch?v=4AbpdyVfTkE"),
     ], false),
-    new Level("The Archive", 114.88, 28, "Amethyst", "144025418", "Any Route", ["Seedskyy73"], "zis08", "https://youtube.com/embed/WMzqMTlys94", [
+    new Level("Supercharged", 116.5, 21, "Amethyst", "145983576", "Any Route", ["Taublix"], "Taublix", "https://youtube.com/embed/y5zUWuNylco", [
+        new Record("Taublix", "6,430", "8/10", "at least harder than Memristor in my opinion, I did get kinda unlucky tho so idk by how much", "https://www.youtube.com/watch?v=y5zUWuNylco"),
+    ], false),
+    new Level("The Archive", 114.63, 28, "Amethyst", "144025418", "Any Route", ["Seedskyy73"], "zis08", "https://youtube.com/embed/WMzqMTlys94", [
         new Record("zis08", "14,000", "N/A", "Top 1 (126 points)", "https://medal.tv/games/geometry-dash/clips/n2hFzXOcpzs_9raE2?invite=cr-MSx1a1gsMTY4ODkwOTU4&v=27"),
         new Record("gabimoth", "1,963", "10/10", "110 points", "https://youtu.be/_tn06sN-2MI"),
         new Record("MMB9595", "2,000", "8.8/10", "108 points", "https://www.youtube.com/watch?v=eEt_cDjWVe4"),
     ], false),
-    new Level("ROBOPOLIS       ", 108.29, 10, "Amethyst", "137347848", "Any Route", ["placek3"], "placek3", "https://www.youtube.com/embed/55zSeUXG3VY", [
+    new Level("ROBOPOLIS       ", 109.54, 10, "Amethyst", "137347848", "Any Route", ["placek3"], "placek3", "https://www.youtube.com/embed/55zSeUXG3VY", [
         new Record("placek3", "17,246", "N/A", "N/A", "https://www.youtube.com/watch?v=55zSeUXG3VY"),
         new Record("EeryTunic", "1,376", "N/A", "Top 1", ""),
         new Record("gabimoth", "9,360", "1/10", "110 points", "https://youtu.be/lxlyI8UVcHk"),
@@ -94,7 +97,7 @@ let levels = [
         new Record("Monkeyboy21", "11,839", "2/10", "Top 1-2, 110 points", "https://medal.tv/games/geometry-dash/clips/mZpmBcvWAVfXTs28w?invite=cr-MSxFUkQsMTk0NjAyNjk3&v=46"),
         new Record("gabimoth", "2,900", "8/10", "Still 103 Points", "https://youtu.be/DjeUBFhtNSo"),
     ], false),
-    new Level("Mad Prophets", 103.2, 12, "Amethyst", "140134987", "Any Route", ["Farlayy"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mGyEUN2HMTp9yPEph?invite=cr-MSxscmEsNTk1MDYwNDc2", [
+    new Level("Mad Prophets", 103.2, 12, "Amethyst", "140134987", "Any Route", ["iMintyGreen"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mGyEUN2HMTp9yPEph?invite=cr-MSxscmEsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "13,574", "8/10", "Low Amethyst, 100-105 points", "https://medal.tv/games/geometry-dash/clips/mGyEUN2HMTp9yPEph?invite=cr-MSxscmEsNTk1MDYwNDc2"),
         new Record("Beefyikes", "4,500", "6/10", "Probably top 1", "https://youtu.be/LzfdYC6YebQ"),
         new Record("gabimoth", "4,570", "6.5/10", "104 points", "https://youtu.be/L0I2_sBApE4"),
@@ -122,6 +125,9 @@ let levels = [
     new Level("Memristor", 94.05, 3, "Platinum", "143820046", "Verification Route", ["Taublix"], "Taublix", "https://www.youtube.com/embed/W9Chybc791A", [
         new Record("Taublix", "3,251", "8.5/10", "Platinum, probably my hardest robot challenge considering everyone else has to learn the gameplay", "https://www.youtube.com/watch?v=W9Chybc791A"),
         new Record("gabimoth", "1,417", "10/10", "90 Points", "https://youtu.be/YYGUJ0vGpzc"),
+    ], false),
+    new Level("Gibberlink", 91.02, 6, "Platinum", "144891574", "Verification Route", ["ariopc"], "RustyGD25", "https://www.youtube.com/embed/M26oro2_fMk", [
+        new Record("RustyGD25", "3,891", "2/10", "Top 6-10", "https://www.youtube.com/watch?v=M26oro2_fMk"),
     ], false),
     new Level("ImSoHungryICouldEatA", 89.08, 8, "Platinum", "143601756", "Small Skips", ["Tomatokatsup"], "Tomatokatsup", "https://www.youtube.com/embed/X8CRNrelBxQ", [
         new Record("Tomatokatsup", "10,001", "4/10", "gold-plat probs", "https://www.youtube.com/watch?v=X8CRNrelBxQ"),
@@ -157,7 +163,7 @@ let levels = [
         new Record("probro675", "8,974", "4/10", "Mid Platinum, harder than red scapes", "https://www.youtube.com/watch?v=qNzNxepH3AY"),
         new Record("gabimoth", "9,105", "1/10", "93 Points", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
     ], false),
-    new Level("Fallen Kingdom", 83, 5, "Platinum" , "145655000", "Verification Route", ["RustyGD25"], "RustyGD25", "https://www.youtube.com/embed/h_-eoMCVwhE", [
+    new Level("Fallen Kingdom", 83, 5, "Platinum", "145655000", "Verification Route", ["RustyGD25"], "RustyGD25", "https://www.youtube.com/embed/h_-eoMCVwhE", [
         new Record("RustyGD25", "1,804", "4/10", "mid platnium", "https://www.youtube.com/watch?v=h_-eoMCVwhE"),
     ], "/nongs/Fallen Kingdom.mp3"),
     new Level("rubrub", 82.77, 22, "Platinum", "142653512", "Verification Route", ["Seedskyy73"], "sparked18", "https://youtube.com/embed/Giw-WEDddSM", [
@@ -168,9 +174,12 @@ let levels = [
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
         new Record("Taublix", "1,630", "6.5/10", "placed fine probably", "https://www.youtube.com/watch?v=tJM5IbokCJQ"),
     ], false),
-    new Level("Bot to the Bone", 80.73, 11, "Platinum", "145287208", "Verification Route", ["LightShadow5"], "LightShadow5", "https://youtube.om/embed/ufmfXTWXiPc?is=M09RPu6Q5_fLQUQb", [
-        new Record("LightShadow5", "1,736", "8/10", "Definitely Platinum, I was very wrong about it being Gold", "https://www.youtube.com/watch?v=ufmfXTWXiPc"),
-        new Record("Taublix", "677", "10/10", "N/A", "https://www.youtube.com/watch?v=AWI8zEUSZ5A"),
+    new Level("Robots in the Skies", 82.01, 20, "Platinum", "146195715", "Verification Route", ["LightShadow5"], "LightShadow5", "https://www.youtube.com/embed/9Y6Tflsh5M0?is=fqQ0dXRTwQoGAVt3", [
+        new Record("LightShadow5", "1,387", "8.75/10", "Platinum, within 4 spots easier than Bot to the Bone", "https://www.youtube.com/watch?v=9Y6Tflsh5M0"),
+        new Record("Taublix", "1,211", "9.5/10", "80 points", "https://www.youtube.com/watch?v=P8_4NO38Uo4"),
+    ], false),
+    new Level("guts", 80.46, 33, "Platinum", "145722333", "Verification Route", ["windboss07"], "RustyGD25", "https://www.youtube.com/embed/wjs654NVHNo", [
+        new Record("RustyGD25", "1,306", "0/10", "Top 20-25", "https://www.youtube.com/watch?v=wjs654NVHNo"),
     ], false),
     new Level("Bad ChristmasPresead", 80.38, 10, "Platinum", "145305927", "Verification Route", ["Tomatokatsup"], "RustyGD25", "https://www.youtube.com/embed/cJ8no-s_bk4", [
         new Record("RustyGD25", "1,744", "4/10", "81 points", "https://www.youtube.com/watch?v=cJ8no-s_bk4"),
@@ -181,13 +190,18 @@ let levels = [
         new Record("gabimoth", "448", "4/10", "65 Points", "https://youtu.be/9gaiNP4aZnw"),
         new Record("Taublix", "930", "8.5/10", "fine i guess idk", "https://www.youtube.com/watch?v=3mjx3TlQCnU"),
     ], false),
-    new Level("WELL AGAIN", 78.8, 38, "Platinum", "143964878", "Small Skips", ["gabimoth"], "gabimoth", "https://youtube.com/embed/FGKiEcS9gBo", [
+    new Level("WELL AGAIN", 80.04, 38, "Platinum", "143964878", "Small Skips", ["gabimoth"], "gabimoth", "https://youtube.com/embed/FGKiEcS9gBo", [
         new Record("gabimoth", "405", "9/10", "Low Platinum (80 points)", "https://www.youtube.com/watch?v=FGKiEcS9gBo"),
         new Record("probro675", "664", "10/10", "Low Platinum 80 points", "https://youtu.be/APXYa0_LM6Q?is=Q4fH4uwVX1dS1O8N"),
         new Record("zis08", "2,984", "10/10", "85", "https://medal.tv/games/geometry-dash/clips/n2fPs57MFb5Zjp2Cl?invite=cr-MSxlUk8sMTY4ODkwOTU4&v=19"),
         new Record("ariopc", "1,240", "9.5/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n2lAWUpB1fcB3Sm_z?invite=cr-MSxEQ2ssMjE3MzQ4MzIz&v=24"),
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
         new Record("Taublix", "1,223", "9/10", "Placed fine aka harder than Shardiopolis easier than rubrub", "https://www.youtube.com/watch?v=OMSDSr_4ouI"),
+        new Record("RustyGD25", "1,606", "1.5/10", "mid plat", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
+    new Level("Bot to the Bone", 79.8, 11, "Platinum", "145287208", "Verification Route", ["LightShadow5"], "LightShadow5", "https://youtube.om/embed/ufmfXTWXiPc?is=M09RPu6Q5_fLQUQb", [
+        new Record("LightShadow5", "1,736", "8/10", "Definitely Platinum, I was very wrong about it being Gold", "https://www.youtube.com/watch?v=ufmfXTWXiPc"),
+        new Record("Taublix", "677", "10/10", "N/A", "https://www.youtube.com/watch?v=AWI8zEUSZ5A"),
     ], false),
     new Level("Robotic Exurtion", 77.7, 5, "Platinum", "144036114", "Verification Route", ["XanderGMDD"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n2nMbV60hbspRHfKP?invite=cr-MSwyRUEsMjE3MzQ4MzIz&v=55", [
         new Record("ariopc", "2,918", "0/10", "80 list points, i consider this my current 2nd hardest but i feel like im overrating it", "https://medal.tv/games/geometry-dash/clips/n2nMbV60hbspRHfKP?invite=cr-MSwyRUEsMjE3MzQ4MzIz&v=55"),
@@ -195,7 +209,7 @@ let levels = [
         new Record("gabimoth", "1,449", "5/10", "82 Points", "https://youtu.be/6Afd5TV7HNM"),
         new Record("EndGamer7896", "4,127", "5/10", "78 points", "https://medal.tv/games/geometry-dash/clips/n6wnYlKqHkl3aLbD8?invite=cr-MSxsb3ksNTk1MDYwNDc2"),
     ], "/nongs/Robotic Exurtion, Staticism.mp3"),
-    new Level("Jane 2 and Surge III", 77.33, 2, "Platinum", "144297733", "Verification Route", ["zis08", "Tomatokatsup", "ariopc", "XanderGMDD"], "zis08", "https://medal.tv/games/geometry-dash/clip/n3RjtTCSnRpcFSSKd?invite=cr-MSxIRVMsMTY4ODkwOTU4", [
+    new Level("Jane 2 and Surge III", 77.33, 2, "Platinum", "144297733", "Verification Route", ["zis08", "Tomatokatsup", "XanderGMDD"], "zis08", "https://medal.tv/games/geometry-dash/clip/n3RjtTCSnRpcFSSKd?invite=cr-MSxIRVMsMTY4ODkwOTU4", [
         new Record("zis08", "6,745", "10/10", "90", "https://medal.tv/games/geometry-dash/clips/n3RjtTCSnRpcFSSKd?invite=cr-MSxIRVMsMTY4ODkwOTU4"),
         new Record("gabimoth", "722", "5/10", "65 Points", "https://youtu.be/6Afd5TV7HNM"),
         new Record("EndGamer7896", "3,685", "5/10", "77.5 points", "https://medal.tv/games/geometry-dash/clips/n4P90eMaxr3AMoAMM?invite=cr-MSxneWwsNTk1MDYwNDc2"),
@@ -208,11 +222,8 @@ let levels = [
         new Record("Taublix", "2,091", "7.5/10", "It's my hardest on the list for sure", "https://www.youtube.com/watch?v=ya2wq8Z4LPc"),
         new Record("gabimoth", "780", "7/10", "N/A", "https://youtu.be/9gaiNP4aZnw"),
     ], false),
-    new Level("The Garden", 75.4, 26, "Platinum", "144013653", "Small Skips", ["windboss07"], "gabimoth", "https://youtube.com/embed/7uGwJAl5-Hw", [
-        new Record("gabimoth", "584", "8.5/10", "65 Points", "https://www.youtube.com/watch?v=7uGwJAl5-Hw"),
-        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
-        new Record("zis08", "2,372", "2/10", "i said", "https://medal.tv/games/geometry-dash/clips/n4QyF7opH4ZKKAfqw?invite=cr-MSxwaFUsMTY4ODkwOTU4"),
-        new Record("Taublix", "1,061", "9/10", "76 points", "https://www.youtube.com/watch?v=bNoHVUg8qZs"),
+    new Level("frozen night", 76.57, 31, "Platinum", "145640569", "Small Skips", ["windboss07"], "RustyGD25", "https://www.youtube.com/embed/Ag_qHeDMKN8", [
+        new Record("RustyGD25", "756", "4/10", "Top 25-28", "https://www.youtube.com/watch?v=Ag_qHeDMKN8"),
     ], false),
     new Level("The Platinum Pit RCL", 75, 19, "Platinum", "143539238", "Verification Route", ["probro675"], "probro675", "https://www.youtube.com/embed/wqFJSQUThVM?is=Z1DFmMp4TIm-_f6n", [
         new Record("probro675", "1,272", "8.5/10", "Entry Platinum, 75.3 points", "https://www.youtube.com/watch?v=wqFJSQUThVM?is=Z1DFmMp4TIm-_f6n"),
@@ -224,6 +235,7 @@ let levels = [
         new Record("EndGamer7896", "3,670", "7/10", "Model Platinum, 75 points", "https://medal.tv/games/geometry-dash/clips/n6vmlVOXwYJKlSR1_?invite=cr-MSx6eWEsNTk1MDYwNDc2"),
         new Record("Nuridint3b", "1,969", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("LightShadow5", "1,516", "8.7/10", "N/A", "https://youtu.be/hPYeHfrNjzw?is=Mte1rinLicsZrIjg"),
+        new Record("RustyGD25", "616", "4.5/10", "high gold", "https://youtu.be/RAefoEnAQoc"),
     ], false),
 
     /*
@@ -235,6 +247,12 @@ let levels = [
     .##....##..##.....##.##.......##.....##
     ..######....#######..########.########.
     */
+    new Level("The Garden", 74.6, 26, "Gold", "144013653", "Small Skips", ["windboss07"], "gabimoth", "https://youtube.com/embed/7uGwJAl5-Hw", [
+        new Record("gabimoth", "584", "8.5/10", "65 Points", "https://www.youtube.com/watch?v=7uGwJAl5-Hw"),
+        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
+        new Record("zis08", "2,372", "2/10", "i said", "https://medal.tv/games/geometry-dash/clips/n4QyF7opH4ZKKAfqw?invite=cr-MSxwaFUsMTY4ODkwOTU4"),
+        new Record("Taublix", "1,061", "9/10", "76 points", "https://www.youtube.com/watch?v=bNoHVUg8qZs"),
+    ], false),
     new Level("red scapes", 74.51, 22, "Gold", "142592451", "Small Skips", ["VerdantXD"], "RhiliXZ27", "https://youtube.com/embed/Lwg1J_PJ1wg?si=3bISZIBTNfDJLef0", [
         new Record("RhiliXZ27", "449", "N/A", "#4", "https://www.youtube.com/watch?v=Lwg1J_PJ1wg"),
         new Record("Komically", "1,024", "6/10", "4-5, definitely platinum", "https://youtu.be/GzcOzl152z4"),
@@ -290,7 +308,7 @@ let levels = [
         new Record("probro675", "1,886", "3/10", "Fine", "https://youtu.be/IklVAguvsGg?is=KRd05L7XY1VqOAmP"),
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/hg-Bo5igsL4"),
     ], false),
-    new Level("LULL", 69.19, 13, "Gold", "145244417", "Small Skips", ["zis08"], "zis08", "https://medal.tv/games/geometry-dash/clip/n9oXJ8qMja9xjS7XS?invite=cr-MSxsQlYsMTY4ODkwOTU4", [
+    new Level("LULL", 69.19, 14, "Gold", "145244417", "Small Skips", ["zis08"], "zis08", "https://medal.tv/games/geometry-dash/clip/n9oXJ8qMja9xjS7XS?invite=cr-MSxsQlYsMTY4ODkwOTU4", [
         new Record("zis08", "1,000", "10/10", "idk", "https://medal.tv/games/geometry-dash/clips/n9oXJ8qMja9xjS7XS?invite=cr-MSxsQlYsMTY4ODkwOTU4"),
     ], false),
     new Level("Startide", 68.96, 18, "Gold", "143002445", "Any Route", ["Taublix"], "Taublix", "https://www.youtube.com/embed/2hS4noiyM3I", [
@@ -304,9 +322,10 @@ let levels = [
         new Record("gabimoth", "1,284", "N/A", "80 Points", "https://youtu.be/9gaiNP4aZnw"),
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
     ], false),
-    new Level("stolas", 66.3, 12, "Gold", "145322820", "Verification Route", ["RustyGD25"], "RustyGD25", "https://www.youtube.com/embed/gpXVlKdPxI0", [
+    new Level("stolas", 66.3, 7, "Gold", "145322820", "Verification Route", ["RustyGD25"], "RustyGD25", "https://www.youtube.com/embed/gpXVlKdPxI0", [
         new Record("RustyGD25", "499", "7/10", "55 points", "https://www.youtube.com/watch?v=gpXVlKdPxI0"),
         new Record("Taublix", "749", "7/10", "70 points", "https://www.youtube.com/watch?v=Vbk5rGHOG6g"),
+        new Record("EndGamer7896", "2,283", "7.5/10", "74.5 points", "https://medal.tv/games/geometry-dash/clips/ndvTzrfzyird120-b?invite=cr-MSxnckUsNTk1MDYwNDc2"),
     ], "/nongs/stolas.mp3"),
     new Level("Cherry Blossoms", 65.94, 10, "Gold", "142557887", "Any Route", ["Taublix"], "Taublix", "https://www.youtube.com/embed/Ivr3wYNAHXE", [
         new Record("Taublix", "620", "7/10", "Low gold, around crystal castle difficulty", "https://www.youtube.com/watch?v=Ivr3wYNAHXE"),
@@ -434,6 +453,8 @@ let levels = [
     ], false),
     new Level("level shart", 56.63, 1, "Gold", "145514439", "Small Skips", ["Tomatokatsup", "RustyGD25"], "Tomatokatsup", "https://www.youtube.com/embed/TM8YyIVGeWE", [
         new Record("Tomatokatsup", "1,174", "2/10", "somewhere", "https://www.youtube.com/watch?v=TM8YyIVGeWE"),
+        new Record("RustyGD25", "191", "3/10", "very low gold", "https://youtu.be/RAefoEnAQoc"),
+        new Record("Taublix", "270", "7/10", "51 points", "https://www.youtube.com/watch?v=aX6xWQKJ2sc"),
     ], false),
     new Level("VSR", 56.53, 14, "Gold", "141297381", "Small Skips", ["Vinecke123"], "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/mNp9mDGlV-CqIJwRL?invite=cr-MSxGYWcsMzM2NzY3Njgx&v=32", [
         new Record("XanderGMDD", "901", "8/10", "50-53 points", "https://medal.tv/games/geometry-dash/clips/mNp9mDGlV-CqIJwRL?invite=cr-MSxGYWcsMzM2NzY3Njgx&v=32"),
@@ -454,7 +475,7 @@ let levels = [
         new Record("ariopc", "2,061", "8/10", "low gold?", "https://medal.tv/games/geometry-dash/clips/n8V5DNEzTQ7cEJ8-A?invite=cr-MSxKcTUsMjE3MzQ4MzIz"),
         new Record("Taublix", "314", "6.5/10", "fine I guess", "https://www.youtube.com/watch?v=i0QqwMV7Ddo"),
     ], false),
-    new Level("is life worth living", 55.13, 27, "Gold", "142923554", "Verification Route", ["Komically"], "Komically", "https://youtube.com/embed/BcOpJuh1Be8", [
+    new Level("is life worth living", 55.37, 27, "Gold", "142923554", "Verification Route", ["Komically"], "Komically", "https://youtube.com/embed/BcOpJuh1Be8", [
         new Record("Komically", "999", "9.5/10", "Low Gold", "https://www.youtube.com/watch?v=BcOpJuh1Be8"),
         new Record("Taublix", "309", "10/10", "Low Gold", "https://www.youtube.com/watch?v=DzPUBBskk34"),
         new Record("4096Tristan", "365", "Harder than Gold Temple, easier than robotnics", "https://youtu.be/jvAKH7tAAV0"),
@@ -468,6 +489,12 @@ let levels = [
         new Record("Monkeyboy21", "965", "2/10", "good where it is at", "https://medal.tv/games/geometry-dash/clips/mZOKkKPkDL_P6Mzja?invite=cr-MSxaOGksMTk0NjAyNjk3&v=32"),
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9gaiNP4aZnw"),
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
+        new Record("RustyGD25", "288", "8/10", "low gold", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
+    new Level("ROBATH", 54.54, 8, "Gold", "145152916", "Small Skips", ["Seedskyy73"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n9jUA4xay6mZaVHzh?invite=cr-MSxBZDQsMjE3MzQ4MzIz", [
+        new Record("ariopc", "723", "7/10", "like high silver or entry gold", "https://medal.tv/games/geometry-dash/clips/n9jUA4xay6mZaVHzh?invite=cr-MSxBZDQsMjE3MzQ4MzIz"),
+        new Record("EndGamer7896", "1,947", "6/10", "58.62 points", "https://medal.tv/games/geometry-dash/clips/n9HzmGP5cbEka5Ccw?invite=cr-MSxHc1QsNTk1MDYwNDc2"),
+        new Record("RustyGD25", "352", "7/10", "low gold", "https://youtu.be/RAefoEnAQoc"),
     ], false),
     new Level("grain robot 43", 54.26, 9, "Gold", "142865365", "Small Skips", ["itsGalaxie"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mVMXDBEoY89lr2-ev?invite=cr-MSxzbWgsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "1,250", "1/10", "Easier than SLOWDOWN", "https://medal.tv/games/geometry-dash/clips/mVMXDBEoY89lr2-ev?invite=cr-MSxzbWgsNTk1MDYwNDc2"),
@@ -488,9 +515,6 @@ let levels = [
     ], "/nongs/RCOLDL.mp3"),
     new Level("message me", 53.31, 4, "Gold", "145316404", "Verification Route", ["RustyGD25", "Tomatokatsup"], "RustyGD25", "https://www.youtube.com/embed/DUL2rzvI1O0", [
         new Record("RustyGD25", "683", "5.5/10", "47 points", "https://www.youtube.com/watch?v=DUL2rzvI1O0"),
-    ], false),
-    new Level("ROBATH", 53.06, 8, "Gold", "145152916", "Small Skips", ["Seedskyy73"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n9jUA4xay6mZaVHzh?invite=cr-MSxBZDQsMjE3MzQ4MzIz", [
-        new Record("ariopc", "723", "7/10", "like high silver or entry gold", "https://medal.tv/games/geometry-dash/clips/n9jUA4xay6mZaVHzh?invite=cr-MSxBZDQsMjE3MzQ4MzIz"),
     ], false),
     new Level("Gold Temple", 51.47, 4, "Gold", "136720720", "Any Route", ["XanderGMDD"], "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/morBvhE7In0RYdbUN?invite=cr-MSx3WGQsNTkwMDQ5Mzc3", [
         new Record("XanderGMDD", "N/A", "N/A", "45-49 points", "https://medal.tv/games/geometry-dash/clips/morBvhE7In0RYdbUN?invite=cr-MSx3WGQsNTkwMDQ5Mzc3"),
@@ -519,6 +543,9 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/6Afd5TV7HNM"),
         new Record("ariopc", "717", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n4G7t1o22zxpxXRi6?invite=cr-MSw4dW8sMjE3MzQ4MzIz"),
     ], false),
+    new Level("Gold Digger", 50, 35, "Gold", "144669700", "Verification Route", ["barts0gd"], "Taublix", "https://www.youtube.com/embed/HpW06xZ48lE", [
+        new Record("Taublix", "1,000", "0/10", "N/A", "https://www.youtube.com/watch?v=HpW06xZ48lE"),
+    ], "/nongs/Gold Digger.mp3"),
 
     /*
     ..######..####.##.......##.....##.########.########.
@@ -537,8 +564,9 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/6Afd5TV7HNM"),
         new Record("Nuridint3b", "1,087", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
     ], false),
-    new Level("Obsidian Tier", 49.33, 12, "Silver", "145900523", "Small Skips", ["probro675"], "probro675", "https://www.youtube.com/embed/zyzJ5VoNbjg?is=U4uXH0qmWOM1BG6a", [
+    new Level("Obsidian Tier", 49.33, 10, "Silver", "145900523", "Small Skips", ["probro675"], "probro675", "https://www.youtube.com/embed/zyzJ5VoNbjg?is=U4uXH0qmWOM1BG6a", [
         new Record("probro675", "133", "0/10", "High/Top Silver", "https://youtu.be/zyzJ5VoNbjg?is=U4uXH0qmWOM1BG6a"),
+        new Record("Taublix", "299", "6/10", "55 points", "https://www.youtube.com/watch?v=aX6xWQKJ2sc"),
     ], false),
     new Level("Shakester", 49.1, 3, "Silver", "85678633", "Any Route", ["Farlayy"], "Farlayy", "https://youtube.com/embed/RAVFhEVV6hE", [
         new Record("Farlayy", "N/A", "N/A", "N/A", "https://youtube.com/watch?v=RAVFhEVV6hE"),
@@ -554,6 +582,11 @@ let levels = [
     ], false),
     new Level("has been placed at", 48.56, 5, "Silver", "145535297", "Verification Route", ["probro675"], "probro675", "https://www.youtube.com/embed/ixAfIgDCweY?is=xMj0wU7WOeVuajnn", [
         new Record("probro675", "483", "1/10", "Low/Mid Silver", "https://youtu.be/ixAfIgDCweY?is=xMj0wU7WOeVuajnn"),
+        new Record("Taublix", "322", "6.5/10", "55 points", "https://www.youtube.com/watch?v=aX6xWQKJ2sc"),
+    ], false),
+    new Level("with a bagfullofgold", 48.17, 17, "Silver", "143689393", "Small Skips", ["windboss07"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/n9HpJsNwPWOFsQzJW?invite=cr-MSx0OHosNTk1MDYwNDc", [
+        new Record("EndGamer7896", "593", "10/10", "50 points 🙏", "https://medal.tv/games/geometry-dash/clips/n0nzokCoIrt7e0vxV?invite=cr-MSw0ZnIsNTk1MDYwNDc2"),
+        new Record("Tomatokatsup", "419", "2/10", "N/A", "https://youtu.be/syOCH1GX9bk"),
     ], false),
     new Level("shard", 48.16, 4, "Silver", "145245525", "Verification Route", ["RustyGD25"], "RustyGD25", "https://www.youtube.com/embed/qOFxuSwM9l4", [
         new Record("RustyGD25", "308", "5/10", "33 points", "https://www.youtube.com/watch?v=qOFxuSwM9l4"),
@@ -584,7 +617,7 @@ let levels = [
         new Record("probro675", "875", "N/A", "Top Silver 48 points", "https://youtu.be/heXSEx_DIAM?is=1HYeEdCsIDWlkrR7"),
         new Record("Nuridint3b", "877", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
     ], false),
-    new Level("jack poop", 42.45, 1, "Silver", "145312743", "Verification Route", ["RustyGD25"], "RustyGD25", "https://youtube.com/embed/4ByHszi6Qu0", [
+    new Level("jack poop", 42.45, 2, "Silver", "145312743", "Verification Route", ["RustyGD25"], "RustyGD25", "https://youtube.com/embed/4ByHszi6Qu0", [
         new Record("RustyGD25", "263", "2/10", "36 points", "https://www.youtube.com/watch?v=4ByHszi6Qu0"),
         new Record("Taublix", "308", "5/10", "high silver or low gold idk the second click is so luck based", "https://www.youtube.com/watch?v=BkKdIP6V_Lc"),
     ], false),
@@ -620,13 +653,14 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
         new Record("Nuridint3b", "4,144", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
     ], false),
-    new Level("Dark City", 39.57, 7, "Silver", "143513881", "Any Route", ["Taublix"], "Taublix", "https://www.youtube.com/embed/e5IoxyJf-9Q", [
+    new Level("Dark City", 39.27, 7, "Silver", "143513881", "Any Route", ["Taublix"], "Taublix", "https://www.youtube.com/embed/e5IoxyJf-9Q", [
         new Record("Taublix", "330", "9.5/10", "harder than Stereo Madness sp 2 easier than dote", "https://www.youtube.com/watch?v=e5IoxyJf-9Q"),
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
         new Record("probro675", "436", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
         new Record("ariopc", "238", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n4FLbe4UxFoAD8uzt?invite=cr-MSxmTHQsMjE3MzQ4MzIz"),
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
         new Record("Nuridint3b", "516", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
+        new Record("RustyGD25", "262", "6.5/10", "mid silver", "https://youtu.be/RAefoEnAQoc"),
     ], false),
     new Level("robopolis copyable 2", 37.64, 9, "Silver", "142803392", "Verification Route", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/mVn9dTu2m39TAgTJ_?invite=cr-MSxqZGgsMjE3MzQ4MzIz&v=42", [
         new Record("ariopc", "809", "9/10", "High Silver / Low Gold", "https://medal.tv/games/geometry-dash/clips/mVn9dTu2m39TAgTJ_?invite=cr-MSxqZGgsMjE3MzQ4Mz23&v=42"),
@@ -645,8 +679,9 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
         new Record("Nuridint3b", "1,720", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
     ], "/nongs/JEALOUSY.mp3", true),
-    new Level("Gold Tier", 35.77, 1, "Silver", "145594622", "Verification Route", ["probro675"], "probro675", "https://www.youtube.com/embed/v52lWVjYaiY?is=rWmKr2WpsSCJzQnA", [
+    new Level("Gold Tier", 35.77, 2, "Silver", "145594622", "Verification Route", ["probro675"], "probro675", "https://www.youtube.com/embed/v52lWVjYaiY?is=rWmKr2WpsSCJzQnA", [
         new Record("probro675", "252", "0/10", "its low gold trustttttttttt me it totally is", "https://youtu.be/v52lWVjYaiY?is=rWmKr2WpsSCJzQnA"),
+        new Record("Taublix", "45", "7/10", "idk I fluked it from 14 lol high bronze maybe", "https://www.youtube.com/watch?v=aX6xWQKJ2sc"),
     ], false),
     new Level("Robot carnival", 33.33, 12, "Silver", "141050126", "Small Skips", ["Vinecke123"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mM5DQxD0WqP97w9pF?invite=cr-MSxtemUsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "576", "6/10", "32 points", "https://medal.tv/games/geometry-dash/clips/mM5DQxD0WqP97w9pF?invite=cr-MSxtemUsNTk1MDYwNDc2"),
@@ -657,6 +692,17 @@ let levels = [
         new Record("probro675", "296", "N/A", "N/A", "https://youtu.be/heXSEx_DIAM?is=1HYeEdCsIDWlkrR7"),
         new Record("Nuridint3b", "234", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
     ], "/nongs/Robot carnival.mp3"),
+    new Level("im crine", 33.29, 11, "Silver", "141834640", "Small Skips", ["probro675"], "probro675", "https://youtube.com/embed/Ikz5KSCTc9Q?si=E_rfGiVsj8ibZMcG", [
+        new Record("probro675", "304", "6.7/10", "Entry/Low Silver", "https://youtu.be/Ikz5KSCTc9Q?si=E_rfGiVsj8ibZMcG"),
+        new Record("EndGamer7896", "396", "10/10", "33.5 points", "https://medal.tv/games/geometry-dash/clips/mQi1epv0UKNns_Gg_?invite=cr-MSxkMWMsNTk1MDYwNDc2"),
+        new Record("ariopc", "589", "9/10", "I don't know", "https://medal.tv/games/geometry-dash/clips/mRWGApLoPpkcBUE2u?invite=cr-MSw2T2osMjE3MzQ4MzIz&v=20"),
+        new Record("Taublix", "158", "6/10", "Placed fine", "https://www.youtube.com/watch?v=ZUVZ8Pda8CQ"),
+        new Record("placek3", "221", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/mYsbZwnmo7SVd_GKF?invite=cr-MSxidHksNTk0ODYzMTcx"),
+        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
+        new Record("Nuridint3b", "959", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
+        new Record("RustyGD25", "367", "7.5/10", "high silver", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
     new Level("First time", 32.68, 9, "Silver", "143484615", "Any Route", ["barts0gd"], "Taublix", "https://www.youtube.com/embed/8QfxcGoaG4E", [
         new Record("Taublix", "307", "7.5/10", "harder than robopolis copyable 2 easier than Torch", "https://www.youtube.com/watch?v=8QfxcGoaG4E"),
         new Record("EndGamer7896", "165", "9/10", "25.5 list points", "https://medal.tv/games/geometry-dash/clips/mZNK8UCBCvv0bWFSb?invite=cr-MSxmZ2osNTk1MDYwNDc2"),
@@ -666,6 +712,14 @@ let levels = [
         new Record("Nuridint3b", "172", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
         new Record("barts0gd", "25", "10/10", "N/A", "https://medal.tv/games/geometry-dash/clips/naOB9UDUNvjRipPY1?invite=cr-MSxEQkssNDExMTQ3ODI3"),
     ], "/nongs/First time.mp3"),
+    new Level("Barts0 MIGHT clear", 32.04, 11, "Silver", "145471800", "Small Skips", ["Taublix"], "barts0gd", "https://medal.tv/games/geometry-dash/clip/naK3Vp7IKUnQGfk7F?invite=cr-MSxCSTMsNDExMTQ3ODI3", [
+        new Record("barts0gd", "100", "9.5/10", "like high bronze to mid silver prob bronze tho", "https://medal.tv/games/geometry-dash/clips/naK3Vp7IKUnQGfk7F?invite=cr-MSxCSTMsNDExMTQ3ODI3"),
+        new Record("LightShadow5", "168", "7.5/10", "Prolly mid-high bronze, maybe even low silver", "https://youtu.be/V-Z7lChSIAg?is=jOmfpB8imLwBVAUb"),
+        new Record("Taublix", "N/A", "9/10", "high bronze low silver maybe idk", "https://www.youtube.com/watch?v=6Uu66IYkeoM"),
+        new Record("Nuridint3b", "405", "N/A", "N/A", "https://youtu.be/-6NI_d4GTx8?si=EvH2f4eTlhU8_hZ0"),
+        new Record("EndGamer7896", "263", "8.5/10", "38.61 points", "https://medal.tv/games/geometry-dash/clips/ncyrigzbibhi4hvwC?invite=cr-MSxNZmksNTk1MDYwNDc2"),
+        new Record("RustyGD25", "48", "7.5/10", "low silver", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
     new Level("endgame is a chud", 31.97, 2, "Silver", "141575973", "Small Skips", ["xpfinker812"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n0Fbtzyq9Kn8T58pi?invite=cr-MSxKTXUsMjE3MzQ4MzIz&v=16", [
         new Record("ariopc", "352", "1/10", "honestly idk, probably top bronze or entry silver", "https://medal.tv/games/geometry-dash/clips/n0Fbtzyq9Kn8T58pi?invite=cr-MSxKTXUsMjE3MzQ4Mz23&v=16"),
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
@@ -682,16 +736,6 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
         new Record("EndGamer7896", "1,040", "7/10", "33.74 list points", "https://medal.tv/games/geometry-dash/clips/n6zmZpmYyGHLcR0LK?invite=cr-MSxhNjQsNTk1MDYwNDc2"),
         new Record("Nuridint3b", "427", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
-    ], false),
-    new Level("im crine", 31.45, 11, "Silver", "141834640", "Small Skips", ["probro675"], "probro675", "https://youtube.com/embed/Ikz5KSCTc9Q?si=E_rfGiVsj8ibZMcG", [
-        new Record("probro675", "304", "6.7/10", "Entry/Low Silver", "https://youtu.be/Ikz5KSCTc9Q?si=E_rfGiVsj8ibZMcG"),
-        new Record("EndGamer7896", "396", "10/10", "33.5 points", "https://medal.tv/games/geometry-dash/clips/mQi1epv0UKNns_Gg_?invite=cr-MSxkMWMsNTk1MDYwNDc2"),
-        new Record("ariopc", "589", "9/10", "I don't know", "https://medal.tv/games/geometry-dash/clips/mRWGApLoPpkcBUE2u?invite=cr-MSw2T2osMjE3MzQ4MzIz&v=20"),
-        new Record("Taublix", "158", "6/10", "Placed fine", "https://www.youtube.com/watch?v=ZUVZ8Pda8CQ"),
-        new Record("placek3", "221", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/mYsbZwnmo7SVd_GKF?invite=cr-MSxidHksNTk0ODYzMTcx"),
-        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
-        new Record("Nuridint3b", "959", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
     ], false),
     new Level("xander is bad at imp", 30.86, 4, "Silver", "143745701", "Verification Route", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n0EzBxGwBakiRg8Mt?invite=cr-MSxEZTIsMjE3MzQ4MzIz&v=32", [
         new Record("ariopc", "N/A", "N/A", "somewhere in silver", "https://medal.tv/games/geometry-dash/clips/n0EzBxGwBakiRg8Mt?invite=cr-MSxEZTIsMjE3MzQ4Mz23&v=32"),
@@ -758,12 +802,6 @@ let levels = [
         new Record("probro675", "299", "N/A", "Mid Silver 36 points", "https://youtu.be/heXSEx_DIAM?is=1HYeEdCsIDWlkrR7"),
         new Record("Nuridint3b", "485", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
     ], "/nongs/Jane, Jane 2 and Surge III.mp3"),
-    new Level("Barts0 MIGHT clear", 27.54, 24, "Silver", "145471800", "Small Skips", ["Taublix"], "barts0gd", "https://medal.tv/games/geometry-dash/clip/naK3Vp7IKUnQGfk7F?invite=cr-MSxCSTMsNDExMTQ3ODI3", [
-        new Record("barts0gd", "100", "9.5/10", "like high bronze to mid silver prob bronze tho", "https://medal.tv/games/geometry-dash/clips/naK3Vp7IKUnQGfk7F?invite=cr-MSxCSTMsNDExMTQ3ODI3"),
-        new Record("LightShadow5", "168", "7.5/10", "Prolly mid-high bronze, maybe even low silver", "https://youtu.be/V-Z7lChSIAg?is=jOmfpB8imLwBVAUb"),
-        new Record("Taublix", "N/A", "9/10", "high bronze low silver maybe idk", "https://www.youtube.com/watch?v=6Uu66IYkeoM"),
-        new Record("Nuridint3b", "405", "N/A", "N/A", "https://youtu.be/-6NI_d4GTx8?si=EvH2f4eTlhU8_hZ0"),
-    ], false),
     new Level("robotomy", 27.07, 9, "Silver", "144965124", "Any Route", ["LightShadow5"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n84UulqWpWSryl7Qg?invite=cr-MSw4bHcsMjE3MzQ4MzIz", [
         new Record("ariopc", "431", "9/10", "no clue, could range from 20-55 points", "https://medal.tv/games/geometry-dash/clips/n84UulqWpWSryl7Qg?invite=cr-MSw4bHcsMjE3MzQ4Mz23"),
         new Record("Nuridint3b", "461", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
@@ -792,6 +830,28 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
         new Record("Nuridint3b", "205", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
     ], false),
+    new Level("Nuclear Facility", 25.82, 10, "Silver", "144385753", "Small Skips", ["Taublix"], "Taublix", "https://youtube.com/embed/d4w3vBZwEkA", [
+        new Record("Taublix", "N/A", "9/10", "idk, high bronze, maybe low silver, it's kinda short", "https://www.youtube.com/watch?v=d4w3vBZwEkA"),
+        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
+        new Record("ariopc", "160", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n4DsbW6xUcC79RT_O?invite=cr-MSxXRGgsMjE3MzQ4MzIz"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
+        new Record("EndGamer7896", "329", "8/10", "14.95", "https://medal.tv/games/geometry-dash/clips/n5bM7ajLFdzoZ6Fn-?invite=cr-MSw0c2EsNTk1MDYwNDc2"),
+        new Record("probro675", "179", "N/A", "N/A", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
+        new Record("Nuridint3b", "135", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("JaggerC12", "41", "8/10", "bronze", "https://youtu.be/TyXVYfG9EEc"),
+        new Record("RustyGD25", "205", "6.5/10", "mid silver", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
+    new Level("Joyous Robot", 25.68, 3, "Silver", "143898096", "Small Skips", ["Tomatokatsup"], "Tomatokatsup", "https://www.youtube.com/embed/uaRDkixIVDY", [
+        new Record("Tomatokatsup", "90", "8/10", "bronze", "https://youtu.be/uaRDkixIVDY"),
+        new Record("Taublix", "125", "5/10", "harder than frostworks easier than Dry Bot", "https://www.youtube.com/watch?v=kqUd0KjJjWU"),
+        new Record("IceCubed88", "253", "N/A", "easier than niche gimmick abuse", "https://youtu.be/tcpx4YQIcqw"),
+        new Record("EndGamer7896", "237", "6/10", "25.1 list points", "https://medal.tv/games/geometry-dash/clips/n2kRp0sHV2FxZEzvy?invite=cr-MSxzMXEsNTk1MDYwNDc2"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
+        new Record("probro675", "162", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
+        new Record("Nuridint3b", "60", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("zis08", "N/A", "N/A", "154 ruby", "https://medal.tv/games/geometry-dash/clips/n6wgIoxQTsUUnBZ06?invite=cr-MSxqNVcsMTY4ODkwOTU4"),
+        new Record("RustyGD25", "182", "1/10", "mid silver", "https://youtu.be/RAefoEnAQoc"),
+    ], "/nongs/Joyous Robot.mp3"),
     new Level("Unnamed 41", 25.32, 4, "Silver", "136714964", "Any Route", ["XanderGMDD"], "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/mopJfH506wMrq0VC-?invite=cr-MSxQdkMsMzM2NzY3Njgx", [
         new Record("XanderGMDD", "N/A", "N/A", "30-33 points", "https://medal.tv/games/geometry-dash/clips/mopJfH506wMrq0VC-?invite=cr-MSxQdkMsMzM2NzY3Njgx"),
         new Record("Farlayy", "N/A", "N/A", "N/A", ""),
@@ -856,7 +916,8 @@ let levels = [
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
         new Record("zis08", "N/A", "4/10", "idk", "https://medal.tv/games/geometry-dash/clips/n4Teen0bWattJFRdL?invite=cr-MSxpanMsMTY4ODkwOTU4&v=32"),
         new Record("probro675", "190", "N/A", "Entry Silver (underrated)", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
-        new Record("Nuridint3b", "161", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5")
+        new Record("Nuridint3b", "161", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("RustyGD25", "48", "7.5/10", "high bronze", "https://youtu.be/RAefoEnAQoc"),
     ], "/nongs/BOY IS A GUN, Gun Wound.mp3"),
     new Level("Dry Bot", 24.6, 3, "Bronze", "141195861", "Any Route", ["EndGamer7896"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mLRLKP6QpVC65O2Jp?invite=cr-MSw3b3QsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "460", "7/10", "Low Silver, 26 points", "https://medal.tv/games/geometry-dash/clips/mLRLKP6QpVC65O2Jp?invite=cr-MSw3b3QsNTk1MDYwNDc2"),
@@ -901,6 +962,13 @@ let levels = [
         new Record("ariopc", "164", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n3WO3BuhDsn6eA5s3?invite=cr-MSwwMWIsMjE3MzQ4MzIz"),
         new Record("Nuridint3b", "80", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5")
     ], "/nongs/WTFB.mp3"),
+    new Level("For The Taking", 24.14, 13, "Bronze", "145544415", "Any Route", ["probro675"], "probro675", "https://www.youtube.com/embed/28i5xPSddhw?is=mabhgPAfICQzMJdn", [
+        new Record("probro675", "18", "7/10", "High Bronze", "https://www.youtube.com/watch?v=28i5xPSddhw?is=mabhgPAfICQzMJdn"),
+        new Record("Taublix", "48", "9.5/10", "15 points", "https://www.youtube.com/watch?v=A3ASUbUptns"),
+        new Record("Nuridint3b", "244", "N/A", "N/A", "https://youtu.be/-6NI_d4GTx8?si=EvH2f4eTlhU8_hZ0"),
+        new Record("EndGamer7896", "205", "8/10", "31.54 points", "https://medal.tv/games/geometry-dash/clips/ncyXUqVV3RbSuGmLC?invite=cr-MSxXdmIsNTk1MDYwNDc2"),
+        new Record("RustyGD25", "112", "6.5/10", "low silver", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
     new Level("Hey", 23.06, 15, "Bronze", "143579023", "Any Route", ["Seedskyy73"], "Seedskyy73", "https://medal.tv/games/geometry-dash/clip/mZMx8islcbGhmWuTp?invite=cr-MSx4dGcsNTI1NzU2MjU4", [
         new Record("Seedskyy73", "156", "N/A", "low-mid bronze", "https://medal.tv/games/geometry-dash/clips/mZMx8islcbGhmWuTp?invite=cr-MSx4dGcsNTI1NzU2MjU4"),
         new Record("Tomatokatsup", "333", "7/10", "N/A", "https://youtu.be/syOCH1GX9bk"),
@@ -927,25 +995,11 @@ let levels = [
         new Record("probro675", "198", "N/A", "N/A", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
         new Record("Nuridint3b", "187", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5")
     ], false),
-    new Level("Joyous Robot", 22.72, 3, "Bronze", "143898096", "Small Skips", ["Tomatokatsup"], "Tomatokatsup", "https://www.youtube.com/embed/uaRDkixIVDY", [
-        new Record("Tomatokatsup", "90", "8/10", "bronze", "https://youtu.be/uaRDkixIVDY"),
-        new Record("Taublix", "125", "5/10", "harder than frostworks easier than Dry Bot", "https://www.youtube.com/watch?v=kqUd0KjJjWU"),
-        new Record("IceCubed88", "253", "N/A", "easier than niche gimmick abuse", "https://youtu.be/tcpx4YQIcqw"),
-        new Record("EndGamer7896", "237", "6/10", "25.1 list points", "https://medal.tv/games/geometry-dash/clips/n2kRp0sHV2FxZEzvy?invite=cr-MSxzMXEsNTk1MDYwNDc2"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
-        new Record("probro675", "162", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
-        new Record("Nuridint3b", "60", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
-        new Record("zis08", "N/A", "N/A", "154 ruby", "https://medal.tv/games/geometry-dash/clips/n6wgIoxQTsUUnBZ06?invite=cr-MSxqNVcsMTY4ODkwOTU4"),
-    ], "/nongs/Joyous Robot.mp3"),
-    new Level("For The Taking", 22.26, 20, "Bronze", "145544415", "Any Route", ["probro675"], "probro675", "https://www.youtube.com/embed/28i5xPSddhw?is=mabhgPAfICQzMJdn", [
-        new Record("probro675", "18", "7/10", "High Bronze", "https://www.youtube.com/watch?v=28i5xPSddhw?is=mabhgPAfICQzMJdn"),
-        new Record("Taublix", "48", "9.5/10", "15 points", "https://www.youtube.com/watch?v=A3ASUbUptns"),
-        new Record("Nuridint3b", "244", "N/A", "N/A", "https://youtu.be/-6NI_d4GTx8?si=EvH2f4eTlhU8_hZ0"),
-    ], false),
     new Level("memory trials III", 22.2, 2, "Bronze", "130006849", "Verification Route", ["RustyGD25"], "RustyGD25", "https://www.youtube.com/embed/WgWp3szb6J0", [
         new Record("RustyGD25", "89", "6.5/10", "25 points", "https://www.youtube.com/watch?v=WgWp3szb6J0"),
         new Record("Taublix", "169", "9.5/10", "20 points", "https://www.youtube.com/watch?v=SDAM0h970bk"),
         new Record("Nuridint3b", "154", "N/A", "N/A", "https://youtu.be/DsH8ZohrTdk?si=ltXZMrBqTtcKdNsT"),
+        new Record("EndGamer7896", "295", "0/10", "21.78 points", "https://medal.tv/games/geometry-dash/clips/ncTFBluxU03CE-vq9?invite=cr-MSxYZnQsNTk1MDYwNDc2"),
     ], "/nongs/memory trials III.mp3"),
     new Level("WfX2", 22.1, 2, "Bronze", "137224701", "Any Route", ["EndGamer7896"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mqTuJ97zO3YjUbd3t?invite=cr-MSxMWUQsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "N/A", "N/A", "22 points", "https://medal.tv/games/geometry-dash/clips/mqTuJ97zO3YjUbd3t?invite=cr-MSxMWUQsNTk1MDYwNDc2"),
@@ -992,10 +1046,7 @@ let levels = [
     ], false),
     new Level("vortrox no", 21.35, 5, "Bronze", "145600338", "Verification Route", ["StumbonGD"], "StumbonGD", "https://www.youtube.com/embed/s76TLJP8tcw", [
         new Record("StumbonGD", "21", "8/10", "bronze", "https://youtu.be/s76TLJP8tcw"),
-    ], false),
-    new Level("Xanders Bday", 20.95, 17, "Bronze", "145426499", "Small Skips", ["barts0gd"], "Taublix", "https://youtube.com/embed/K8hekXC9vr4", [
-        new Record("Taublix", "62", "9.5/10", "harder than Bot After Ro easier than Black Hole Sun", "https://www.youtube.com/watch?v=K8hekXC9vr4"),
-        new Record("LightShadow5", "N/A", "6.5/10", "Bronze fs", "https://youtu.be/-VzVqHvZbbY?is=gioLMAvCM2X8CJni"),
+        new Record("Taublix", "87", "7.5/10", "20 points", "https://www.youtube.com/watch?v=aX6xWQKJ2sc"),
     ], false),
     new Level("Black Hole Sun", 20.76, 3, "Bronze", "142647857", "Small Skips", ["xpfinker812"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mUcRtJAGaNgG1Lgx_?invite=cr-MSxqb3QsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "460", "2/10", "Top Bronze, 21 points", "https://medal.tv/games/geometry-dash/clips/mUcRtJAGaNgG1Lgx_?invite=cr-MSxqb3QsNTk1MDYwNDc2"),
@@ -1010,20 +1061,6 @@ let levels = [
         new Record("probro675", "151", "N/A", "N/A", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
         new Record("Nuridint3b", "85", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5")
     ], "/nongs/Black Hole Sun.mp3"),
-    new Level("Bot After Ro", 20.6, 3, "Bronze", "141400992", "Any Route", ["EndGamer7896"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mME1SeNJ6wppTbBgY?invite=cr-MSxsZWYsNTk1MDYwNDc2", [
-        new Record("EndGamer7896", "168", "6/10", "Low Silver, 28 points", "https://medal.tv/games/geometry-dash/clips/mME1SeNJ6wppTbBgY?invite=cr-MSxsZWYsNTk1MDYwNDc2"),
-        new Record("Monkeyboy21", "111", "6/10", "Good where its at", "https://medal.tv/games/geometry-dash/clips/mPLWS03u0ztbnnkfB?invite=cr-MSxOWVQsMTk0NjAyNjk3&v=30"),
-        new Record("probro675", "65", "8/10", "High Bronze / Entry Silver", "https://youtu.be/6_41MOYUcq0?si=g3xkTQY-zcH3_A9y"),
-        new Record("Taublix", "41", "8/10", "High Bronze", "https://www.youtube.com/watch?v=bzjSDXh6BCY"),
-        new Record("Komically", "61", "8/10", "Just under black hole sun", "https://youtu.be/MfwG1sm_tX0"),
-        new Record("placek3", "113", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/mYr7BEJ6dtO2qKlWw?invite=cr-MSw0M2QsNTk0ODYzMTcx&v=19"),
-        new Record("Tomatokatsup", "120", "1/10", "N/A", "https://youtu.be/syOCH1GX9bk"),
-        new Record("IceCubed88", "285", "N/A", "way easier than glass castle and i hate this gamemode", "https://youtu.be/3gtwxOLCQ74"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
-        new Record("ariopc", "171", "7/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n0xVTejeA7TuIN5g6?invite=cr-MSwxMXEsMjE3MzQ4MzIz&v=28"),
-        new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://youtu.be/zmuGAgykXQM"),
-        new Record("Nuridint3b", "262", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5")
-    ], false),
     new Level("Ape Rotation", 20.36, 3, "Bronze", "136828286", "Any Route", ["EndGamer7896"], "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/moTOrjARmqBTM0OkI?invite=cr-MSw0ZWcsMzM2NzY3Njgx", [
         new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/moTOrjARmqBTM0OkI?invite=cr-MSw0ZWcsMzM2NzY3Njgx"),
         new Record("Farlayy", "N/A", "N/A", "N/A", ""),
@@ -1043,18 +1080,53 @@ let levels = [
         new Record("probro675", "650", "N/A", "TOP OBSIDIAN 999 POINTS", "https://youtu.be/heXSEx_DIAM?is=1HYeEdCsIDWlkrR7"),
         new Record("K1nglert", "106", "7/10", "Idk my 1st level lol", "https://www.youtube.com/watch?v=YuQhWmwpC4U"),
     ], false),
+    new Level("Forgotten Memories", 20.33, 10, "Bronze", "144169863", "Verification Route", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n37znw3ZkJ03Q423E?invite=cr-MSxicE4sMjE3MzQ4MzIz&v=36", [
+        new Record("ariopc", "379", "9/10", "like high bronze maybe?", "https://medal.tv/games/geometry-dash/clips/n37znw3ZkJ03Q423E?invite=cr-MSxicE4sMjE3MzQ4MzIz&v=36"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/YYGUJ0vGpzc"),
+        new Record("Taublix", "39", "8.5/10", "Harder than SLEEPLESS easier than Michishotgun", "https://www.youtube.com/watch?v=OdBRw94oebM"),
+        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
+        new Record("probro675", "131", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
+        new Record("EndGamer7896", "259", "4/10", "22.7 points", "https://medal.tv/games/geometry-dash/clips/n3wks57NQTnl5UGBr?invite=cr-MSx6d2IsNTk1MDYwNDc2"),
+        new Record("Nuridint3b", "131", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("RustyGD25", "68", "7/10", "low silver", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
+    new Level("Bot After Ro", 20.21, 3, "Bronze", "141400992", "Any Route", ["EndGamer7896"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mME1SeNJ6wppTbBgY?invite=cr-MSxsZWYsNTk1MDYwNDc2", [
+        new Record("EndGamer7896", "168", "6/10", "Low Silver, 28 points", "https://medal.tv/games/geometry-dash/clips/mME1SeNJ6wppTbBgY?invite=cr-MSxsZWYsNTk1MDYwNDc2"),
+        new Record("Monkeyboy21", "111", "6/10", "Good where its at", "https://medal.tv/games/geometry-dash/clips/mPLWS03u0ztbnnkfB?invite=cr-MSxOWVQsMTk0NjAyNjk3&v=30"),
+        new Record("probro675", "65", "8/10", "High Bronze / Entry Silver", "https://youtu.be/6_41MOYUcq0?si=g3xkTQY-zcH3_A9y"),
+        new Record("Taublix", "41", "8/10", "High Bronze", "https://www.youtube.com/watch?v=bzjSDXh6BCY"),
+        new Record("Komically", "61", "8/10", "Just under black hole sun", "https://youtu.be/MfwG1sm_tX0"),
+        new Record("placek3", "113", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/mYr7BEJ6dtO2qKlWw?invite=cr-MSw0M2QsNTk0ODYzMTcx&v=19"),
+        new Record("Tomatokatsup", "120", "1/10", "N/A", "https://youtu.be/syOCH1GX9bk"),
+        new Record("IceCubed88", "285", "N/A", "way easier than glass castle and i hate this gamemode", "https://youtu.be/3gtwxOLCQ74"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
+        new Record("ariopc", "171", "7/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n0xVTejeA7TuIN5g6?invite=cr-MSwxMXEsMjE3MzQ4MzIz&v=28"),
+        new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://youtu.be/zmuGAgykXQM"),
+        new Record("Nuridint3b", "262", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("RustyGD25", "74", "5/10", "high bronze", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
     new Level("Sigma balls", 20.19, 4, "Bronze", "145978250", "Verification Route", ["probro675"], "probro675", "https://www.youtube.com/embed/dBwF1pIwgb4?is=TpbdCR7zUCEn541T", [
         new Record("probro675", "96", "1/10", "Top Bronze", "https://www.youtube.com/watch?v=dBwF1pIwgb4?is=TpbdCR7zUCEn541T"),
+        new Record("Taublix", "43", "7/10", "16 points", "https://www.youtube.com/watch?v=aX6xWQKJ2sc"),
     ], false),
-    new Level("Nuclear Facility", 19.98, 10, "Bronze", "144385753", "Small Skips", ["Taublix"], "Taublix", "https://youtube.com/embed/d4w3vBZwEkA", [
-        new Record("Taublix", "N/A", "9/10", "idk, high bronze, maybe low silver, it's kinda short", "https://www.youtube.com/watch?v=d4w3vBZwEkA"),
-        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
-        new Record("ariopc", "160", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n4DsbW6xUcC79RT_O?invite=cr-MSxXRGgsMjE3MzQ4MzIz"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
-        new Record("EndGamer7896", "329", "8/10", "14.95", "https://medal.tv/games/geometry-dash/clips/n5bM7ajLFdzoZ6Fn-?invite=cr-MSw0c2EsNTk1MDYwNDc2"),
-        new Record("probro675", "179", "N/A", "N/A", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
-        new Record("Nuridint3b", "135", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
-        new Record("JaggerC12", "41", "8/10", "bronze", "https://youtu.be/TyXVYfG9EEc"),
+    new Level("Xanders Bday", 19.45, 15, "Bronze", "145426499", "Small Skips", ["barts0gd"], "Taublix", "https://youtube.com/embed/K8hekXC9vr4", [
+        new Record("Taublix", "62", "9.5/10", "harder than Bot After Ro easier than Black Hole Sun", "https://www.youtube.com/watch?v=K8hekXC9vr4"),
+        new Record("LightShadow5", "N/A", "6.5/10", "Bronze fs", "https://youtu.be/-VzVqHvZbbY?is=gioLMAvCM2X8CJni"),
+        new Record("EndGamer7896", "354", "7.5/10", "20.17 points", "https://medal.tv/games/geometry-dash/clips/nbDtwyCi39TRhj-Bf?invite=cr-MSxpNFQsNTk1MDYwNDc2"),
+        new Record("RustyGD25", "71", "7/10", "high bronze", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
+    new Level("i hate this gamemode", 18.72, 6, "Bronze", "142417158", "Verification Route", ["JaggerC12"], "JaggerC12", "https://youtube.com/embed/vFp0R1lZTwk", [
+        new Record("JaggerC12", "111", "8/10", "harder than Robot On Track easier than Robogeist", "https://www.youtube.com/watch?v=vFp0R1lZTwk"),
+        new Record("Taublix", "96", "7.5/10", "harder than Copper Alloy easier than Code Red", "https://www.youtube.com/watch?v=CUyPZ2k86SM"),
+        new Record("EndGamer7896", "163", "6/10", "Harder than City thing", "https://medal.tv/games/geometry-dash/clips/mZtzvpUWnH9r1woB6?invite=cr-MSw5bGwsNTk1MDYwNDc2"),
+        new Record("probro675", "196", "4/10", "N/A", "https://youtu.be/U3QErASdvQg?is=wOZafagE3MkKmlu6"),
+        new Record("Tomatokatsup", "136", "0/10", "N/A", "https://youtu.be/syOCH1GX9bk"),
+        new Record("IceCubed88", "677", "N/A", "good where it is", "https://youtu.be/vztzqKOKQ40"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
+        new Record("zis08", "299", "8/10", "8/10", "https://medal.tv/games/geometry-dash/clips/n33z2ShexjdqslZgp?invite=cr-MSxPa3MsMTY4ODkwOTU4"),
+        new Record("ariopc", "120", "6/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n0xNEil18JCu2jd30?invite=cr-MSxMT2MsMjE3MzQ4MzIz&v=17"),
+        new Record("Nuridint3b", "217", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("RustyGD25", "153", "7.5/10", "Low silver", "https://youtu.be/RAefoEnAQoc"),
     ], false),
     new Level("Glass Castle", 18.58, 7, "Bronze", "136826420", "Any Route", ["XanderGMDD"], "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/moSGRT8hdQ483IsCG?invite=cr-MSw0Uk0sMzM2NzY3Njgx", [
         new Record("XanderGMDD", "287", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/moSGRT8hdQ483IsCG?invite=cr-MSw0Uk0sMzM2NzY3Njgx"),
@@ -1075,16 +1147,7 @@ let levels = [
         new Record("Nuridint3b", "134", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("Clockworkers", "1,703", "2/10", "mid - low tier bronze", "https://medal.tv/games/geometry-dash/clips/n7EQJ9kJpC6rN8WPI?invite=cr-MSxYUTEsNDE0ODI1MTMy"),
     ], false),
-    new Level("Forgotten Memories", 17.29, 10, "Bronze", "144169863", "Verification Route", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/n37znw3ZkJ03Q423E?invite=cr-MSxicE4sMjE3MzQ4MzIz&v=36", [
-        new Record("ariopc", "379", "9/10", "like high bronze maybe?", "https://medal.tv/games/geometry-dash/clips/n37znw3ZkJ03Q423E?invite=cr-MSxicE4sMjE3MzQ4MzIz&v=36"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/YYGUJ0vGpzc"),
-        new Record("Taublix", "39", "8.5/10", "Harder than SLEEPLESS easier than Michishotgun", "https://www.youtube.com/watch?v=OdBRw94oebM"),
-        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
-        new Record("probro675", "131", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
-        new Record("EndGamer7896", "259", "4/10", "22.7 points", "https://medal.tv/games/geometry-dash/clips/n3wks57NQTnl5UGBr?invite=cr-MSx6d2IsNTk1MDYwNDc2"),
-        new Record("Nuridint3b", "131", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5")
-    ], false),
-    new Level("Niche gimmick abuse", 16.85, 5, "Bronze", "143587352", "Small Skips", ["Seedskyy73"], "Seedskyy73", "https://medal.tv/games/geometry-dash/clip/mZOZ8d0GXhdJUh-QV?invite=cr-MSxscTUsNTI1NzU2MjU4", [
+    new Level("Niche gimmick abuse", 16.94, 5, "Bronze", "143587352", "Small Skips", ["Seedskyy73"], "Seedskyy73", "https://medal.tv/games/geometry-dash/clip/mZOZ8d0GXhdJUh-QV?invite=cr-MSxscTUsNTI1NzU2MjU4", [
         new Record("Seedskyy73", "96", "N/A", "high bronze - mid gold", "https://medal.tv/games/geometry-dash/clips/mZOZ8d0GXhdJUh-QV?invite=cr-MSxscTUsNTI1NzU2MjU4"),
         new Record("Taublix", "24", "10/10", "Harder than Waiting for Xander, easier than out of time", "https://www.youtube.com/watch?v=OM_B_EUsDMI"),
         new Record("EndGamer7896", "126", "10/10", "18.94 list points", "https://medal.tv/games/geometry-dash/clips/mZUjuZRYyazjVkJrK?invite=cr-MSx0dG4sNTk1MDYwNDc2"),
@@ -1096,28 +1159,9 @@ let levels = [
         new Record("probro675", "67", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
         new Record("Nuridint3b", "98", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("Clockworkers", "477", "8/10", "first level beaten, deserves its current place", "https://medal.tv/games/geometry-dash/clips/n7hWAhZcCel6qAlFu?invite=cr-MSxwdHAsNDE0ODI1MTMy"),
+        new Record("RustyGD25", "41", "8.5/10", "high bronze", "https://youtu.be/RAefoEnAQoc"),
     ], false),
-    new Level("i hate this gamemode", 16.42, 6, "Bronze", "142417158", "Verification Route", ["JaggerC12"], "JaggerC12", "https://youtube.com/embed/vFp0R1lZTwk", [
-        new Record("JaggerC12", "111", "8/10", "harder than Robot On Track easier than Robogeist", "https://www.youtube.com/watch?v=vFp0R1lZTwk"),
-        new Record("Taublix", "96", "7.5/10", "harder than Copper Alloy easier than Code Red", "https://www.youtube.com/watch?v=CUyPZ2k86SM"),
-        new Record("EndGamer7896", "163", "6/10", "Harder than City thing", "https://medal.tv/games/geometry-dash/clips/mZtzvpUWnH9r1woB6?invite=cr-MSw5bGwsNTk1MDYwNDc2"),
-        new Record("probro675", "196", "4/10", "N/A", "https://youtu.be/U3QErASdvQg?is=wOZafagE3MkKmlu6"),
-        new Record("Tomatokatsup", "136", "0/10", "N/A", "https://youtu.be/syOCH1GX9bk"),
-        new Record("IceCubed88", "677", "N/A", "good where it is", "https://youtu.be/vztzqKOKQ40"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
-        new Record("zis08", "299", "8/10", "8/10", "https://medal.tv/games/geometry-dash/clips/n33z2ShexjdqslZgp?invite=cr-MSxPa3MsMTY4ODkwOTU4"),
-        new Record("ariopc", "120", "6/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n0xNEil18JCu2jd30?invite=cr-MSxMT2MsMjE3MzQ4MzIz&v=17"),
-        new Record("Nuridint3b", "217", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5")
-    ], false),
-    new Level("Gravity 3", 14.88, 3, "Bronze", "145243785", "Small Skips", ["zis08"], "zis08", "https://medal.tv/games/geometry-dash/clip/n9ouf7H6k9ojLSyi_?invite=cr-MSxubzksMTY4ODkwOTU4", [
-        new Record("zis08", "330", "10/10", "idk", "https://medal.tv/games/geometry-dash/clips/n9ouf7H6k9ojLSyi_?invite=cr-MSxubzksMTY4ODkwOTU4"),
-        new Record("Taublix", "52", "8.5/10", "15 points", "https://www.youtube.com/watch?v=58TXVUscxHM"),
-    ], "/nongs/Gravity 3.mp3"),
-    new Level("Glass Dihh", 14.67, 12, "Bronze", "145600721", "Any Route", ["probro675"], "probro675", "https://youtube.com/embed/d42Tv1WG190?is=fNEz_a7wBunPfP9j", [
-        new Record("probro675", "75", "5/10", "Mid Bronze", "https://youtu.be/d42Tv1WG190?is=fNEz_a7wBunPfP9j"),
-        new Record("LightShadow5", "N/A", "4.5/10", "Mid bronze", "https://youtu.be/AD6cXpeBBBA?is=yTHDwftSpM0mrI2-"),
-    ], false),
-    new Level("Answer", 14.63, 10, "Bronze", "144172404", "Any Route", ["Seedskyy73"], "Seedskyy73", "https://medal.tv/games/geometry-dash/clip/n38yuhbWJpqlwm4y-?invite=cr-MSx2bncsNTI1NzU2MjU4", [
+    new Level("Answer", 15.21, 10, "Bronze", "144172404", "Any Route", ["Seedskyy73"], "Seedskyy73", "https://medal.tv/games/geometry-dash/clip/n38yuhbWJpqlwm4y-?invite=cr-MSx2bncsNTI1NzU2MjU4", [
         new Record("Seedskyy73", "116", "9/10", "high bronze", "https://medal.tv/games/geometry-dash/clips/n38yuhbWJpqlwm4y-?invite=cr-MSx2bncsNTI1NzU2MjU4"),
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/YYGUJ0vGpzc"),
         new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://youtu.be/zmuGAgykXQM"),
@@ -1128,7 +1172,19 @@ let levels = [
         new Record("probro675", "300", "N/A", "N/A", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
         new Record("Nuridint3b", "123", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("zis08", "183", "10/10", "idk", "https://medal.tv/games/geometry-dash/clips/n67VtL9iA-y_UDMdo?invite=cr-MSxqd3ksMTY4ODkwOTU4"),
+        new Record("RustyGD25", "124", "6/10", "high bronze", "https://youtu.be/RAefoEnAQoc"),
     ], "nongs/Answer.mp3"),
+    new Level("Gravity 3", 14.88, 2, "Bronze", "145243785", "Small Skips", ["zis08"], "zis08", "https://medal.tv/games/geometry-dash/clip/n9ouf7H6k9ojLSyi_?invite=cr-MSxubzksMTY4ODkwOTU4", [
+        new Record("zis08", "330", "10/10", "idk", "https://medal.tv/games/geometry-dash/clips/n9ouf7H6k9ojLSyi_?invite=cr-MSxubzksMTY4ODkwOTU4"),
+        new Record("Taublix", "52", "8.5/10", "15 points", "https://www.youtube.com/watch?v=58TXVUscxHM"),
+        new Record("EndGamer7896", "177", "6.5/10", "8.53 points", "https://medal.tv/games/geometry-dash/clips/ndwfjaHaaiWWDMx1r?invite=cr-MSxLdVQsNTk1MDYwNDc2"),
+        new Record("RustyGD25", "161", "2/10", "N/A", "https://youtu.be/RAefoEnAQoc"),
+    ], "/nongs/Gravity 3.mp3"),
+    new Level("Glass Dihh", 14.67, 9, "Bronze", "145600721", "Any Route", ["probro675"], "probro675", "https://youtube.com/embed/d42Tv1WG190?is=fNEz_a7wBunPfP9j", [
+        new Record("probro675", "75", "5/10", "Mid Bronze", "https://youtu.be/d42Tv1WG190?is=fNEz_a7wBunPfP9j"),
+        new Record("LightShadow5", "N/A", "4.5/10", "Mid bronze", "https://youtu.be/AD6cXpeBBBA?is=yTHDwftSpM0mrI2-"),
+        new Record("Taublix", "17", "8.5/10", "9 points", "https://www.youtube.com/watch?v=aX6xWQKJ2sc"),
+    ], false),
     new Level("Code Red", 14.55, 5, "Bronze", "136724597", "Any Route", ["XanderGMDD"], "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/moteytWTL6Ggwm_P1?invite=cr-MSw0QkQsMzM2NzY3Njgx", [
         new Record("XanderGMDD", "22", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/moteytWTL6Ggwm_P1?invite=cr-MSw0QkQsMzM2NzY3Njgx"),
         new Record("Farlayy", "N/A", "N/A", "N/A", ""),
@@ -1161,7 +1217,7 @@ let levels = [
         new Record("Nuridint3b", "286", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("probro675", "167", "N/A", "N/A", "https://youtu.be/heXSEx_DIAM?is=1HYeEdCsIDWlkrR7"),
     ], false),
-    new Level("LOOC", 12.63, 16, "Bronze", "143931953", "Any Route", ["barts0gd"], "Taublix", "https://youtube.com/embed/lVgMVBd8o94", [
+    new Level("LOOC", 13.44, 16, "Bronze", "143931953", "Any Route", ["barts0gd"], "Taublix", "https://youtube.com/embed/lVgMVBd8o94", [
         new Record("Taublix", "28", "9.5/10", "harder than Copper Alloy easier than lowk ima milk", "https://www.youtube.com/watch?v=lVgMVBd8o94"),
         new Record("probro675", "38", "8/10", "Low Bronze", "https://youtu.be/EvG1x6vBjoU?is=zz2gstwlE7gMNREL"),
         new Record("IceCubed88", "87", "N/A", "good where it is", "https://youtu.be/tcpx4YQIcqw"),
@@ -1173,7 +1229,22 @@ let levels = [
         new Record("ariopc", "61", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n3SKOTMq7GgIRhJtE?invite=cr-MSw3ZmYsMjE3MzQ4MzIz"),
         new Record("Nuridint3b", "23", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+        new Record("RustyGD25", "31", "6.5/10", "high bronze", "https://youtu.be/RAefoEnAQoc"),
     ], false),
+    new Level("BOY IS A GUN", 12.92, 5, "Bronze", "143823588", "Any Route", ["Seedskyy73"], "Seedskyy73", "https://medal.tv/games/geometry-dash/clip/n18aQEX8SqjqG7-uC?invite=cr-MSxpdnIsNTI1NzU2MjU4", [
+        new Record("Seedskyy73", "32", "N/A", "low-mid bronze", "https://medal.tv/games/geometry-dash/clips/n18aQEX8SqjqG7-uC?invite=cr-MSxpdnIsNTI1NzU2MjU4"),
+        new Record("Taublix", "18", "7.5/10", "Harder than Robogeist easier than Waiting for Xander", "https://www.youtube.com/watch?v=9LHOvyYxlzc"),
+        new Record("barts0gd", "80", "5/10", "kinda underrated or SLEEPLESS is overrated", "https://medal.tv/games/geometry-dash/clips/n1NRRewQJSD8NPj3G?invite=cr-MSxYY20sNDExMTQ3ODI3&v=30"),
+        new Record("EndGamer7896", "276", "3/10", "12.17 list points", "https://medal.tv/games/geometry-dash/clips/n1uiaub9mw4y8SWiT?invite=cr-MSxrZG8sNTk1MDYwNDc2"),
+        new Record("IceCubed88", "92", "N/A", "good where it is, maybe slightly easier than sleepless", "https://youtu.be/vztzqKOKQ40"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
+        new Record("zis08", "154", "6/10", "idk", "https://medal.tv/games/geometry-dash/clips/n33lnRf65iT_zuyfD?invite=cr-MSxyTkksMTY4ODkwOTU4&v=25"),
+        new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://youtu.be/WvcBTEm-zQw"),
+        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
+        new Record("probro675", "62", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
+        new Record("Nuridint3b", "33", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+    ], "/nongs/BOY IS A GUN, Gun Wound.mp3"),
     new Level("Copper Alloy", 12.54, 10, "Bronze", "136109854", "Any Route", ["sourceerrortxt"], "sourceerrortxt", "https://www.youtube.com/embed/VmPu-EKcZdA", [
         new Record("sourceerrortxt", "N/A", "N/A", "N/A", "https://www.youtube.com/watch?v=VmPu-EKcZdA"),
         new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/mnZAoJaXVRQShSpCM?invite=cr-MSw4c28sMzM2NzY3Njgx"),
@@ -1199,20 +1270,6 @@ let levels = [
         new Record("Nuridint3b", "92", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
     ], false),
-    new Level("BOY IS A GUN", 12.16, 5, "Bronze", "143823588", "Any Route", ["Seedskyy73"], "Seedskyy73", "https://medal.tv/games/geometry-dash/clip/n18aQEX8SqjqG7-uC?invite=cr-MSxpdnIsNTI1NzU2MjU4", [
-        new Record("Seedskyy73", "32", "N/A", "low-mid bronze", "https://medal.tv/games/geometry-dash/clips/n18aQEX8SqjqG7-uC?invite=cr-MSxpdnIsNTI1NzU2MjU4"),
-        new Record("Taublix", "18", "7.5/10", "Harder than Robogeist easier than Waiting for Xander", "https://www.youtube.com/watch?v=9LHOvyYxlzc"),
-        new Record("barts0gd", "80", "5/10", "kinda underrated or SLEEPLESS is overrated", "https://medal.tv/games/geometry-dash/clips/n1NRRewQJSD8NPj3G?invite=cr-MSxYY20sNDExMTQ3ODI3&v=30"),
-        new Record("EndGamer7896", "276", "3/10", "12.17 list points", "https://medal.tv/games/geometry-dash/clips/n1uiaub9mw4y8SWiT?invite=cr-MSxrZG8sNTk1MDYwNDc2"),
-        new Record("IceCubed88", "92", "N/A", "good where it is, maybe slightly easier than sleepless", "https://youtu.be/vztzqKOKQ40"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
-        new Record("zis08", "154", "6/10", "idk", "https://medal.tv/games/geometry-dash/clips/n33lnRf65iT_zuyfD?invite=cr-MSxyTkksMTY4ODkwOTU4&v=25"),
-        new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://youtu.be/WvcBTEm-zQw"),
-        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
-        new Record("probro675", "62", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
-        new Record("Nuridint3b", "33", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
-        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
-    ], "/nongs/BOY IS A GUN, Gun Wound.mp3"),
     new Level("lowk ima milk", 11.08, 6, "Bronze", "137206383", "Any Route", ["XanderGMDD"], "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/mqNYtIqiHqWQ7WwEe?invite=cr-MSxDRHosMzM2NzY3Njgx", [
         new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/mqNYtIqiHqWQ7WwEe?invite=cr-MSxDRHosMzM2NzY3Njgx"),
         new Record("EndGamer7896", "N/A", "N/A", "14 points", "https://medal.tv/games/geometry-dash/clips/mqPeuiCgBLmQWJY6g?invite=cr-MSwwb2EsNTk1MDYwNDc2"),
@@ -1233,6 +1290,13 @@ let levels = [
         new Record("RustyGD25", "40", "6/10", "3.9 points", "https://www.youtube.com/watch?v=VAiK7vUUe-g"),
         new Record("Nuridint3b", "129", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+    ], false),
+    new Level("L Upside Down L", 10.87, 4, "Bronze", "Small Skips", "145517187", ["pillow112"], "pillow112", "https://www.youtube.com/embed/xgQZndhOGN0", [
+        new Record("pillow112", "18", "4/10", "idk bro like bronze probably", "https://www.youtube.com/embed/xgQZndhOGN0"),
+        new Record("Taublix", "30", "7/10", "10 points", "https://www.youtube.com/watch?v=RkLRL7cCxa8"),
+        new Record("Nuridint3b", "73", "N/A", "N/A", "https://youtu.be/-6NI_d4GTx8?si=EvH2f4eTlhU8_hZ0"),
+        new Record("EndGamer7896", "116", "4/10", "10.1 points", "https://medal.tv/games/geometry-dash/clips/ncyzTUrxxmjXQ7xGQ?invite=cr-MSxHeUEsNTk1MDYwNDc2"),
+        new Record("RustyGD25", "29", "5.5/10", "mid bronze", "https://youtu.be/RAefoEnAQoc"),
     ], false),
     new Level("Michishotgun", 10.76, 5, "Bronze", "143245745", "Small Skips", ["CyberCharger"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mXS7OW29aDBRzSwIY?invite=cr-MSxsMzQsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "129", "2/10", "10.5 list points", "https://medal.tv/games/geometry-dash/clips/mXS7OW29aDBRzSwIY?invite=cr-MSxsMzQsNTk1MDYwNDc2"),
@@ -1260,6 +1324,34 @@ let levels = [
         new Record("probro675", "94", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
         new Record("Nuridint3b", "140", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+    ], false),
+    new Level("random ahh level", 9.58, 2, "Bronze", "144209324", "Small Skips", ["Error2401"], "Error2401", "https://www.youtube.com/embed/ov2qQEV0lPo", [
+        new Record("Error2401", "284", "6/10", "middle bronze prob", "https://www.youtube.com/embed/ov2qQEV0lPo"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/YYGUJ0vGpzc"),
+        new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://youtu.be/WvcBTEm-zQw"),
+        new Record("Taublix", "10", "6/10", "harder than Robot On Track easier than greybot", "https://www.youtube.com/watch?v=n-6OZs1fBJs"),
+        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
+        new Record("probro675", "30", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
+        new Record("EndGamer7896", "77", "1/10", "9.17 points", "https://medal.tv/games/geometry-dash/clips/n3vvyM3ZkbchHdvVD?invite=cr-MSx5aXIsNTk1MDYwNDc2"),
+        new Record("Nuridint3b", "39", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("zis08", "64", "0/10", "idk", "https://medal.tv/games/geometry-dash/clips/n67NrjwG7G2cl56eb?invite=cr-MSx4MDUsMTY4ODkwOTU4 "),
+        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+        new Record("RustyGD25", "9", "7/10", "mid bronze", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
+    new Level("SLEEPLESS", 9.53, 20, "Bronze", "143448263", "Any Route", ["barts0gd"], "Taublix", "https://www.youtube.com/embed/FnhqYn7RZQs", [
+        new Record("Taublix", "24", "9/10", "harder than Waiting For Xander easier than out of time", "https://www.youtube.com/watch?v=FnhqYn7RZQs"),
+        new Record("EndGamer7896", "49", "7/10", "Easier than Copper Alloy", "https://medal.tv/games/geometry-dash/clips/mZteweGAWrBzExFc9?invite=cr-MSwwd3MsNTk1MDYwNDc2"),
+        new Record("probro675", "39", "8/10", "Mid Bronze 13.5 point", "https://youtu.be/KgmAUCahxjk?is=vlU6tSDS9WRkGwXo"),
+        new Record("Tomatokatsup", "25", "7/10", "N/A", "https://youtu.be/syOCH1GX9bk"),
+        new Record("barts0gd", "7", "8/10", "idk seems good at current placement", "https://medal.tv/games/geometry-dash/clips/n1H9toiSiZoO31Me0?invite=cr-MSwyQnksNDExMTQ3ODI3&v=30"),
+        new Record("IceCubed88", "105", "N/A", "good where it is", "https://youtu.be/vztzqKOKQ40"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
+        new Record("zis08", "43", "8/10", "idk", "https://medal.tv/games/geometry-dash/clips/n32F2MSnYdqt5mlRj?invite=cr-MSx2UmUsMTY4ODkwOTU4"),
+        new Record("ariopc", "38", "3/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n0xGmoVTU-wBxNM_V?invite=cr-MSxvQkQsMjE3MzQ4MzIz&v=21"),
+        new Record("XanderGMDD", "N/A", "9/10", "N/A", "https://youtu.be/WvcBTEm-zQw"),
+        new Record("Nuridint3b", "12", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+        new Record("RustyGD25", "10", "6.5/10", "mid bronze", "https://youtu.be/RAefoEnAQoc"),
     ], false),
     new Level("out of time", 9.46, 5, "Bronze", "136136798", "Any Route", ["sourceerrortxt"], "sourceerrortxt", "https://www.youtube.com/embed/HRYVy3vU168", [
         new Record("sourceerrortxt", "N/A", "N/A", "N/A", "https://youtu.be/HRYVy3vU168"),
@@ -1291,31 +1383,19 @@ let levels = [
         new Record("Nuridint3b", "105", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
     ], false),
-    new Level("SLEEPLESS", 9.16, 20, "Bronze", "143448263", "Any Route", ["barts0gd"], "Taublix", "https://www.youtube.com/embed/FnhqYn7RZQs", [
-        new Record("Taublix", "24", "9/10", "harder than Waiting For Xander easier than out of time", "https://www.youtube.com/watch?v=FnhqYn7RZQs"),
-        new Record("EndGamer7896", "49", "7/10", "Easier than Copper Alloy", "https://medal.tv/games/geometry-dash/clips/mZteweGAWrBzExFc9?invite=cr-MSwwd3MsNTk1MDYwNDc2"),
-        new Record("probro675", "39", "8/10", "Mid Bronze 13.5 point", "https://youtu.be/KgmAUCahxjk?is=vlU6tSDS9WRkGwXo"),
-        new Record("Tomatokatsup", "25", "7/10", "N/A", "https://youtu.be/syOCH1GX9bk"),
-        new Record("barts0gd", "7", "8/10", "idk seems good at current placement", "https://medal.tv/games/geometry-dash/clips/n1H9toiSiZoO31Me0?invite=cr-MSwyQnksNDExMTQ3ODI3&v=30"),
-        new Record("IceCubed88", "105", "N/A", "good where it is", "https://youtu.be/vztzqKOKQ40"),
+    new Level("Pipe Up", 9.15, 10, "Bronze", "143768141", "Any Route", ["rumble1978"], "rumble1978", "https://medal.tv/games/geometry-dash/clip/n0P9uG7atu92S1LIJ?invite=cr-MSxETE8sNDc0ODUyOTUy&v=28", [
+        new Record("rumble1978", "N/A", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n0P9uG7atu92S1LIJ?invite=cr-MSxETE8sNDc0ODUyOTUy&v=28"),
+        new Record("Taublix", "4", "9/10", "like maybe barely harder than LeBronze just more sightreadable", "https://www.youtube.com/watch?v=4dlG_-b_NzY"),
+        new Record("EndGamer7896", "64", "7/10", "9.4 list points", "https://medal.tv/games/geometry-dash/clips/n1ut6khsGp-qrHgW_?invite=cr-MSxpaWgsNTk1MDYwNDc2"),
+        new Record("IceCubed88", "11", "N/A", "maybe should be moved lower, tbh it's just a consistency challenge", "https://youtu.be/vztzqKOKQ40"),
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
-        new Record("zis08", "43", "8/10", "idk", "https://medal.tv/games/geometry-dash/clips/n32F2MSnYdqt5mlRj?invite=cr-MSx2UmUsMTY4ODkwOTU4"),
-        new Record("ariopc", "38", "3/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n0xGmoVTU-wBxNM_V?invite=cr-MSxvQkQsMjE3MzQ4MzIz&v=21"),
-        new Record("XanderGMDD", "N/A", "9/10", "N/A", "https://youtu.be/WvcBTEm-zQw"),
-        new Record("Nuridint3b", "12", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
-        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
-    ], false),
-    new Level("random ahh level", 8.85, 2, "Bronze", "144209324", "Small Skips", ["Error2401"], "Error2401", "https://www.youtube.com/embed/ov2qQEV0lPo", [
-        new Record("Error2401", "284", "6/10", "middle bronze prob", "https://www.youtube.com/embed/ov2qQEV0lPo"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/YYGUJ0vGpzc"),
+        new Record("zis08", "139", "1/10", "Slop", "https://medal.tv/games/geometry-dash/clips/n32BdudsvogJ_Whp9?invite=cr-MSxvWnEsMTY4ODkwOTU4&v=22"),
         new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://youtu.be/WvcBTEm-zQw"),
-        new Record("Taublix", "10", "6/10", "harder than Robot On Track easier than greybot", "https://www.youtube.com/watch?v=n-6OZs1fBJs"),
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
-        new Record("probro675", "30", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
-        new Record("EndGamer7896", "77", "1/10", "9.17 points", "https://medal.tv/games/geometry-dash/clips/n3vvyM3ZkbchHdvVD?invite=cr-MSx5aXIsNTk1MDYwNDc2"),
-        new Record("Nuridint3b", "39", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
-        new Record("zis08", "64", "0/10", "idk", "https://medal.tv/games/geometry-dash/clips/n67NrjwG7G2cl56eb?invite=cr-MSx4MDUsMTY4ODkwOTU4 "),
+        new Record("probro675", "18", "N/A", "N/A", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
+        new Record("Nuridint3b", "6", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+        new Record("RustyGD25", "13", "2/10", "mid bronze", "https://youtu.be/RAefoEnAQoc"),
     ], false),
     new Level("Robogeist", 8.78, 4, "Bronze", "141195852", "Any Route", ["EndGamer7896"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mKd0hJ7OXL6e-JXeA?invite=cr-MSxobXIsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "68", "8/10", "Low/Mid Bronze, 10 points", "https://medal.tv/games/geometry-dash/clips/mKd0hJ7OXL6e-JXeA?invite=cr-MSxobXIsNTk1MDYwNDc2"),
@@ -1336,11 +1416,6 @@ let levels = [
         new Record("probro675", "60", "N/A", "N/A", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
         new Record("Nuridint3b", "46", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
-    ], false),
-    new Level("L Upside Down L", 8.7, 3, "Bronze", "Small Skips", "145517187", ["pillow112"], "pillow112", "https://www.youtube.com/embed/xgQZndhOGN0", [
-        new Record("pillow112", "18", "4/10", "idk bro like bronze probably", "https://www.youtube.com/embed/xgQZndhOGN0"),
-        new Record("Taublix", "30", "7/10", "10 points", "https://www.youtube.com/watch?v=RkLRL7cCxa8"),
-        new Record("Nuridint3b", "73", "N/A", "N/A", "https://youtu.be/-6NI_d4GTx8?si=EvH2f4eTlhU8_hZ0"),
     ], false),
     new Level("Waiting for Xander", 8.58, 2, "Bronze", "Any Route", "137223061", ["EndGamer7896"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mqSD6F83c19OvKQ2w?invite=cr-MSw1QnIsNTk1MDYwNDc2", [
         new Record("EndGamer7896", "N/A", "N/A", "11 Points", "https://medal.tv/games/geometry-dash/clips/mqSD6F83c19OvKQ2w?invite=cr-MSw1QnIsNTk1MDYwNDc2"),
@@ -1363,19 +1438,6 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
         new Record("RustyGD25", "5", "9/10", "2.4 points", "https://www.youtube.com/watch?v=VAiK7vUUe-g"),
         new Record("Nuridint3b", "24", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
-        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
-    ], false),
-    new Level("Pipe Up", 8.48, 10, "Bronze", "143768141", "Any Route", ["rumble1978"], "rumble1978", "https://medal.tv/games/geometry-dash/clip/n0P9uG7atu92S1LIJ?invite=cr-MSxETE8sNDc0ODUyOTUy&v=28", [
-        new Record("rumble1978", "N/A", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n0P9uG7atu92S1LIJ?invite=cr-MSxETE8sNDc0ODUyOTUy&v=28"),
-        new Record("Taublix", "4", "9/10", "like maybe barely harder than LeBronze just more sightreadable", "https://www.youtube.com/watch?v=4dlG_-b_NzY"),
-        new Record("EndGamer7896", "64", "7/10", "9.4 list points", "https://medal.tv/games/geometry-dash/clips/n1ut6khsGp-qrHgW_?invite=cr-MSxpaWgsNTk1MDYwNDc2"),
-        new Record("IceCubed88", "11", "N/A", "maybe should be moved lower, tbh it's just a consistency challenge", "https://youtu.be/vztzqKOKQ40"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
-        new Record("zis08", "139", "1/10", "Slop", "https://medal.tv/games/geometry-dash/clips/n32BdudsvogJ_Whp9?invite=cr-MSxvWnEsMTY4ODkwOTU4&v=22"),
-        new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://youtu.be/WvcBTEm-zQw"),
-        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
-        new Record("probro675", "18", "N/A", "N/A", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
-        new Record("Nuridint3b", "6", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
     ], false),
     new Level("greybot", 6.28, 5, "Bronze", "142492605", "Any Route", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/mTJkd1Tz66MVCDduS?invite=cr-MSxXc0QsMjE3MzQ4MzIz&v=23", [
@@ -1417,19 +1479,7 @@ let levels = [
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
         new Record("crazyjordianaya", "N/A", "N/A", "N/A", " https://medal.tv/games/geometry-dash/clips/n8aktvlNaZ0miSDNe?invite=cr-MSxXWXEsNjI4NTAzOTgy"),
     ], false),
-    new Level("Factory Reset", 5.9, 11, "Bronze", "144080309", "Any Route", ["barts0gd"], "Taublix", "https://www.youtube.com/embed/2wU8tWh2YGE", [
-        new Record("Taublix", "15", "10/10", "harder than Robot Madness easier than xandeR is a chud", "https://www.youtube.com/watch?v=2wU8tWh2YGE"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/NoPZRvfkHO4"),
-        new Record("zis08", "36", "3/10", "idk", "https://medal.tv/games/geometry-dash/clips/n32lmdIXaid6An-ts?invite=cr-MSxWWVgsMTY4ODkwOTU4"),
-        new Record("XanderGMDD", "N/A", "9/10", "N/A", "https://youtu.be/WvcBTEm-zQw"),
-        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
-        new Record("probro675", "17", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
-        new Record("ariopc", "14", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n3SHYUtDcJwWUSKBV?invite=cr-MSxZcEMsMjE3MzQ4MzIz"),
-        new Record("EndGamer7896", "59", "7/10", "4.9 points", "https://medal.tv/games/geometry-dash/clips/n2ZaXgHlWSfUnNiiv?invite=cr-MSxsdWksNTk1MDYwNDc2"),
-        new Record("Nuridint3b", "9", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
-        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
-    ], false),
-    new Level("The Bronze Pit", 5.2, 8, "Bronze", "144314314", "Any Route", ["zis08", "probro675", "ariopc"], "zis08", "https://medal.tv/games/geometry-dash/clip/n3WjNrblKJvqSlHZT?invite=cr-MSxHMWwsMTY4ODkwOTU4", [
+    new Level("The Bronze Pit", 5.58, 8, "Bronze", "144314314", "Any Route", ["zis08", "probro675", "ariopc"], "zis08", "https://medal.tv/games/geometry-dash/clip/n3WjNrblKJvqSlHZT?invite=cr-MSxHMWwsMTY4ODkwOTU4", [
         new Record("zis08", "4", "9/10", "Guess bitch", "https://medal.tv/games/geometry-dash/clips/n3WjNrblKJvqSlHZT?invite=cr-MSxHMWwsMTY4ODkwOTU4"),
         new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
         new Record("Taublix", "3", "9/10", "placed fine", "https://www.youtube.com/watch?v=IArP_vmcuRo"),
@@ -1440,6 +1490,46 @@ let levels = [
         new Record("Nuridint3b", "49", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
         new Record("crazyjordianaya", "250", "8/10", "low bronze", "https://medal.tv/games/geometry-dash/clips/n7DU2We1Qd-hYG7uP?invite=cr-MSxKQVMsNjI4NTAzOTgy"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+        new Record("RustyGD25", "21", "3.5/10", "low bronze", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
+    new Level("Factory Reset", 5.42, 11, "Bronze", "144080309", "Any Route", ["barts0gd"], "Taublix", "https://www.youtube.com/embed/2wU8tWh2YGE", [
+        new Record("Taublix", "15", "10/10", "harder than Robot Madness easier than xandeR is a chud", "https://www.youtube.com/watch?v=2wU8tWh2YGE"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/NoPZRvfkHO4"),
+        new Record("zis08", "36", "3/10", "idk", "https://medal.tv/games/geometry-dash/clips/n32lmdIXaid6An-ts?invite=cr-MSxWWVgsMTY4ODkwOTU4"),
+        new Record("XanderGMDD", "N/A", "9/10", "N/A", "https://youtu.be/WvcBTEm-zQw"),
+        new Record("Tomatokatsup", "N/A", "N/A", "N/A", "https://youtu.be/-GAuym5AMBk"),
+        new Record("probro675", "17", "N/A", "N/A", "https://youtu.be/9-TbuBtE9zw?is=gZNPiVWiHCL3ECyl"),
+        new Record("ariopc", "14", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n3SHYUtDcJwWUSKBV?invite=cr-MSxZcEMsMjE3MzQ4MzIz"),
+        new Record("EndGamer7896", "59", "7/10", "4.9 points", "https://medal.tv/games/geometry-dash/clips/n2ZaXgHlWSfUnNiiv?invite=cr-MSxsdWksNTk1MDYwNDc2"),
+        new Record("Nuridint3b", "9", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+        new Record("RustyGD25", "4", "6/10", "very low bronze", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
+    new Level("TReasons Politics", 5.37, 2, "Bronze", "143564720", "Any Route", ["xpfinker812"], "Taublix", "https://www.youtube.com/embed/oZnGKNtZV_M", [
+        new Record("Taublix", "6", "6/10", "harder than Snowscape easier than xandeR is a chud", "https://www.youtube.com/watch?v=oZnGKNtZV_M"),
+        new Record("probro675", "40", "2/10", "Low Bronze 10.5 points (harder than out of time)", "https://youtu.be/x0iG8cmj2LY?is=j9STo7u97Lmme9ui"),
+        new Record("Tomatokatsup", "41", "2/10", "N/A", "https://youtu.be/syOCH1GX9bk"),
+        new Record("EndGamer7896", "89", "2/10", "5.04 list points", "https://medal.tv/games/geometry-dash/clips/mZKuyj5o471V8Y_j6?invite=cr-MSxjZm8sNTk1MDYwNDc2"),
+        new Record("IceCubed88", "114", "N/A", "good where itis", "https://youtu.be/vztzqKOKQ40"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
+        new Record("Error2401", "72", "5/10", "idk", "https://www.youtube.com/watch?v=oCfr_-DBUwY"),
+        new Record("ariopc", "19", "4/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n0xCbwLnxFzZXLvr4?invite=cr-MSx0N1EsMjE3MzQ4MzIz&v=20"),
+        new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://youtu.be/WvcBTEm-zQw"),
+        new Record("Nuridint3b", "42", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+        new Record("RustyGD25", "8", "5/10", "low bronze", "https://youtu.be/RAefoEnAQoc"),
+    ], false),
+    new Level("Unmute Zis08", 5.27, 6, "Bronze", "144396877", "Small Skips", ["XanderGMDD"], "XanderGMDD", "https://medal.tv/games/screen-capture/clip/n4qIrsSgUvLvf1qGz?invite=cr-MSx5VEEsMzM2NzY3Njgx&v=22", [
+        new Record("XanderGMDD", "44", "9/10", "idk prob rock or lowest bronze", "https://medal.tv/games/screen-capture/clips/n4qIrsSgUvLvf1qGz?invite=cr-MSx5VEEsMzM2NzY3Njgx&v=22"),
+        new Record("ariopc", "17", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n4MM2HlQ0bBJfYspq?invite=cr-MSxuSXAsMjE3MzQ4MzIz"),
+        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
+        new Record("EndGamer7896", "165", "7/10", "5.31 points", "https://medal.tv/games/geometry-dash/clips/n5bwtwzBqBeDafj3Y?invite=cr-MSw1cTUsNTk1MDYwNDc2"),
+        new Record("probro675", "64", "N/A", "N/A", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
+        new Record("Taublix", "3", "10/10", "fine i guess idk", "https://www.youtube.com/watch?v=3mjx3TlQCnU"),
+        new Record("Nuridint3b", "18", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
+        new Record("zis08", "25", "10/10", "idk", "https://medal.tv/games/geometry-dash/clips/n67FTwArRj10-UbQu?invite=cr-MSwzMWgsMTY4ODkwOTU4"),
+        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
+        new Record("RustyGD25", "11", "7.5/10", "low bronze", "https://youtu.be/RAefoEnAQoc"),
     ], false),
     new Level("xandeR is a chud", 5.07, 2, "Bronze", "141346496", "Small Skips", ["xpfinker812"], "Komically", "https://youtube.com/embed/bkUKEgp6wQQ", [
         new Record("Komically", "102", "5/10", "Low Bronze", "https://youtu.be/bkUKEgp6wQQ"),
@@ -1461,30 +1551,6 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
         new Record("RustyGD25", "46", "5/10", "5.4 points", "https://www.youtube.com/watch?v=VAiK7vUUe-g"),
         new Record("Nuridint3b", "43", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
-        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
-    ], false),
-    new Level("TReasons Politics", 5.02, 2, "Bronze", "143564720", "Any Route", ["xpfinker812"], "Taublix", "https://www.youtube.com/embed/oZnGKNtZV_M", [
-        new Record("Taublix", "6", "6/10", "harder than Snowscape easier than xandeR is a chud", "https://www.youtube.com/watch?v=oZnGKNtZV_M"),
-        new Record("probro675", "40", "2/10", "Low Bronze 10.5 points (harder than out of time)", "https://youtu.be/x0iG8cmj2LY?is=j9STo7u97Lmme9ui"),
-        new Record("Tomatokatsup", "41", "2/10", "N/A", "https://youtu.be/syOCH1GX9bk"),
-        new Record("EndGamer7896", "89", "2/10", "5.04 list points", "https://medal.tv/games/geometry-dash/clips/mZKuyj5o471V8Y_j6?invite=cr-MSxjZm8sNTk1MDYwNDc2"),
-        new Record("IceCubed88", "114", "N/A", "good where itis", "https://youtu.be/vztzqKOKQ40"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/9yOn65G8MAM"),
-        new Record("Error2401", "72", "5/10", "idk", "https://www.youtube.com/watch?v=oCfr_-DBUwY"),
-        new Record("ariopc", "19", "4/10", "N/A", "https://medal.tv/games/geometry-dash/clips/n0xCbwLnxFzZXLvr4?invite=cr-MSx0N1EsMjE3MzQ4MzIz&v=20"),
-        new Record("XanderGMDD", "N/A", "N/A", "N/A", "https://youtu.be/WvcBTEm-zQw"),
-        new Record("Nuridint3b", "42", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
-        new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
-    ], false),
-    new Level("Unmute Zis08", 4.83, 6, "Bronze", "144396877", "Small Skips", ["XanderGMDD"], "XanderGMDD", "https://medal.tv/games/screen-capture/clip/n4qIrsSgUvLvf1qGz?invite=cr-MSx5VEEsMzM2NzY3Njgx&v=22", [
-        new Record("XanderGMDD", "44", "9/10", "idk prob rock or lowest bronze", "https://medal.tv/games/screen-capture/clips/n4qIrsSgUvLvf1qGz?invite=cr-MSx5VEEsMzM2NzY3Njgx&v=22"),
-        new Record("ariopc", "17", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n4MM2HlQ0bBJfYspq?invite=cr-MSxuSXAsMjE3MzQ4MzIz"),
-        new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
-        new Record("EndGamer7896", "165", "7/10", "5.31 points", "https://medal.tv/games/geometry-dash/clips/n5bwtwzBqBeDafj3Y?invite=cr-MSw1cTUsNTk1MDYwNDc2"),
-        new Record("probro675", "64", "N/A", "N/A", "https://youtu.be/jr9rC3BDCFM?is=fNLbnURufy8LUbxj"),
-        new Record("Taublix", "3", "10/10", "fine i guess idk", "https://www.youtube.com/watch?v=3mjx3TlQCnU"),
-        new Record("Nuridint3b", "18", "N/A", "N/A", "https://youtu.be/aeTaSExWXm4?is=SSXwL_UZlSh_SeV5"),
-        new Record("zis08", "25", "10/10", "idk", "https://medal.tv/games/geometry-dash/clips/n67FTwArRj10-UbQu?invite=cr-MSwzMWgsMTY4ODkwOTU4"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
     ], false),
     new Level("Robot Madness", 4.43, 4, "Bronze", "141189636", "Any Route", ["EndGamer7896"], "EndGamer7896", "https://medal.tv/games/geometry-dash/clip/mKahUL0fholoxYzKu?invite=cr-MSwycWQsNTk1MDYwNDc2", [
@@ -1511,12 +1577,13 @@ let levels = [
         new Record("crazyjordianaya", "54", "8/10", "low bronze 1.34", "https://medal.tv/games/geometry-dash/clips/n7aXBpu8zbJz4x9Yr?invite=cr-MSw4T1EsNjI4NTAzOTgy"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
     ], false),
-    new Level("WOW u did it", 2.56, 20, "Bronze", "144910300", "Small Skips", ["barts0gd"], "Taublix", "https://www.youtube.com/embed/u0_pMYTpco4", [
+    new Level("WOW u did it", 3.8, 20, "Bronze", "144910300", "Small Skips", ["barts0gd"], "Taublix", "https://www.youtube.com/embed/u0_pMYTpco4", [
         new Record("Taublix", "3", "10/10", "very very low bronze, maybe around like 4-5 points", "https://www.youtube.com/watch?v=u0_pMYTpco4"),
         new Record("probro675", "9", "N/A", "N/A", "https://youtu.be/heXSEx_DIAM?is=1HYeEdCsIDWlkrR7"),
         new Record("Nuridint3b", "11", "N/A", "N/A", "https://youtu.be/Mx4mTRVHc3U?is=tKwv3IYVVlQxSxTh"),
         new Record("LightShadow5", "N/A", "3.5/10", "N/A", "https://youtu.be/m5KSgM8XeCU?is=IgZu7vQ-Ys1dkgSm"),
         new Record("barts0gd", "20", "8/10", "its good here", "https://medal.tv/games/geometry-dash/clips/naPATnPJea4nj5ek7?invite=cr-MSxmcXksNDExMTQ3ODI3"),
+        new Record("RustyGD25", "5", "6/10", "low bronze", "https://youtu.be/RAefoEnAQoc"),
     ], false),
     new Level("Snowscape", 1.81, 13, "Bronze", "143220452", "Small Skips", ["CyberCharger"], "CyberCharger", "https://www.youtube.com/embed/h8S3V_XfD6M", [
         new Record("CyberCharger", "28", "10/10", "easiest bronze", "https://www.youtube.com/watch?v=h8S3V_XfD6M"),
@@ -1697,15 +1764,13 @@ let displacement = [
     new Level("The Third Robot", 0, 8, "Limbo", "136718958", "Any Route", ["Zannoz"], "-", "https://youtube.com/embed/dQw4w9WgXcQ", [], false),
     new Level("Wear House", 0, 21, "Limbo", "144301139", "Small Skips", ["zis08"], "-", "https://youtube.com/embed/dQw4w9WgXcQ", [], "/nongs/Wear House.mp3"),
     new Level("flaming cavern", 0, 32, "Limbo", "144036531", "Any Route", ["windboss07"], "-", "https://youtube.com/embed/dQw4w9WgXcQ", [], false),
+    new Level("NOBOT", 0, 19, "Limbo", "146238375", "Showcase Route", ["wpeir"], "-", "https://youtube.com/embed/6orLfqP0pEk", [], "/nongs/NOBOT.mp3"),
     new Level("Radiant", 0, 13, "Limbo", "145002485", "Small Skips", ["probro675"], "-", "https://youtube.com/embed/D0fo1ge7bKc?is=rG4uLOJdjAKJAaty", [], false),
     new Level("Killbot", 0, 16, "Limbo", "146039806", "Showcase Route", ["XanderGMDD"], "-", "https://youtube.com/embed/W4mnR9ADnf8", [], false),
-    new Level("Gibberlink", 0, 6, "Limbo", "144891574", "Small Skips", ["ariopc"], "-", "https://medal.tv/games/geometry-dash/clip/n7iFyJrSPinfAlDW-?invite=cr-MSx5aEMsMjE3MzQ4MzIz", [], false),
     new Level("Rcl is   fake", 0, 11, "Limbo", "143055646", "Any Route", ["Seedskyy73"], "-", "https://youtube.com/embed/4zXwWUXjG0U", [], false),
-    new Level("frozen night", 0, 25, "Limbo", "145640569", "Any Route", ["windboss07"], "-", "https://youtube.com/embed/dQw4w9WgXcQ", [], false),
     new Level("Staticism", 0, 21, "Limbo", "145228805", "Showcase Route", ["Vinecke123"], "-", "https://medal.tv/games/geometry-dash/clip/n9hhjDKD1xcRjO3be?invite=cr-MSx3a2YsNDczMTIyMTcw", [], "/nongs/Robotic Exurtion, Staticism.mp3"),
     new Level("nostalgia", 0, 3, "Limbo", "144145760", "Any Route", ["TJEmpire"], "-", "https://youtube.com/embed/QjG1CrJNbYQ", [], false),
     new Level("Helix", 0, 3, "Limbo", "145507104", "Small Skips", ["itsGalaxie"], "-", "https://streamable.com/e/1efzch", [], false),
-    new Level("guts", 0, 31, "Limbo", "145722333", "Small Skips", ["windboss07"], "-", "https://youtube.com/embed/dQw4w9WgXcQ", [], false),
     new Level("Enlighten", 0, 7, "Limbo", "143639603", "Small Skips", ["NatanGMDD"], "-", "https://youtube.com/embed/dQw4w9WgXcQ", [], "/nongs/Enlighten.mp3"),
     new Level("I AM NOT FLAT", 0, 2, "Limbo", "141879903", "Any Route", ["xpfinker812"], "-", "https://medal.tv/games/geometry-dash/clip/mQlqNIl9sq916CIHE?invite=cr-MSwzYnIsNTMwODEwMjU3&v=17", [], "/nongs/I AM NOT FLAT.mp3"),
 ];
