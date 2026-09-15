@@ -719,6 +719,7 @@ let levels = [
         new Record("Nuridint3b", "64", "N/A", "with a bagfullofgold should be at 19.45 points in the bronze tier and not in silver tier", "https://youtu.be/mrFvyPBv6mQ?is=jy-a-aPdG_jH8-rF"),
         new Record("RustyGD25", "367", "0/10", "49 points", "https://www.youtube.com/watch?v=PfHm2yE6Y5k"),
         new Record("probro675", "453", "N/A", "N/A", "https://youtu.be/j6SxRgDpfkE?is=cP8JYTSVn3vIJE7y"),
+        new Record("ariopc", "131", "6/10", "N/A", "https://medal.tv/games/geometry-dash/clips/nwLNdtZ9ngSuIJgtP?invite=cr-MSx5akMsMjE3MzQ4MzIz"),
     ], false),
     new Level("Sixty Seven", 42.95, 3, "Silver", "146737244", "Small Skips", ["probro675"], "probro675", "https://youtube.com/embed/rmYGjMDh0Ag?is=eDciUqlqZeo09hHn", [
         new Record("probro675", "414", "0/10", "Low/Mid Silver", "https://youtu.be/rmYGjMDh0Ag?is=eDciUqlqZeo09hHn"),
