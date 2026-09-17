@@ -720,6 +720,7 @@ let levels = [
         new Record("RustyGD25", "367", "0/10", "49 points", "https://www.youtube.com/watch?v=PfHm2yE6Y5k"),
         new Record("probro675", "453", "N/A", "N/A", "https://youtu.be/j6SxRgDpfkE?is=cP8JYTSVn3vIJE7y"),
         new Record("ariopc", "131", "6/10", "N/A", "https://medal.tv/games/geometry-dash/clips/nwLNdtZ9ngSuIJgtP?invite=cr-MSx5akMsMjE3MzQ4MzIz"),
+        new Record("tFluffy", "77", "8.5/10", "felt easier than joy and rainbows", "https://youtu.be/I-hqVR0oIdw"),
     ], false),
     new Level("Sixty Seven", 42.95, 3, "Silver", "146737244", "Small Skips", ["probro675"], "probro675", "https://youtube.com/embed/rmYGjMDh0Ag?is=eDciUqlqZeo09hHn", [
         new Record("probro675", "414", "0/10", "Low/Mid Silver", "https://youtu.be/rmYGjMDh0Ag?is=eDciUqlqZeo09hHn"),
@@ -842,6 +843,7 @@ let levels = [
         new Record("EndGamer7896", "1,040", "7/10", "33.74 list points", "https://medal.tv/games/geometry-dash/clips/n6zmZpmYyGHLcR0LK?invite=cr-MSxhNjQsNTk1MDYwNDc2"),
         new Record("Nuridint3b", "427", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
         new Record("RustyGD25", "335", "6.5/10", "38 points", "https://www.youtube.com/watch?v=PfHm2yE6Y5k"),
+        new Record("tFluffy", "N/A", "6/10", "harder than joy and rainbows easier than sixty seven", "https://youtu.be/tIu86_8_rDE"),
     ], false),
     new Level("Barts0 MIGHT clear", 32.04, 11, "Silver", "145471800", "Small Skips", ["Taublix"], "barts0gd", "https://medal.tv/games/geometry-dash/clip/naK3Vp7IKUnQGfk7F?invite=cr-MSxCSTMsNDExMTQ3ODI3", [
         new Record("barts0gd", "100", "9.5/10", "like high bronze to mid silver prob bronze tho", "https://medal.tv/games/geometry-dash/clips/naK3Vp7IKUnQGfk7F?invite=cr-MSxCSTMsNDExMTQ3ODI3"),
