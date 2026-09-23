@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="s65PdHACHLG9eS6Q5RiR7MUXqYMl4ioBINH3tvjHLMY" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCL - Player Comparison</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script src="scripts/data.js"></script>
+
+<body>
+    <div id="header">
+        <h2>The Robot Challenges List</h2>
+        <button class="headerButtons" onclick="window.location.href = 'index.html'">Home</button>
+        <button class="headerButtons" onclick="window.location.href = 'lb.html'">Leaderboards</button>
+        <button class="headerButtons" onclick="window.location.href = 'comparison.html'">Player Comparison</button>
+        <button class="headerButtons" onclick="window.open('https://www.tinyurl.com/robotchallengelist')">Backup
+            List</button>
+    </div>
+    <div class="lists">
+        <div id="listBox">
+            <h2 class="sidebarHeaders">Player Comparison</h2>
+
+            <ol id="leaderboard" style="color: #81848b;">
+            </ol>
+        </div>
+    </div>
+
+    <p style='display: inline-flex'>This is the RCL Player Comparison! Here's how it works :) ↓↓↓<br><br>
+        
+    For starters, this is based on gab's player comparison, just automatically updating based on current RCL data. As such, points are calculated by taking a person's<br>
+    top 15 completions, adding their placements together, adding any penalties (Total + 100) and subtracting 120 (perfect top 15), meaning the best score is a 0. Lastly,<br>
+    whatever the tier of their hardest completion, they will have that rank rather than how ranks typically work, better reflecting on their skill whether they have a low score<br>
+    or not. <br><br>
+
+    This page is unfinished because I will likely be adding this to the profiles or accounts page once that's implemented, but I figured it'd still be cool to have until then.
+    </p>
+
+</body>
+<script>
+    let stats = {};
+    
+    levels.forEach(level => {
+        level.records.forEach(record => {
+            if (!stats[record.name]) {
+                stats[record.name] = [0, 0, level.tier.toLowerCase()];
+            } else if (stats[record.name][1] === 15) {
+                return;
+            } 
+            
+            stats[record.name][0] += (levels.indexOf(level) + 1);
+            stats[record.name][1] += 1;
+        });
+    });
+
+    for (const player in stats) {
+        if (stats[player][1] < 15) {
+            for (let i = stats[player][1]; i < 15; i++) {
+                stats[player][0] += (levels.length + 100);
+            }
+        }
+
+        stats[player][0] -= 120;
+    }
+
+    // SORT STATS IN REVERSE
+    let sortedStats = Object.entries(stats).sort((a, b) => a[1][0] - b[1][0]);
+    console.log(sortedStats)
+
+    sortedStats.forEach(player => {
+        let li = document.createElement("li");
+        li.classList = player[1][2];
+        li.textContent = player[0] + " - " + player[1][0];
+        document.getElementById("leaderboard").appendChild(li);
+    });
+</script>
+
+</html>
