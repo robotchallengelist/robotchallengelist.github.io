@@ -239,6 +239,7 @@ let levels = [
     new Level("the golden shart", 77.19, 12, "Platinum", "145246413", "Small Skips", ["windboss07"], "zis08", "https://medal.tv/games/geometry-dash/clip/n9qaCXYHfEnXi4nJE?invite=cr-MSxBMUksMTY4ODkwOTU4", [
         new Record("zis08", "1,001", "10/10", "idk", "https://medal.tv/games/geometry-dash/clips/n9qaCXYHfEnXi4nJE?invite=cr-MSxBMUksMTY4ODkwOTU4"),
         new Record("probro675", "5,213", "N/A", "N/A", "https://youtu.be/j6SxRgDpfkE?is=cP8JYTSVn3vIJE7y"),
+        new Record("Tomatokatsup", "543", "N/A", "N/A", "https://youtu.be/8EcD_ukj72I"),
     ], false),
     new Level("shark bait hoo haha", 77.11, 4, "Platinum", "130701238", "Small Skips", ["Tomatokatsup"], "Tomatokatsup", "https://www.youtube.com/embed/HC6nlj_bUQo", [
         new Record("Tomatokatsup", "N/A", "5/10", "defo plat", "https://www.youtube.com/watch?v=HC6nlj_bUQo"),
@@ -362,6 +363,7 @@ let levels = [
     ], "/nongs/the golden pism.mp3"),
     new Level("Enlighten", 69.61, 10, "Gold", "143639603", "Small Skips", ["NatanGMDD"], "ariopc", "https://medal.tv/games/geometry-dash/clip/nwKZeWHiZiuJJEQNn?invite=cr-MSxFZ1ksMjE3MzQ4MzIz", [
         new Record("ariopc", "1,641", "1/10", "mid high gold", "https://medal.tv/games/geometry-dash/clips/nwKZeWHiZiuJJEQNn?invite=cr-MSxFZ1ksMjE3MzQ4MzIz"),
+        new Record("tFluffy", "321", "5/10", "probably fine where it is", "https://youtu.be/pohumgRQadY"),
     ], false),
     new Level("Redemption rebirth", 69.43, 14, "Gold", "137617507", "Any Route", ["Komically", "sourceerrortxt"], "zeroskills", "https://www.youtube.com/embed/Loe1H_IsImQ", [
         new Record("zeroskills", "N/A", "N/A", "Easier than SLOWDOWN", "https://youtu.be/Loe1H_IsImQ"),
@@ -434,6 +436,9 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/hg-Bo5igsL4"),
         new Record("RustyGD25", "492", "4/10", "60 points", "https://www.youtube.com/watch?v=bdCigmwnPd0"),
         new Record("probro675", "936", "N/A", "N/A", "https://youtu.be/j6SxRgDpfkE?is=cP8JYTSVn3vIJE7y"),
+    ], false),
+    new Level("roof of the mill", 62.41, 17, "Gold", "149170018", "Small Skips", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/nySMEc45DGMf6dQ1I?invite=cr-MSxENmosMjE3MzQ4MzIz", [
+        new Record("ariopc", "926", "8/10", "mid gold", "https://medal.tv/games/geometry-dash/clips/nySMEc45DGMf6dQ1I?invite=cr-MSxENmosMjE3MzQ4MzIz"),
     ], false),
     new Level("crystal castle", 62.15, 12, "Gold", "142272601", "Verification Route", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/mSoPKyf6csJswSZL8?invite=cr-MSxUMVksMjE3MzQ4MzIz&v=51", [
         new Record("ariopc", "2,376", "8/10", "Mid Gold", "https://medal.tv/games/geometry-dash/clips/mSoPKyf6csJswSZL8?invite=cr-MSxUMVksMjE3MzQ4Mz323&v=51"),
@@ -834,6 +839,7 @@ let levels = [
     ], "/nongs/JEALOUSY.mp3", true),
     new Level("Seven Cs", 35.38, 11, "Silver", "148687872", "Small Skips", ["Taublix"], "Taublix", "https://www.youtube.com/embed/uXtVUGmCdhQ", [
         new Record("Taublix", "N/A", "9/10", "N/A", "https://www.youtube.com/watch?v=uXtVUGmCdhQ"),
+        new Record("Tomatokatsup", "N/A", "0/10", "N/A", "https://youtu.be/8EcD_ukj72I"),
     ], false),
     new Level("Xander Takes Dihh", 33.7, 4, "Silver", "143410813", "Verification Route", ["probro675"], "probro675", "https://youtube.com/embed/l5aU8sBxmss?is=PT-8ToEm6s560QTh", [
         new Record("probro675", "569", "0/10", "Entry Silver 25.5 points", "https://youtu.be/l5aU8sBxmss?is=PT-8ToEm6s560QTh"),
