@@ -46,6 +46,7 @@ let levels = [
     new Level("Hateoul Loves Robot", 173.05, 13, "Ruby", "109877691", "Any Route", ["EatingBabies"], "EatingBabies", "https://www.youtube.com/embed/2QAIXRhKV5s", [
         new Record("EatingBabies", "24,000", "9/10", "No clue because I havent played anything else but like top 3?", "https://www.youtube.com/watch?v=2QAIXRhKV5s"),
         new Record("zis08", "51,220", "8/10", "High Ruby", "https://youtu.be/KdU6LBGNwIY?si=t5onbLjDdIPcMZT0"),
+        new Record("tFluffy", "5,282", "8/10", "uhh only thing i can really say is that this and cave a neer should be closer", "https://youtu.be/6mUoQGcuMfA"),
     ], false),
     new Level("Cave A Neer (zis08)", 151.7, 10, "Ruby", "131713130", "Small Skips", ["zis08"], "MMB9595", "https://youtube.com/embed/wa4zLyBFaho", [
         new Record("MMB9595", "21,086", "7.1/10", "Top 1 RCL. I Estimated (and others) it to be around low ruby tier", "https://www.youtube.com/watch?v=wa4zLyBFaho"),
@@ -439,6 +440,7 @@ let levels = [
     ], false),
     new Level("roof of the mill", 62.41, 17, "Gold", "149170018", "Small Skips", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/nySMEc45DGMf6dQ1I?invite=cr-MSxENmosMjE3MzQ4MzIz", [
         new Record("ariopc", "926", "8/10", "mid gold", "https://medal.tv/games/geometry-dash/clips/nySMEc45DGMf6dQ1I?invite=cr-MSxENmosMjE3MzQ4MzIz"),
+        new Record("Taublix", "179", "7/10", "63 points", "https://www.youtube.com/watch?v=72fTUYgkR2c"),
     ], false),
     new Level("crystal castle", 62.15, 12, "Gold", "142272601", "Verification Route", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/mSoPKyf6csJswSZL8?invite=cr-MSxUMVksMjE3MzQ4MzIz&v=51", [
         new Record("ariopc", "2,376", "8/10", "Mid Gold", "https://medal.tv/games/geometry-dash/clips/mSoPKyf6csJswSZL8?invite=cr-MSxUMVksMjE3MzQ4Mz323&v=51"),
@@ -714,6 +716,7 @@ let levels = [
     new Level("MISUNDERSTOOD", 45.92, 15, "Silver", "147215832", "Small Skips", ["Taublix"], "Taublix", "https://www.youtube.com/embed/DkZZvWioiCw", [
         new Record("Taublix", "N/A", "9.5/10", "N/A", "https://www.youtube.com/watch?v=DkZZvWioiCw"),
         new Record("Nuridint3b", "446", "8/10", "N/A", "https://youtu.be/fJZR7AGkxKg?is=FxO5bbqjo2DwL5zE"),
+        new Record("tFluffy", "91", "6/10", "good placement i think", "https://youtu.be/k8m-OS2S_Pw"),
     ], false),
     new Level("dote", 45.73, 7, "Silver", "143433221", "Small Skips", ["zis08"], "Taublix", "https://www.youtube.com/embed/E2WRUJ1K5cY", [
         new Record("Taublix", "190", "9.5/10", "harder than robopolis copyable 2 easier than Torch", "https://www.youtube.com/watch?v=E2WRUJ1K5cY"),
@@ -932,6 +935,7 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/QFfGLAIuU4M?si=WhrFEYNJ0bMORMUL"),
         new Record("Nuridint3b", "439", "N/A", "N/A", "https://youtu.be/8t_y4-C8c5g?is=kY5I8moqzxp_q-cF"),
         new Record("RustyGD25", "126", "4/10", "33 points", "https://www.youtube.com/watch?v=PfHm2yE6Y5k"),
+        new Record("tFluffy", "59", "N/A", "N/A", "https://youtu.be/L6DrLn6yg7A"),
     ], false),
     new Level("Gold Tier", 29.68, 2, "Silver", "145594622", "Verification Route", ["probro675"], "probro675", "https://www.youtube.com/embed/v52lWVjYaiY?is=rWmKr2WpsSCJzQnA", [
         new Record("probro675", "252", "0/10", "its low gold trustttttttttt me it totally is", "https://youtu.be/v52lWVjYaiY?is=rWmKr2WpsSCJzQnA"),
