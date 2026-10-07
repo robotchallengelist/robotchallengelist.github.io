@@ -456,6 +456,8 @@ let levels = [
         new Record("Taublix", "179", "7/10", "63 points", "https://www.youtube.com/watch?v=72fTUYgkR2c"),
         new Record("Nuridint3b", "N/A", "6/10", "N/A", "https://youtu.be/ew0xyQ2Nv5A?is=idhVr4GcNBrTukf8"),
         new Record("probro675", "506", "4/10", "fine", " https://youtu.be/htMo05AIsSw?is=_snMunXpoUUd2bPq"),
+        new Record("zis08", "1,395", "6/10", "N/A", "https://medal.tv/games/geometry-dash/clips/nE4IoJdBT2Y-1KA-B?invite=cr-MSxMeVAsMTY4ODkwOTU4"),
+        new Record("tFluffy", "N/A", "5/10", "fine where it is", "https://youtu.be/PbdIAx7vNUM"),
     ], false),
     new Level("crystal castle", 62.15, 12, "Gold", "142272601", "Verification Route", ["ariopc"], "ariopc", "https://medal.tv/games/geometry-dash/clip/mSoPKyf6csJswSZL8?invite=cr-MSxUMVksMjE3MzQ4MzIz&v=51", [
         new Record("ariopc", "2,376", "8/10", "Mid Gold", "https://medal.tv/games/geometry-dash/clips/mSoPKyf6csJswSZL8?invite=cr-MSxUMVksMjE3MzQ4Mz323&v=51"),
@@ -557,10 +559,12 @@ let levels = [
         new Record("Taublix", "457", "6/10", "fine i guess idk", "https://www.youtube.com/watch?v=3mjx3TlQCnU"),
         new Record("EndGamer7896", "766", "9/10", "Low gold, 55 points", "https://medal.tv/games/geometry-dash/clips/n6wtqHBtJMWtWzsdO?invite=cr-MSx0a2UsNTk1MDYwNDc2"),
         new Record("Nuridint3b", "834", "N/A", "N/A", "https://youtu.be/lXFjJKGEPaQ?is=RVOMzMmiewAzLjya"),
+        new Record("tFluffy", "N/A", "5/10", "top silver to entry gold", "https://youtu.be/PbdIAx7vNUM"),
     ], false),
     new Level("message me", 57.2, 4, "Gold", "145316404", "Verification Route", ["RustyGD25", "Tomatokatsup"], "RustyGD25", "https://www.youtube.com/embed/DUL2rzvI1O0", [
         new Record("RustyGD25", "683", "5.5/10", "47 points", "https://www.youtube.com/watch?v=DUL2rzvI1O0"),
         new Record("Taublix", "547", "2.5/10", "65 points", "https://www.youtube.com/watch?v=_x5yyuRCZ_Q"),
+        new Record("tFluffy", "N/A", "5.5/10", "probably fine where it is maybe a little higher idk", "https://youtu.be/KJoN-Kbd3sM"),
     ], false),
     new Level("RCOLDL", 56.74, 8, "Gold", "145301560", "Verification Route", ["RustyGD25"], "RustyGD25", "https://www.youtube.com/embed/osL8nDWUnuk", [
         new Record("RustyGD25", "369", "7.5/10", "43 points", "https://www.youtube.com/watch?v=osL8nDWUnuk"),
