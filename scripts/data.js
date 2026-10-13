@@ -538,6 +538,7 @@ let levels = [
         new Record("gabimoth", "N/A", "N/A", "N/A", "https://youtu.be/hg-Bo5igsL4"),
         new Record("placek3", "N/A", "N/A", "N/A", "https://www.youtube.com/watch?v=8CEpN01ZWPc"),
         new Record("ariopc", "1,186", "N/A", "N/A", "https://medal.tv/games/geometry-dash/clips/n4KI12uoWrJb_GANt?invite=cr-MSxiZHAsMjE3MzQ4MzIz"),
+        new Record("tFluffy", "572", "4/10", "probably fine where it is but i aint reliable for this one so IDK", "https://youtu.be/YpCE_aLUJcc"),
     ], "/nongs/robotnics, Meemaws Brisket.mp3"),
     new Level("Jade Runner", 59.2, 8, "Gold", "136732810", "Any Route", ["EndGamer7896"], "XanderGMDD", "https://medal.tv/games/geometry-dash/clip/moPx7tKLuNQoSzZAB?invite=cr-MSwycVQsMzM2NzY3Njgx", [
         new Record("XanderGMDD", "N/A", "N/A", "40-44 points", "https://medal.tv/games/geometry-dash/clips/moPx7tKLuNQoSzZAB?invite=cr-MSwycVQsMzM2NzY3Njgx"),
